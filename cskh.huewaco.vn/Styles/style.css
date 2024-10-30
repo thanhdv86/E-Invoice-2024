@@ -1,0 +1,210 @@
+body {
+	font-family: Arial; font-size: 12px;
+}
+.padCont {
+	padding: 10px 15px;
+}
+.padCont a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.marCont {
+	margin: 10px 15px; border: 1px solid rgb(204, 204, 204);
+}
+.marCont a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.MainEdit {
+	color: rgb(0, 0, 0); font-family: Arial; font-size: 12px;
+}
+.MainEdit input {
+	color: rgb(0, 0, 0); font-family: Arial; font-size: 12px;
+}
+.MainEdit textarea {
+	color: rgb(0, 0, 0); font-family: Arial; font-size: 12px;
+}
+.MainEdit .MainEditContent {
+	margin-left: 10px; display: block;
+}
+.MainEditContentItem {
+	width: 100%; height: 100%; clear: both; margin-bottom: 10px; display: table;
+}
+.MainEditLeft {
+	width: 120px; padding-top: 3px; float: left;
+}
+.MainEditRight {
+	width: 505px; display: table;
+}
+.MainEdit .MainEditContent .MainEditContentItemType {
+	width: 100%; height: 100%; clear: both; margin-bottom: 10px; display: inline-block;
+}
+.MainEdit .MainEditContent .MainEditContentItemType .MainEditLeft {
+	width: 20%; padding-top: 10px; float: left;
+}
+.MainEdit .MainEditContent .MainEditContentItemType .MainEditRight {
+	width: 80%; float: right;
+}
+.tbxDescription {
+	font-family: Arial; font-size: 12px;
+}
+.TitPage {
+	height: 40px; line-height: 40px; margin-bottom: 10px; vertical-align: middle; background-color: rgb(248, 248, 248);
+}
+.icon_image {
+	width: 32px; margin-right: 5px; margin-bottom: 5px; margin-left: 10px; vertical-align: middle;
+}
+span.subNavLink {
+	color: rgb(27, 63, 149); text-transform: uppercase; font-family: tahoma,arial,verdana; font-size: 14px; font-weight: bold;
+}
+.Fieldset_border {
+	margin-bottom: 0px;
+}
+.Fieldset_title_text {
+	color: rgb(51, 51, 51); font-family: Arial; font-size: 12px; font-weight: bold;
+}
+.LineBE {
+	padding: 5px 5px 5px 10px; width: 98%; display: table;
+}
+.LineCEN {
+	margin: 0px auto;
+}
+.LeftCol {
+	width: 150px; padding-top: 0px; font-family: Arial; font-size: 12px; float: left; display: table;
+}
+.LeftCol80 {
+	width: 80px; padding-top: 0px; font-family: Arial; font-size: 12px; float: left; display: table;
+}
+.LeftCol_right {
+	padding: 0px 10px 0px 0px; width: 150px; text-align: right; font-family: Arial; font-size: 12px; float: left; display: table;
+}
+.RightCol {
+	font: bold 12px/normal Arial; float: left; display: inline-table; font-size-adjust: none; font-stretch: normal;
+}
+.RightCol2 {
+	font: bold 12px/normal Arial; float: left; display: inline-table; font-size-adjust: none; font-stretch: normal;
+}
+.LeftColmn {
+	width: 220px; font-weight: bold; float: left; display: table;
+}
+.RightColmn {
+	padding-left: 7px; float: left; display: inline-table;
+}
+.RightCol img {
+	margin: 0px 5px 0px 3px; border: currentColor; cursor: pointer;
+}
+.RightCol2 img {
+	margin: 0px 5px 0px 3px; border: currentColor; cursor: pointer;
+}
+#btn_center {
+	margin: 15px; text-align: center;
+}
+#btn_center a {
+	padding: 10px 0px 10px 35px; color: rgb(2, 18, 175); font-family: Arial; font-size: 11px; text-decoration: none; margin-left: 5px; cursor: pointer;
+}
+#btn_center a:hover {
+	color: red;
+}
+.CommandIcon {
+	text-decoration: none; background-repeat: no-repeat;
+}
+.CommandIcon {
+	background-image: url("images/SaveIcon.gif");
+}
+.btn_center {
+	margin: 15px; text-align: center;
+}
+.lineCol .col1 {
+	width: 48%; float: left;
+}
+.lineCol .col2 {
+	width: 48%; float: left;
+}
+.lineCol .col31 {
+	width: 33%; float: left;
+}
+.lineCol .col32 {
+	width: 33%; float: left;
+}
+.lineCol .col33 {
+	width: 33%; float: left;
+}
+.clear_lineCol {
+	clear: both;
+}
+.text_label {
+	font-family: Arial; font-size: 12px; font-weight: bold;
+}
+.text_textbox {
+	font-family: Arial; font-size: 12px; font-weight: normal;
+}
+.text_checkbox {
+	text-align: left; font-family: Arial; font-size: 12px; font-weight: normal;
+}
+.text_radioButton {
+	text-align: left; font-family: Arial; font-size: 12px; font-weight: normal;
+}
+.text_combo {
+	width: 250px; text-align: left; font-family: Arial; font-size: 12px; font-weight: normal;
+}
+.text_button {
+	text-align: center; font-family: Arial; font-size: 12px; font-weight: normal;
+}
+.gridview {
+	border: 1px solid rgb(172, 172, 172); width: 100%;
+}
+.gridviewItemCheckBox {
+	text-align: center; border-right-color: rgb(172, 172, 172); border-bottom-color: rgb(172, 172, 172); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.gridviewItemSituation {
+	height: 25px; text-align: center; border-right-color: rgb(172, 172, 172); border-bottom-color: rgb(172, 172, 172); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.gridviewItemMenuName {
+	height: 22px; padding-left: 10px; border-right-color: rgb(172, 172, 172); border-bottom-color: rgb(172, 172, 172); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.gridviewItemMenuName a {
+	color: black; text-decoration: none; cursor: pointer;
+}
+.gridviewItemMenuName a:hover {
+	color: red; text-decoration: none; cursor: pointer;
+}
+.gridviewHeader {
+	border-color: rgb(172, 172, 172); height: 30px; text-align: center;
+}
+.gridviewHeader_group {
+	border-color: rgb(172, 172, 172); height: 30px; text-align: left; color: rgb(0, 0, 0); padding-left: 10px; font-size: 13px; font-weight: bold; background-color: rgb(224, 224, 224);
+}
+.TextLeft {
+	border-color: rgb(172, 172, 172); text-align: left; padding-left: 5px;
+}
+.TextCenter {
+	border-color: rgb(172, 172, 172); text-align: center;
+}
+.TextRight {
+	border-color: rgb(172, 172, 172); text-align: right;
+}
+.panel_note_main {
+	margin: 0px auto; width: 80%; padding-top: 55px; min-height: 350px;
+}
+.panel_note_bg {
+	background: url("images/panel_note_bg.png") repeat-x bottom; height: 100px;
+}
+.panel_note {
+	background: url("images/panel_note_left.png") no-repeat left bottom, url("images/panel_note_right.png") no-repeat right bottom; height: 100px; line-height: 100px; padding-left: 50px; vertical-align: middle;
+}
+.panel_note_text {
+	color: rgb(158, 0, 0); padding-left: 30px; font-family: Arial; font-size: 13px; font-weight: bold;
+}
+.panel_note_img {
+	padding: 25px 20px 0px; vertical-align: middle; float: left;
+}
+.slidingDiv1 {
+	padding: 0px; margin-top: 10px; display: none;
+}
+.slidingDiv2 {
+	padding: 0px; margin-top: 10px; display: none;
+}
+.show_hide1 {
+	display: none;
+}
+.show_hide2 {
+	display: none;
+}

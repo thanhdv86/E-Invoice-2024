@@ -1,0 +1,1878 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strKeyLanguage" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Update failed</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Update successfully</value>
+  </data>
+  <data name="strRegisterContract" xml:space="preserve">
+    <value>Register new contract</value>
+  </data>
+  <data name="strService" xml:space="preserve">
+    <value>REGISTER SERVICE</value>
+  </data>
+  <data name="strSSTDNT" xml:space="preserve">
+    <value>COMPARISON WITH LAST YEAR</value>
+  </data>
+  <data name="strGCSD" xml:space="preserve">
+    <value>RECORDING METERS</value>
+  </data>
+  <data name="strTCTTTD" xml:space="preserve">
+    <value>Check history of power using</value>
+  </data>
+  <data name="strChangePassword" xml:space="preserve">
+    <value>CHANGE PASSWORD</value>
+  </data>
+  <data name="strExportExcel" xml:space="preserve">
+    <value>EXPORT TO EXCEL</value>
+  </data>
+  <data name="strExportContract" xml:space="preserve">
+    <value>NEW CONTRACT LIST TO EXPORT</value>
+  </data>
+  <data name="strQuestion" xml:space="preserve">
+    <value>Question and Answer</value>
+  </data>
+  <data name="strCPCAddress" xml:space="preserve">
+    <value>Address: 393 Trung Nu Vuong street - Da Nang city| Telephone: 84-511-2220808</value>
+  </data>
+  <data name="strUsername" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="strPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="strAuthorCode" xml:space="preserve">
+    <value>Verify code</value>
+  </data>
+  <data name="strSignIn" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="strSignInTitle" xml:space="preserve">
+    <value>Sign in account</value>
+  </data>
+  <data name="strSignInInform" xml:space="preserve">
+    <value>Please choose the way to view history as following</value>
+  </data>
+  <data name="strViewHistory" xml:space="preserve">
+    <value>View history</value>
+  </data>
+  <data name="strInputContractNumber" xml:space="preserve">
+    <value>Contract number</value>
+  </data>
+  <data name="strContractNumber" xml:space="preserve">
+    <value>Contract number</value>
+  </data>
+  <data name="strNote" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="strNoteDesc" xml:space="preserve">
+    <value>If you are member of this site, please sign in to get more information. Click</value>
+  </data>
+  <data name="strHere" xml:space="preserve">
+    <value>here</value>
+  </data>
+  <data name="strWrongUsername" xml:space="preserve">
+    <value>You have entered a wrong username, please try again.</value>
+  </data>
+  <data name="strWrongPassword" xml:space="preserve">
+    <value>You have entered a wrong password, please try again.</value>
+  </data>
+  <data name="strWrongVerifyCode" xml:space="preserve">
+    <value>You have entered a wrong verify code, please try again.</value>
+  </data>
+  <data name="strWrongContractNumber" xml:space="preserve">
+    <value>You have entered a wrong contract number, please try again.</value>
+  </data>
+  <data name="strRegisterCustomer" xml:space="preserve">
+    <value>Register customer information</value>
+  </data>
+  <data name="strKHPDK" xml:space="preserve">
+    <value>Customer have to register information to receive services via chanels.</value>
+  </data>
+  <data name="strCCTDL" xml:space="preserve">
+    <value>Select division</value>
+  </data>
+  <data name="strRetypePassword" xml:space="preserve">
+    <value>Retype password</value>
+  </data>
+  <data name="strTD1T3TGN" xml:space="preserve">
+    <value>The history of one of latest 3 months</value>
+  </data>
+  <data name="strRegis" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="strExistUsername" xml:space="preserve">
+    <value>This username has already existed in system, please choose another one.</value>
+  </data>
+  <data name="strExistContract" xml:space="preserve">
+    <value>This contract number has already registerd in system. Please double check again.</value>
+  </data>
+  <data name="strWrongMoney" xml:space="preserve">
+    <value>Please double check the money input.</value>
+  </data>
+  <data name="strNoteForContractNumber" xml:space="preserve">
+    <value>Contract number is consit of 13 chars in receipt - example: PP01014511079.</value>
+  </data>
+  <data name="strRegisterService" xml:space="preserve">
+    <value>Register services</value>
+  </data>
+  <data name="strServiceSMS" xml:space="preserve">
+    <value>Inform via SMS</value>
+  </data>
+  <data name="strServiceEmail" xml:space="preserve">
+    <value>Inform via Email</value>
+  </data>
+  <data name="strServiceBankSettlement" xml:space="preserve">
+    <value>Settlement via bank</value>
+  </data>
+  <data name="strTel" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="strEmail" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="strBank" xml:space="preserve">
+    <value>At bank</value>
+  </data>
+  <data name="strBankAccount" xml:space="preserve">
+    <value>Bank account</value>
+  </data>
+  <data name="strTracuu" xml:space="preserve">
+    <value>Inquiry</value>
+  </data>
+  <data name="strRequireContractToView" xml:space="preserve">
+    <value>Please fill in contract number as following to view history</value>
+  </data>
+  <data name="strBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="strTTTD" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="strTTKH" xml:space="preserve">
+    <value>Customer information</value>
+  </data>
+  <data name="strTTDD" xml:space="preserve">
+    <value>Power using</value>
+  </data>
+  <data name="strCustomerName" xml:space="preserve">
+    <value>Customer name</value>
+  </data>
+  <data name="strAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="strDivision" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="strSHSD" xml:space="preserve">
+    <value>Number of </value>
+  </data>
+  <data name="strPeriod" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="strMonth" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="strYear" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="strHSN" xml:space="preserve">
+    <value>Ratio</value>
+  </data>
+  <data name="strOld" xml:space="preserve">
+    <value>Old</value>
+  </data>
+  <data name="strNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="strKWUsed" xml:space="preserve">
+    <value>KWh used</value>
+  </data>
+  <data name="strAmount" xml:space="preserve">
+    <value>Amount (+VAT)</value>
+  </data>
+  <data name="strPaid" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="strOutStanding" xml:space="preserve">
+    <value>Out standing</value>
+  </data>
+  <data name="strPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="strChange" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="strOldPass" xml:space="preserve">
+    <value>Old password</value>
+  </data>
+  <data name="strNewPass" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="strChangePass" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="strErrorInSetPass" xml:space="preserve">
+    <value>Error in updating password !</value>
+  </data>
+  <data name="strWrongCurrentPass" xml:space="preserve">
+    <value>Your current password is not correct !</value>
+  </data>
+  <data name="strChangePassSuccess" xml:space="preserve">
+    <value>Change password succesfully!</value>
+  </data>
+  <data name="strRegisterServiceSuccess" xml:space="preserve">
+    <value>Register services succesfully!</value>
+  </data>
+  <data name="strRegisterSuccess" xml:space="preserve">
+    <value>Register account succesfully!</value>
+  </data>
+  <data name="strCreateAccSuccess" xml:space="preserve">
+    <value>You've just created suffeccully account name {0} with default password as {1}</value>
+  </data>
+  <data name="strQ_RegisterService" xml:space="preserve">
+    <value>Register account successfully! Are you sure to register other services right now?</value>
+  </data>
+  <data name="strConditionDate" xml:space="preserve">
+    <value>Time customer register information</value>
+  </data>
+  <data name="strConditionDateContract" xml:space="preserve">
+    <value>Time customer register new contract</value>
+  </data>
+  <data name="strFromDate" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="strToDate" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="strExport" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="strTelList" xml:space="preserve">
+    <value>Telephone list</value>
+  </data>
+  <data name="strContractList" xml:space="preserve">
+    <value>New Contract list</value>
+  </data>
+  <data name="strNote_RegisterContract" xml:space="preserve">
+    <value>Please fill in below information</value>
+  </data>
+  <data name="strTypeRegister" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="strStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="strCustomerCode" xml:space="preserve">
+    <value>Customer code</value>
+  </data>
+  <data name="strPha" xml:space="preserve">
+    <value>Pharse</value>
+  </data>
+  <data name="strPurpose" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="strContactAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="strPlaceIssue" xml:space="preserve">
+    <value>Issued place</value>
+  </data>
+  <data name="strDateIssue" xml:space="preserve">
+    <value>Date issue</value>
+  </data>
+  <data name="strCMND" xml:space="preserve">
+    <value>ID Number</value>
+  </data>
+  <data name="strContactName" xml:space="preserve">
+    <value>Contact person</value>
+  </data>
+  <data name="strDistrict" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="strWard" xml:space="preserve">
+    <value>Ward</value>
+  </data>
+  <data name="strStreet" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>Fullname or company</value>
+  </data>
+  <data name="strNewThread" xml:space="preserve">
+    <value>New thread</value>
+  </data>
+  <data name="strSession" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="strTitleThread" xml:space="preserve">
+    <value>Tittle</value>
+  </data>
+  <data name="strThreadMessage" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="strSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="strPostThreadSuccess" xml:space="preserve">
+    <value>Successfully!</value>
+  </data>
+  <data name="PageIndex" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="strFirst" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="strLast" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="strPostAnswerSuccess" xml:space="preserve">
+    <value>Post answer successfully!</value>
+  </data>
+  <data name="strReply" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="strDateReply" xml:space="preserve">
+    <value>Replied date</value>
+  </data>
+  <data name="strContentReply" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="strContentQuestion" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="strConfirmPublic" xml:space="preserve">
+    <value>Are you sure to public this question?</value>
+  </data>
+  <data name="strConfirmDelete" xml:space="preserve">
+    <value>are you sure to delete this question?</value>
+  </data>
+  <data name="strSelectBank" xml:space="preserve">
+    <value>Select bank</value>
+  </data>
+  <data name="strUpdate" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="strKySudung" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="strThang" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="strNam" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="strChisoMoi" xml:space="preserve">
+    <value>Newly meter</value>
+  </data>
+  <data name="strXemtiendien" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="strComparisionchart" xml:space="preserve">
+    <value>Comparision chart</value>
+  </data>
+  <data name="strSettlement" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="strLastYear" xml:space="preserve">
+    <value>Last year</value>
+  </data>
+  <data name="strThisYear" xml:space="preserve">
+    <value>This year</value>
+  </data>
+  <data name="strChart" xml:space="preserve">
+    <value>Using power coparision chart</value>
+  </data>
+  <data name="strNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="strStartPeriod" xml:space="preserve">
+    <value>Date start</value>
+  </data>
+  <data name="strEndPeriod" xml:space="preserve">
+    <value>Date end</value>
+  </data>
+  <data name="strChisocuoi" xml:space="preserve">
+    <value>Values of period</value>
+  </data>
+  <data name="strDateUpdate" xml:space="preserve">
+    <value>Date updated</value>
+  </data>
+  <data name="strBTDCNTTTT" xml:space="preserve">
+    <value>Private monitoring of power using</value>
+  </data>
+  <data name="strLanguageKey" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="strDVT" xml:space="preserve">
+    <value>Unit: Thousand of VND</value>
+  </data>
+  <data name="strNoteForTiendienField" xml:space="preserve">
+    <value>In order to make sure you are the authentication of this contract number, please try to input history of one of latest 3 months</value>
+  </data>
+  <data name="strUserManage" xml:space="preserve">
+    <value>User management</value>
+  </data>
+  <data name="strResetPass" xml:space="preserve">
+    <value>Reset password</value>
+  </data>
+  <data name="strConfirmChangePass" xml:space="preserve">
+    <value>Are you sure to reset password for this account by default value?</value>
+  </data>
+  <data name="strAddUser" xml:space="preserve">
+    <value>Add user</value>
+  </data>
+  <data name="strAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="strTypeUser" xml:space="preserve">
+    <value>User type</value>
+  </data>
+  <data name="strMaKH" xml:space="preserve">
+    <value>Customer code</value>
+  </data>
+  <data name="strDonVi" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="strDienluc" xml:space="preserve">
+    <value>Electricity</value>
+  </data>
+  <data name="strMatkhaumoi" xml:space="preserve">
+    <value>Reset password</value>
+  </data>
+  <data name="strAdmin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="strCustomer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="strDifferentDV" xml:space="preserve">
+    <value>This contract number are not belong to selected electricity company, please try again.</value>
+  </data>
+  <data name="strSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="strCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="strChooseCompany" xml:space="preserve">
+    <value>Choose company</value>
+  </data>
+  <data name="strChooseDistrict" xml:space="preserve">
+    <value>Choose district</value>
+  </data>
+  <data name="strChooseDienluc" xml:space="preserve">
+    <value>Choose electricity</value>
+  </data>
+  <data name="strUsernameOrMaKH" xml:space="preserve">
+    <value>Username/Customer code</value>
+  </data>
+  <data name="strSearchValue" xml:space="preserve">
+    <value>Search value here...</value>
+  </data>
+  <data name="strRequiredField" xml:space="preserve">
+    <value>Information with star mark (*) is validation information</value>
+  </data>
+  <data name="strMoi" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="strTach" xml:space="preserve">
+    <value>Separate</value>
+  </data>
+  <data name="strDungchung" xml:space="preserve">
+    <value>Common meter using</value>
+  </data>
+  <data name="strCheckMeter" xml:space="preserve">
+    <value>Checking meter</value>
+  </data>
+  <data name="strMoveMeter" xml:space="preserve">
+    <value>Moving meter</value>
+  </data>
+  <data name="strInstructDate" xml:space="preserve">
+    <value>(dd/mm/yyyy - 25/03/2010)</value>
+  </data>
+  <data name="strSinhhoat" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="strSanxuat" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="strKinhdoanh" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="strOther" xml:space="preserve">
+    <value>Other...</value>
+  </data>
+  <data name="strChuacodien" xml:space="preserve">
+    <value>Power empty</value>
+  </data>
+  <data name="strEmptyTable" xml:space="preserve">
+    <value>Data is empty, please retry with new input</value>
+  </data>
+  <data name="strContentAnswer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="strSurveyManage" xml:space="preserve">
+    <value>Survey management</value>
+  </data>
+  <data name="strConfirmPublicSurvey" xml:space="preserve">
+    <value>Are you sure to public this survey?</value>
+  </data>
+  <data name="strConfirmLockSurvey" xml:space="preserve">
+    <value>Are you sure to lock this survey?</value>
+  </data>
+  <data name="strConfirmReOpenSurvey" xml:space="preserve">
+    <value>Are you sure to reopen this survey?</value>
+  </data>
+  <data name="strCompose" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="strAddSurvey" xml:space="preserve">
+    <value>Add survey</value>
+  </data>
+  <data name="strPublicSurveySuccess" xml:space="preserve">
+    <value>Public survey successfully</value>
+  </data>
+  <data name="strLockSurveySuccess" xml:space="preserve">
+    <value>Lock survey successfully</value>
+  </data>
+  <data name="strReOpenSurveySuccess" xml:space="preserve">
+    <value>Lock survey successfully</value>
+  </data>
+  <data name="strStartDate" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="strEndDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="strSurveyName" xml:space="preserve">
+    <value>Survey name</value>
+  </data>
+  <data name="strDatePublic" xml:space="preserve">
+    <value>Public date</value>
+  </data>
+  <data name="strDateLock" xml:space="preserve">
+    <value>Locked date</value>
+  </data>
+  <data name="strPublicOrLock" xml:space="preserve">
+    <value>Public/Lock survey</value>
+  </data>
+  <data name="strChuaMo" xml:space="preserve">
+    <value>Opening</value>
+  </data>
+  <data name="strDangKhaoSat" xml:space="preserve">
+    <value>Published</value>
+  </data>
+  <data name="strDaSoanXong" xml:space="preserve">
+    <value>Soạn thảo xong</value>
+  </data>
+  <data name="strDaKhoa" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="strSurveyNotFinish" xml:space="preserve">
+    <value>This survey has not finished yet, can not open or lock it!</value>
+  </data>
+  <data name="strCauhoi" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="strDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="strDefault" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="strCauTraLoi" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="strTypeAnswer" xml:space="preserve">
+    <value>Type of answer</value>
+  </data>
+  <data name="strOptional" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="strMultiCheck" xml:space="preserve">
+    <value>MultiCheck</value>
+  </data>
+  <data name="strConfirmDeleteAnswer" xml:space="preserve">
+    <value>Are you sure to delete this answer?</value>
+  </data>
+  <data name="strConfirmDeleteQuestion" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa câu hỏi này không?</value>
+  </data>
+  <data name="strThongtinkhaosat" xml:space="preserve">
+    <value>Survey information</value>
+  </data>
+  <data name="strDanhsachcauthoi" xml:space="preserve">
+    <value>Question list</value>
+  </data>
+  <data name="strVotingSuccess" xml:space="preserve">
+    <value>Voting successfully!</value>
+  </data>
+  <data name="strVotingFailed" xml:space="preserve">
+    <value>Voting failed, please try again!</value>
+  </data>
+  <data name="strSonguoibinhchon" xml:space="preserve">
+    <value>Voting number</value>
+  </data>
+  <data name="strAddNewQuestion" xml:space="preserve">
+    <value>Add new question</value>
+  </data>
+  <data name="strContent" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="strTypeQuestion" xml:space="preserve">
+    <value>Question type</value>
+  </data>
+  <data name="strDanhsachcautraloi" xml:space="preserve">
+    <value>List of answer</value>
+  </data>
+  <data name="strFinishSurvey" xml:space="preserve">
+    <value>Finish survey</value>
+  </data>
+  <data name="strSurveyAlreadyPublic" xml:space="preserve">
+    <value>This survey has been already published to customer, you are not allowed to modify!</value>
+  </data>
+  <data name="strChuaCoCauHoiNao" xml:space="preserve">
+    <value>You are not allowed to finished survey when the question list is empty.</value>
+  </data>
+  <data name="strCauHoiChuaCoCauTraLoi" xml:space="preserve">
+    <value>Please double check again, it's necessary to have more than one answer per each question.</value>
+  </data>
+  <data name="strReEdit" xml:space="preserve">
+    <value>ReEdit survey</value>
+  </data>
+  <data name="strDatePublicLock" xml:space="preserve">
+    <value>Open/Lock date</value>
+  </data>
+  <data name="strResult" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="strCustomerSurvey" xml:space="preserve">
+    <value>Customer survey</value>
+  </data>
+  <data name="strBanDaVoting" xml:space="preserve">
+    <value>You have already voted for this letter</value>
+  </data>
+  <data name="strRemindChooseSurvey" xml:space="preserve">
+    <value>Please select one of below survey</value>
+  </data>
+  <data name="strUseTemplete" xml:space="preserve">
+    <value>Use templete answer</value>
+  </data>
+  <data name="strDonTemplete" xml:space="preserve">
+    <value>Choose templete</value>
+  </data>
+  <data name="strNewContractManage" xml:space="preserve">
+    <value>Contract management</value>
+  </data>
+  <data name="strNotYetApproved" xml:space="preserve">
+    <value>Newly</value>
+  </data>
+  <data name="strAlreadyApproved" xml:space="preserve">
+    <value>Allocated</value>
+  </data>
+  <data name="strMap" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="strAllocateAll" xml:space="preserve">
+    <value>Allocate all</value>
+  </data>
+  <data name="strAllocate" xml:space="preserve">
+    <value>Allocate</value>
+  </data>
+  <data name="strPleaseSelect" xml:space="preserve">
+    <value>Please tick on check list</value>
+  </data>
+  <data name="strDienLucOrDistrict" xml:space="preserve">
+    <value>Choose district/electricity</value>
+  </data>
+  <data name="strTitleChangePassword" xml:space="preserve">
+    <value>Please enter old pasword and new pasword to change.</value>
+  </data>
+  <data name="strTitleSignIn" xml:space="preserve">
+    <value>Please sign in system to access this service.</value>
+  </data>
+  <data name="imgGioithieu" xml:space="preserve">
+    <value>Images/AboutUs.png</value>
+  </data>
+  <data name="strAddressValue" xml:space="preserve">
+    <value>Address: 393 Trung Nu Vuong street - Da Nang city | Telephone: 84-511-2220808</value>
+  </data>
+  <data name="strLoginImages" xml:space="preserve">
+    <value>../Source/btn_login_en.jpg</value>
+  </data>
+  <data name="strMatKhau" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="strRemindPassword" xml:space="preserve">
+    <value>Remind password?</value>
+  </data>
+  <data name="strSignOut" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="strTDTN" xml:space="preserve">
+    <value>Newest power using period {0} month {1}/{2}: </value>
+  </data>
+  <data name="strTenNguoiDung" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="strWelcomeAdminOf" xml:space="preserve">
+    <value>Welcome admin of </value>
+  </data>
+  <data name="strYourAccount" xml:space="preserve">
+    <value>Your account</value>
+  </data>
+  <data name="DKDVHT" xml:space="preserve">
+    <value>Register services</value>
+  </data>
+  <data name="strCNQL" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="strDVKH" xml:space="preserve">
+    <value>Customer services</value>
+  </data>
+  <data name="strTTC" xml:space="preserve">
+    <value>Common information</value>
+  </data>
+  <data name="strDKDVHT" xml:space="preserve">
+    <value>Register services</value>
+  </data>
+  <data name="strGioithieu1" xml:space="preserve">
+    <value>Central Power Corporation (EVNCPC) which was called Power Corporation III as before, founded on 07th Oct 1975 - member of Vietnam Electricity (EVN) – works in multidisciplinary, but major in producing and trading electricity on over 13 provinces, cities of midle coast and highlands.</value>
+  </data>
+  <data name="strGioithieu2" xml:space="preserve">
+    <value>Electricity of Viet Nam (EVN) plans to issue VND9 trillion (US$428.6 million) in bonds with a maturity duration ranging from three to five years to pay debts incurred from electricity business, said deputy director Dinh Quang Tri. At a Monday workshop held by the Ministry of Industry and Trade, EVN reported incurring losses of VND3.181 trillion (US$151.5 million) in 2011 and VND8 trillion ($381 million) in 2010. &lt;br&gt;Electricity of Viet Nam (EVN) plans to issue VND9 trillion (US$428.6 million) in bonds with a maturity duration ranging from three to five years to pay debts incurred from electricity business, said deputy director Dinh Quang Tri. At a Monday workshop held by the Ministry of Industry and Trade, EVN reported incurring losses of VND3.181 trillion (US$151.5 million) in 2011 and VND8 trillion ($381 million) in 2010</value>
+  </data>
+  <data name="strImagesLogo" xml:space="preserve">
+    <value>Source/logo_banner_cpc_en.png</value>
+  </data>
+  <data name="strSupportOnline" xml:space="preserve">
+    <value>Support Online</value>
+  </data>
+  <data name="strPCuttingManage" xml:space="preserve">
+    <value>Power cutting management</value>
+  </data>
+  <data name="strAll" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="strConfirmDeletePC" xml:space="preserve">
+    <value>Are you sure to delete to delete this power cutting schedule?</value>
+  </data>
+  <data name="strHeaderLine" xml:space="preserve">
+    <value>Line (code/name)</value>
+  </data>
+  <data name="strHeaderStation" xml:space="preserve">
+    <value>Station (code/name)</value>
+  </data>
+  <data name="strHeaderTime1" xml:space="preserve">
+    <value>Time 1</value>
+  </data>
+  <data name="strHeaderTime2" xml:space="preserve">
+    <value>Time 1</value>
+  </data>
+  <data name="strTitleCollapse" xml:space="preserve">
+    <value>Close/Open</value>
+  </data>
+  <data name="strAddPCDate" xml:space="preserve">
+    <value>Add new day</value>
+  </data>
+  <data name="strReason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="strEstimatedDate" xml:space="preserve">
+    <value>Estimated date</value>
+  </data>
+  <data name="strLichCatDien" xml:space="preserve">
+    <value>POWER CUTTING SCHEDULE</value>
+  </data>
+  <data name="strNodeCode" xml:space="preserve">
+    <value>Point code</value>
+  </data>
+  <data name="strNodeName" xml:space="preserve">
+    <value>Point name</value>
+  </data>
+  <data name="strPCScheduleList" xml:space="preserve">
+    <value>Power cutting schedule list</value>
+  </data>
+  <data name="strVuilongNhapthongtin" xml:space="preserve">
+    <value>Please enter condition</value>
+  </data>
+  <data name="strXem" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="strDanhsachLichGhi" xml:space="preserve">
+    <value>List of Electronic records &amp; Settlement schedule</value>
+  </data>
+  <data name="strHanThanhToan" xml:space="preserve">
+    <value>Due date</value>
+  </data>
+  <data name="strKy" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="strLichGhiChiSo" xml:space="preserve">
+    <value>Electronic records &amp; Settlement schedule</value>
+  </data>
+  <data name="strNgayGhi" xml:space="preserve">
+    <value>Day recording meter</value>
+  </data>
+  <data name="strNgayThu" xml:space="preserve">
+    <value>Date settlement</value>
+  </data>
+  <data name="strPhien" xml:space="preserve">
+    <value>Session</value>
+  </data>
+  <data name="strUploadSuccess" xml:space="preserve">
+    <value>Update power cutting sxhedule successfully!</value>
+  </data>
+  <data name="strThongTinDangKy" xml:space="preserve">
+    <value>Customer information</value>
+  </data>
+  <data name="strThuTucCapDienVaBieuMau" xml:space="preserve">
+    <value>Electricity procedure and templete</value>
+  </data>
+  <data name="strChooseFile" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="strGuidetoImport" xml:space="preserve">
+    <value>Admin của các đơn vị Nước lực có thể nhập lịch cắt Nước bên dưới, hoặc có thể download file excel mẫu tại đây và sau đó nhập lịch cắt Nước vào file excel và tải lên hệ thống.</value>
+  </data>
+  <data name="strImportExcelTitle" xml:space="preserve">
+    <value>Import power cutting schedule</value>
+  </data>
+  <data name="strQuyen" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="strSurveyList" xml:space="preserve">
+    <value>Survey list</value>
+  </data>
+  <data name="strUsersList" xml:space="preserve">
+    <value>Users list</value>
+  </data>
+  <data name="strNotCustomer" xml:space="preserve">
+    <value>You are not a customer, please try again with a customer account!</value>
+  </data>
+  <data name="strTTGiaDien" xml:space="preserve">
+    <value>Electricity price list</value>
+  </data>
+  <data name="strVoting" xml:space="preserve">
+    <value>Biểu quyết</value>
+  </data>
+  <data name="strSampleMaKH" xml:space="preserve">
+    <value>Ex: PP09000814292</value>
+  </data>
+  <data name="strSampleTenKH" xml:space="preserve">
+    <value>Ex: Nguyễn Văn Tình</value>
+  </data>
+  <data name="strSampleTenAbv" xml:space="preserve">
+    <value>Ex: TinhNV</value>
+  </data>
+  <data name="DKDVHT1" xml:space="preserve">
+    <value>Register services</value>
+  </data>
+  <data name="Failed1" xml:space="preserve">
+    <value>Update failed</value>
+  </data>
+  <data name="imgGioithieu1" xml:space="preserve">
+    <value>Images/AboutUs.png</value>
+  </data>
+  <data name="Login1" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="PageIndex1" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="strAdd1" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="strAddNewQuestion1" xml:space="preserve">
+    <value>Add new question</value>
+  </data>
+  <data name="strAddPCDate1" xml:space="preserve">
+    <value>Add new day</value>
+  </data>
+  <data name="strAddress1" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="strAddressValue1" xml:space="preserve">
+    <value>Address: 393 Trung Nu Vuong street - Da Nang city | Telephone: 84-511-2220808</value>
+  </data>
+  <data name="strAddSurvey1" xml:space="preserve">
+    <value>Add survey</value>
+  </data>
+  <data name="strAddUser1" xml:space="preserve">
+    <value>Add user</value>
+  </data>
+  <data name="strAdmin1" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="strAll1" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="strAllocate1" xml:space="preserve">
+    <value>Allocate</value>
+  </data>
+  <data name="strAllocateAll1" xml:space="preserve">
+    <value>Allocate all</value>
+  </data>
+  <data name="strAlreadyApproved1" xml:space="preserve">
+    <value>Allocated</value>
+  </data>
+  <data name="strAmount1" xml:space="preserve">
+    <value>Amount (+VAT)</value>
+  </data>
+  <data name="strAuthorCode1" xml:space="preserve">
+    <value>Verify code</value>
+  </data>
+  <data name="strBack1" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="strBanDaVoting1" xml:space="preserve">
+    <value>You have already voted for this letter</value>
+  </data>
+  <data name="strBank1" xml:space="preserve">
+    <value>At bank</value>
+  </data>
+  <data name="strBankAccount1" xml:space="preserve">
+    <value>Bank account</value>
+  </data>
+  <data name="strBTDCNTTTT1" xml:space="preserve">
+    <value>Private monitoring of power using</value>
+  </data>
+  <data name="strCancel1" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="strCauhoi1" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="strCauHoiChuaCoCauTraLoi1" xml:space="preserve">
+    <value>Please double check again, it's necessary to have more than one answer per each question.</value>
+  </data>
+  <data name="strCauTraLoi1" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="strCCTDL1" xml:space="preserve">
+    <value>Select division</value>
+  </data>
+  <data name="strChange1" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="strChangePass1" xml:space="preserve">
+    <value>Change password</value>
+  </data>
+  <data name="strChangePassSuccess1" xml:space="preserve">
+    <value>Change password succesfully!</value>
+  </data>
+  <data name="strChangePassword1" xml:space="preserve">
+    <value>CHANGE PASSWORD</value>
+  </data>
+  <data name="strChart1" xml:space="preserve">
+    <value>Using power coparision chart</value>
+  </data>
+  <data name="strCheckMeter1" xml:space="preserve">
+    <value>Checking meter</value>
+  </data>
+  <data name="strChisocuoi1" xml:space="preserve">
+    <value>Values of period</value>
+  </data>
+  <data name="strChisoMoi1" xml:space="preserve">
+    <value>Newly meter</value>
+  </data>
+  <data name="strChooseCompany1" xml:space="preserve">
+    <value>Choose company</value>
+  </data>
+  <data name="strChooseDienluc1" xml:space="preserve">
+    <value>Choose electricity</value>
+  </data>
+  <data name="strChooseDistrict1" xml:space="preserve">
+    <value>Choose district</value>
+  </data>
+  <data name="strChooseFile1" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="strChuaCoCauHoiNao1" xml:space="preserve">
+    <value>You are not allowed to finished survey when the question list is empty.</value>
+  </data>
+  <data name="strChuacodien1" xml:space="preserve">
+    <value>Power empty</value>
+  </data>
+  <data name="strChuaMo1" xml:space="preserve">
+    <value>Opening</value>
+  </data>
+  <data name="strCMND1" xml:space="preserve">
+    <value>ID Number</value>
+  </data>
+  <data name="strCNQL1" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="strComparisionchart1" xml:space="preserve">
+    <value>Comparision chart</value>
+  </data>
+  <data name="strCompose1" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="strConditionDate1" xml:space="preserve">
+    <value>Time customer register information</value>
+  </data>
+  <data name="strConditionDateContract1" xml:space="preserve">
+    <value>Time customer register new contract</value>
+  </data>
+  <data name="strConfirmChangePass1" xml:space="preserve">
+    <value>Are you sure to reset password for this account by default value?</value>
+  </data>
+  <data name="strConfirmDelete1" xml:space="preserve">
+    <value>are you sure to delete this question?</value>
+  </data>
+  <data name="strConfirmDeleteAnswer1" xml:space="preserve">
+    <value>Are you sure to delete this answer?</value>
+  </data>
+  <data name="strConfirmDeletePC1" xml:space="preserve">
+    <value>Are you sure to delete to delete this power cutting schedule?</value>
+  </data>
+  <data name="strConfirmDeleteQuestion1" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa câu hỏi này không?</value>
+  </data>
+  <data name="strConfirmLockSurvey1" xml:space="preserve">
+    <value>Are you sure to lock this survey?</value>
+  </data>
+  <data name="strConfirmPublic1" xml:space="preserve">
+    <value>Are you sure to public this question?</value>
+  </data>
+  <data name="strConfirmPublicSurvey1" xml:space="preserve">
+    <value>Are you sure to public this survey?</value>
+  </data>
+  <data name="strConfirmReOpenSurvey1" xml:space="preserve">
+    <value>Are you sure to reopen this survey?</value>
+  </data>
+  <data name="strContactAddress1" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="strContactName1" xml:space="preserve">
+    <value>Contact person</value>
+  </data>
+  <data name="strContent1" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="strContentAnswer1" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="strContentQuestion1" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="strContentReply1" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="strContractList1" xml:space="preserve">
+    <value>New Contract list</value>
+  </data>
+  <data name="strContractNumber1" xml:space="preserve">
+    <value>Contract number</value>
+  </data>
+  <data name="strCPCAddress1" xml:space="preserve">
+    <value>Address: 393 Trung Nu Vuong street - Da Nang city| Telephone: 84-511-2220808</value>
+  </data>
+  <data name="strCreateAccSuccess1" xml:space="preserve">
+    <value>You've just created suffeccully account name {0} with default password as {1}</value>
+  </data>
+  <data name="strCustomer1" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="strCustomerCode1" xml:space="preserve">
+    <value>Customer code</value>
+  </data>
+  <data name="strCustomerName1" xml:space="preserve">
+    <value>Customer name</value>
+  </data>
+  <data name="strCustomerSurvey1" xml:space="preserve">
+    <value>Customer survey</value>
+  </data>
+  <data name="strDaKhoa1" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="strDangKhaoSat1" xml:space="preserve">
+    <value>Published</value>
+  </data>
+  <data name="strDanhsachcauthoi1" xml:space="preserve">
+    <value>Question list</value>
+  </data>
+  <data name="strDanhsachcautraloi1" xml:space="preserve">
+    <value>List of answer</value>
+  </data>
+  <data name="strDanhsachLichGhi1" xml:space="preserve">
+    <value>List of Electronic records &amp; Settlement schedule</value>
+  </data>
+  <data name="strDaSoanXong1" xml:space="preserve">
+    <value>Soạn thảo xong</value>
+  </data>
+  <data name="strDateIssue1" xml:space="preserve">
+    <value>Date issue</value>
+  </data>
+  <data name="strDateLock1" xml:space="preserve">
+    <value>Locked date</value>
+  </data>
+  <data name="strDatePublic1" xml:space="preserve">
+    <value>Public date</value>
+  </data>
+  <data name="strDatePublicLock1" xml:space="preserve">
+    <value>Open/Lock date</value>
+  </data>
+  <data name="strDateReply1" xml:space="preserve">
+    <value>Replied date</value>
+  </data>
+  <data name="strDateUpdate1" xml:space="preserve">
+    <value>Date updated</value>
+  </data>
+  <data name="strDefault1" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="strDelete1" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="strDetailInfo" xml:space="preserve">
+    <value>Detail of Infomation</value>
+  </data>
+  <data name="strDienluc1" xml:space="preserve">
+    <value>Electricity</value>
+  </data>
+  <data name="strDienLucOrDistrict1" xml:space="preserve">
+    <value>Choose district/electricity</value>
+  </data>
+  <data name="strDifferentDV1" xml:space="preserve">
+    <value>This contract number are not belong to selected electricity company, please try again.</value>
+  </data>
+  <data name="strDistrict1" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="strDivision1" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="strDKDVHT1" xml:space="preserve">
+    <value>Register services</value>
+  </data>
+  <data name="strDonTemplete1" xml:space="preserve">
+    <value>Choose templete</value>
+  </data>
+  <data name="strDonVi1" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="strDungchung1" xml:space="preserve">
+    <value>Common meter using</value>
+  </data>
+  <data name="strDVKH1" xml:space="preserve">
+    <value>Customer services</value>
+  </data>
+  <data name="strDVT1" xml:space="preserve">
+    <value>Unit: Thousand of VND</value>
+  </data>
+  <data name="strEmail1" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="strEmptyTable1" xml:space="preserve">
+    <value>Data is empty, please retry with new input</value>
+  </data>
+  <data name="strEndDate1" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="strEndPeriod1" xml:space="preserve">
+    <value>Date end</value>
+  </data>
+  <data name="strErrorInSetPass1" xml:space="preserve">
+    <value>Error in updating password !</value>
+  </data>
+  <data name="strEstimatedDate1" xml:space="preserve">
+    <value>Estimated date</value>
+  </data>
+  <data name="strExistContract1" xml:space="preserve">
+    <value>This contract number has already registerd in system. Please double check again.</value>
+  </data>
+  <data name="strExistUsername1" xml:space="preserve">
+    <value>This username has already existed in system, please choose another one.</value>
+  </data>
+  <data name="strExport1" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="strExportContract1" xml:space="preserve">
+    <value>NEW CONTRACT LIST TO EXPORT</value>
+  </data>
+  <data name="strExportExcel1" xml:space="preserve">
+    <value>EXPORT TO EXCEL</value>
+  </data>
+  <data name="strFinishSurvey1" xml:space="preserve">
+    <value>Finish survey</value>
+  </data>
+  <data name="strFirst1" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="strFromDate1" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="strGCSD1" xml:space="preserve">
+    <value>RECORDING METERS</value>
+  </data>
+  <data name="strGioithieu11" xml:space="preserve">
+    <value>Central Power Corporation (EVNCPC) which was called Power Corporation III as before, founded on 07th Oct 1975 - member of Vietnam Electricity (EVN) – works in multidisciplinary, but major in producing and trading electricity on over 13 provinces, cities of midle coast and highlands.</value>
+  </data>
+  <data name="strGioithieu21" xml:space="preserve">
+    <value>Electricity of Viet Nam (EVN) plans to issue VND9 trillion (US$428.6 million) in bonds with a maturity duration ranging from three to five years to pay debts incurred from electricity business, said deputy director Dinh Quang Tri. At a Monday workshop held by the Ministry of Industry and Trade, EVN reported incurring losses of VND3.181 trillion (US$151.5 million) in 2011 and VND8 trillion ($381 million) in 2010. &lt;br&gt;Electricity of Viet Nam (EVN) plans to issue VND9 trillion (US$428.6 million) in bonds with a maturity duration ranging from three to five years to pay debts incurred from electricity business, said deputy director Dinh Quang Tri. At a Monday workshop held by the Ministry of Industry and Trade, EVN reported incurring losses of VND3.181 trillion (US$151.5 million) in 2011 and VND8 trillion ($381 million) in 2010</value>
+  </data>
+  <data name="strGuidetoImport1" xml:space="preserve">
+    <value>Admin của các đơn vị Nước lực có thể nhập lịch cắt Nước bên dưới, hoặc có thể download file excel mẫu tại đây và sau đó nhập lịch cắt Nước vào file excel và tải lên hệ thống.</value>
+  </data>
+  <data name="strHanThanhToan1" xml:space="preserve">
+    <value>Due date</value>
+  </data>
+  <data name="strHeaderLine1" xml:space="preserve">
+    <value>Line (code/name)</value>
+  </data>
+  <data name="strHeaderStation1" xml:space="preserve">
+    <value>Station (code/name)</value>
+  </data>
+  <data name="strHeaderTime11" xml:space="preserve">
+    <value>Time 1</value>
+  </data>
+  <data name="strHeaderTime21" xml:space="preserve">
+    <value>Time 1</value>
+  </data>
+  <data name="strHere1" xml:space="preserve">
+    <value>here</value>
+  </data>
+  <data name="strHSN1" xml:space="preserve">
+    <value>Ratio</value>
+  </data>
+  <data name="strImagesLogo1" xml:space="preserve">
+    <value>Source/logo_banner_cpc_en.png</value>
+  </data>
+  <data name="strImportExcelTitle1" xml:space="preserve">
+    <value>Import power cutting schedule</value>
+  </data>
+  <data name="strInfoTheodoitiendocapdien" xml:space="preserve">
+    <value>Supplemental Information</value>
+  </data>
+  <data name="strInputContractNumber1" xml:space="preserve">
+    <value>Contract number</value>
+  </data>
+  <data name="strInstructDate1" xml:space="preserve">
+    <value>(dd/mm/yyyy - 25/03/2010)</value>
+  </data>
+  <data name="strKeyLanguage1" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="strKHPDK1" xml:space="preserve">
+    <value>Customer have to register information to receive services via chanels.</value>
+  </data>
+  <data name="strKinhdoanh1" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="strKWUsed1" xml:space="preserve">
+    <value>KWh used</value>
+  </data>
+  <data name="strKy1" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="strKySudung1" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="strLanguageKey1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="strLast1" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="strLastYear1" xml:space="preserve">
+    <value>Last year</value>
+  </data>
+  <data name="strLichCatDien1" xml:space="preserve">
+    <value>POWER CUTTING SCHEDULE</value>
+  </data>
+  <data name="strLichGhiChiSo1" xml:space="preserve">
+    <value>Electronic records &amp; Settlement schedule</value>
+  </data>
+  <data name="strLockSurveySuccess1" xml:space="preserve">
+    <value>Lock survey successfully</value>
+  </data>
+  <data name="strLoginImages1" xml:space="preserve">
+    <value>../Source/btn_login_en.jpg</value>
+  </data>
+  <data name="strMaKH1" xml:space="preserve">
+    <value>Customer code</value>
+  </data>
+  <data name="strMap1" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="strMatKhau1" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="strMatkhaumoi1" xml:space="preserve">
+    <value>Reset password</value>
+  </data>
+  <data name="strMoi1" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="strMonth1" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="strMoveMeter1" xml:space="preserve">
+    <value>Moving meter</value>
+  </data>
+  <data name="strMultiCheck1" xml:space="preserve">
+    <value>MultiCheck</value>
+  </data>
+  <data name="strNam1" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="strName1" xml:space="preserve">
+    <value>Fullname or company</value>
+  </data>
+  <data name="strNew1" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="strNewContractManage1" xml:space="preserve">
+    <value>Contract management</value>
+  </data>
+  <data name="strNewPass1" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="strNewThread1" xml:space="preserve">
+    <value>New thread</value>
+  </data>
+  <data name="strNgayGhi1" xml:space="preserve">
+    <value>Day recording meter</value>
+  </data>
+  <data name="strNgayThu1" xml:space="preserve">
+    <value>Date settlement</value>
+  </data>
+  <data name="strNo1" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="strNodeCode1" xml:space="preserve">
+    <value>Point code</value>
+  </data>
+  <data name="strNodeName1" xml:space="preserve">
+    <value>Point name</value>
+  </data>
+  <data name="strNotCustomer1" xml:space="preserve">
+    <value>You are not a customer, please try again with a customer account!</value>
+  </data>
+  <data name="strNote1" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="strNoteDesc1" xml:space="preserve">
+    <value>If you are member of this site, please sign in to get more information. Click</value>
+  </data>
+  <data name="strNoteForContractNumber1" xml:space="preserve">
+    <value>Contract number is consit of 13 chars in receipt - example: PP01014511079.</value>
+  </data>
+  <data name="strNoteForTiendienField1" xml:space="preserve">
+    <value>In order to make sure you are the authentication of this contract number, please try to input history of one of latest 3 months</value>
+  </data>
+  <data name="strNote_RegisterContract1" xml:space="preserve">
+    <value>Please fill in below information</value>
+  </data>
+  <data name="strNotYetApproved1" xml:space="preserve">
+    <value>Newly</value>
+  </data>
+  <data name="strOld1" xml:space="preserve">
+    <value>Old</value>
+  </data>
+  <data name="strOldPass1" xml:space="preserve">
+    <value>Old password</value>
+  </data>
+  <data name="strOptional1" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="strOther1" xml:space="preserve">
+    <value>Other...</value>
+  </data>
+  <data name="strOutStanding1" xml:space="preserve">
+    <value>Out standing</value>
+  </data>
+  <data name="strPaid1" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="strPassword1" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="strPCScheduleList1" xml:space="preserve">
+    <value>Power cutting schedule list</value>
+  </data>
+  <data name="strPCuttingManage1" xml:space="preserve">
+    <value>Power cutting management</value>
+  </data>
+  <data name="strPeriod1" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="strPha1" xml:space="preserve">
+    <value>Pharse</value>
+  </data>
+  <data name="strPhien1" xml:space="preserve">
+    <value>Session</value>
+  </data>
+  <data name="strPlaceIssue1" xml:space="preserve">
+    <value>Issued place</value>
+  </data>
+  <data name="strPleaseSelect1" xml:space="preserve">
+    <value>Please tick on check list</value>
+  </data>
+  <data name="strPostAnswerSuccess1" xml:space="preserve">
+    <value>Post answer successfully!</value>
+  </data>
+  <data name="strPostThreadSuccess1" xml:space="preserve">
+    <value>Successfully!</value>
+  </data>
+  <data name="strPrint1" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="strPublicOrLock1" xml:space="preserve">
+    <value>Public/Lock survey</value>
+  </data>
+  <data name="strPublicSurveySuccess1" xml:space="preserve">
+    <value>Public survey successfully</value>
+  </data>
+  <data name="strPurpose1" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="strQuestion1" xml:space="preserve">
+    <value>Question and Answer</value>
+  </data>
+  <data name="strQuyen1" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="strQ_RegisterService1" xml:space="preserve">
+    <value>Register account successfully! Are you sure to register other services right now?</value>
+  </data>
+  <data name="strReason1" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="strReEdit1" xml:space="preserve">
+    <value>ReEdit survey</value>
+  </data>
+  <data name="strRegis1" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="strRegisterContract1" xml:space="preserve">
+    <value>Register new contract</value>
+  </data>
+  <data name="strRegisterCustomer1" xml:space="preserve">
+    <value>Register customer information</value>
+  </data>
+  <data name="strRegisterService1" xml:space="preserve">
+    <value>Register services</value>
+  </data>
+  <data name="strRegisterServiceSuccess1" xml:space="preserve">
+    <value>Register services succesfully!</value>
+  </data>
+  <data name="strRegisterSuccess1" xml:space="preserve">
+    <value>Register account succesfully!</value>
+  </data>
+  <data name="strRemindChooseSurvey1" xml:space="preserve">
+    <value>Please select one of below survey</value>
+  </data>
+  <data name="strRemindPassword1" xml:space="preserve">
+    <value>Remind password?</value>
+  </data>
+  <data name="strReOpenSurveySuccess1" xml:space="preserve">
+    <value>Lock survey successfully</value>
+  </data>
+  <data name="strReply1" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="strRequireContractToView1" xml:space="preserve">
+    <value>Please fill in contract number as following to view history</value>
+  </data>
+  <data name="strRequiredField1" xml:space="preserve">
+    <value>Information with star mark (*) is validation information</value>
+  </data>
+  <data name="strResetPass1" xml:space="preserve">
+    <value>Reset password</value>
+  </data>
+  <data name="strResult1" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="strRetypePassword1" xml:space="preserve">
+    <value>Retype password</value>
+  </data>
+  <data name="strSampleMaKH1" xml:space="preserve">
+    <value>Ex: PP09000814292</value>
+  </data>
+  <data name="strSampleMaSoGCS" xml:space="preserve">
+    <value>Ex: HEA</value>
+  </data>
+  <data name="strSampleTenAbv1" xml:space="preserve">
+    <value>Ex: TinhNV</value>
+  </data>
+  <data name="strSampleTenKH1" xml:space="preserve">
+    <value>Ex: Nguyễn Văn Tình</value>
+  </data>
+  <data name="strSanxuat1" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="strSave1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="strSearchValue1" xml:space="preserve">
+    <value>Search value here...</value>
+  </data>
+  <data name="strSelectBank1" xml:space="preserve">
+    <value>Select bank</value>
+  </data>
+  <data name="strService1" xml:space="preserve">
+    <value>REGISTER SERVICE</value>
+  </data>
+  <data name="strServiceBankSettlement1" xml:space="preserve">
+    <value>Settlement via bank</value>
+  </data>
+  <data name="strServiceEmail1" xml:space="preserve">
+    <value>Inform via Email</value>
+  </data>
+  <data name="strServiceSMS1" xml:space="preserve">
+    <value>Inform via SMS</value>
+  </data>
+  <data name="strSession1" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="strSettlement1" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="strSHSD1" xml:space="preserve">
+    <value>Number of </value>
+  </data>
+  <data name="strSignIn1" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="strSignInInform1" xml:space="preserve">
+    <value>Please choose the way to view history as following</value>
+  </data>
+  <data name="strSignInTitle1" xml:space="preserve">
+    <value>Sign in account</value>
+  </data>
+  <data name="strSignOut1" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="strSinhhoat1" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="strSonguoibinhchon1" xml:space="preserve">
+    <value>Voting number</value>
+  </data>
+  <data name="strSSTDNT1" xml:space="preserve">
+    <value>COMPARISON WITH LAST YEAR</value>
+  </data>
+  <data name="strStartDate1" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="strStartPeriod1" xml:space="preserve">
+    <value>Date start</value>
+  </data>
+  <data name="strStatus1" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="strStreet1" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="strSubmit1" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="strSupportOnline1" xml:space="preserve">
+    <value>Support Online</value>
+  </data>
+  <data name="strSurveyAlreadyPublic1" xml:space="preserve">
+    <value>This survey has been already published to customer, you are not allowed to modify!</value>
+  </data>
+  <data name="strSurveyList1" xml:space="preserve">
+    <value>Survey list</value>
+  </data>
+  <data name="strSurveyManage1" xml:space="preserve">
+    <value>Survey management</value>
+  </data>
+  <data name="strSurveyName1" xml:space="preserve">
+    <value>Survey name</value>
+  </data>
+  <data name="strSurveyNotFinish1" xml:space="preserve">
+    <value>This survey has not finished yet, can not open or lock it!</value>
+  </data>
+  <data name="strTach1" xml:space="preserve">
+    <value>Separate</value>
+  </data>
+  <data name="strTCTTTD1" xml:space="preserve">
+    <value>Check history of power using</value>
+  </data>
+  <data name="strTD1T3TGN1" xml:space="preserve">
+    <value>The history of one of latest 3 months</value>
+  </data>
+  <data name="strTDTN1" xml:space="preserve">
+    <value>Newest power using period {0} month {1}/{2}: </value>
+  </data>
+  <data name="strTel1" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="strTelList1" xml:space="preserve">
+    <value>Telephone list</value>
+  </data>
+  <data name="strTenNguoiDung1" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="strThang1" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="strThisYear1" xml:space="preserve">
+    <value>This year</value>
+  </data>
+  <data name="strThongTinDangKy1" xml:space="preserve">
+    <value>Customer information</value>
+  </data>
+  <data name="strThongtinkhaosat1" xml:space="preserve">
+    <value>Survey information</value>
+  </data>
+  <data name="strThreadMessage1" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="strThuTucCapDienVaBieuMau1" xml:space="preserve">
+    <value>Electricity procedure and templete</value>
+  </data>
+  <data name="strTitleChangePassword1" xml:space="preserve">
+    <value>Please enter old pasword and new pasword to change.</value>
+  </data>
+  <data name="strTitleCollapse1" xml:space="preserve">
+    <value>Close/Open</value>
+  </data>
+  <data name="strTitleSignIn1" xml:space="preserve">
+    <value>Please sign in system to access this service.</value>
+  </data>
+  <data name="strTitleTheodoitiendo" xml:space="preserve">
+    <value>TRACK THE PROGRESS OF YOUR SERVICE PROVIDER</value>
+  </data>
+  <data name="strTitleThread1" xml:space="preserve">
+    <value>Tittle</value>
+  </data>
+  <data name="strToDate1" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="strTracuu1" xml:space="preserve">
+    <value>Inquiry</value>
+  </data>
+  <data name="strTTC1" xml:space="preserve">
+    <value>Common information</value>
+  </data>
+  <data name="strTTDD1" xml:space="preserve">
+    <value>Power using</value>
+  </data>
+  <data name="strTTGiaDien1" xml:space="preserve">
+    <value>Electricity price list</value>
+  </data>
+  <data name="strTTKH1" xml:space="preserve">
+    <value>Customer information</value>
+  </data>
+  <data name="strTTTD1" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="strTypeAnswer1" xml:space="preserve">
+    <value>Type of answer</value>
+  </data>
+  <data name="strTypeQuestion1" xml:space="preserve">
+    <value>Question type</value>
+  </data>
+  <data name="strTypeRegister1" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="strTypeUser1" xml:space="preserve">
+    <value>User type</value>
+  </data>
+  <data name="strUpdate1" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="strUploadSuccess1" xml:space="preserve">
+    <value>Update power cutting sxhedule successfully!</value>
+  </data>
+  <data name="strUserManage1" xml:space="preserve">
+    <value>User management</value>
+  </data>
+  <data name="strUsername1" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="strUsernameOrMaKH1" xml:space="preserve">
+    <value>Username/Customer code</value>
+  </data>
+  <data name="strUsersList1" xml:space="preserve">
+    <value>Users list</value>
+  </data>
+  <data name="strUseTemplete1" xml:space="preserve">
+    <value>Use templete answer</value>
+  </data>
+  <data name="strViewHistory1" xml:space="preserve">
+    <value>View history</value>
+  </data>
+  <data name="strVoting1" xml:space="preserve">
+    <value>Biểu quyết</value>
+  </data>
+  <data name="strVotingFailed1" xml:space="preserve">
+    <value>Voting failed, please try again!</value>
+  </data>
+  <data name="strVotingSuccess1" xml:space="preserve">
+    <value>Voting successfully!</value>
+  </data>
+  <data name="strVuilongNhapthongtin1" xml:space="preserve">
+    <value>Please enter condition</value>
+  </data>
+  <data name="strWard1" xml:space="preserve">
+    <value>Ward</value>
+  </data>
+  <data name="strWelcomeAdminOf1" xml:space="preserve">
+    <value>Welcome admin of </value>
+  </data>
+  <data name="strWrongContractNumber1" xml:space="preserve">
+    <value>You have entered a wrong contract number, please try again.</value>
+  </data>
+  <data name="strWrongCurrentPass1" xml:space="preserve">
+    <value>Your current password is not correct !</value>
+  </data>
+  <data name="strWrongMoney1" xml:space="preserve">
+    <value>Please double check the money input.</value>
+  </data>
+  <data name="strWrongPassword1" xml:space="preserve">
+    <value>You have entered a wrong password, please try again.</value>
+  </data>
+  <data name="strWrongUsername1" xml:space="preserve">
+    <value>You have entered a wrong username, please try again.</value>
+  </data>
+  <data name="strWrongVerifyCode1" xml:space="preserve">
+    <value>You have entered a wrong verify code, please try again.</value>
+  </data>
+  <data name="strXem1" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="strXemtiendien1" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="strYear1" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="strYourAccount1" xml:space="preserve">
+    <value>Your account</value>
+  </data>
+  <data name="Success1" xml:space="preserve">
+    <value>Update successfully</value>
+  </data>
+</root>

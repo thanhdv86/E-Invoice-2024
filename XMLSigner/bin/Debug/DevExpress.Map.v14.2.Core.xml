@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevExpress.Map.v14.2.Core</name>
+    </assembly>
+    <members>
+        <member name="T:DevExpress.Map.RangeDistributionBase">
+
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Map.RangeDistributionBase.ConvertRangeValue(System.Double,System.Double,System.Double)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="min">
+		 [To be supplied] 
+            </param>
+            <param name="max">
+		 [To be supplied] 
+            </param>
+            <param name="value">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.Map.CoordPoint">
+
+            <summary>
+                <para>The base class for all map coordinate points.
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Map.CoordPoint.Equals(System.Object)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="o">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Map.CoordPoint.GetHashCode">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Map.CoordPoint.GetX">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Map.CoordPoint.GetY">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Map.CoordPoint.Offset(System.Double,System.Double)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="offsetX">
+		 [To be supplied] 
+            </param>
+            <param name="offsetY">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Map.CoordPoint.ToString">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="M:DevExpress.Map.CoordPoint.ToString(System.IFormatProvider)">
+            <summary>
+                <para> [To be supplied] </para>
+            </summary>
+            <param name="provider">
+		 [To be supplied] 
+            </param>
+            <returns> [To be supplied] </returns>
+
+
+        </member>
+        <member name="T:DevExpress.Map.IColorizerRangeDistribution">
+
+            <summary>
+                <para>Interface which should be implemented by all classes which produce range distribution. 
+
+</para>
+            </summary>
+
+        </member>
+        <member name="M:DevExpress.Map.IColorizerRangeDistribution.ConvertRangeValue(System.Double)">
+            <summary>
+                <para>This API is now obsolete. You should use the 'ConvertRangeValue(double min, double max, double value)' method instead.
+</para>
+            </summary>
+            <param name="value">
+		 
+
+            </param>
+            <returns> 
+</returns>
+
+
+        </member>
+    </members>
+</doc>

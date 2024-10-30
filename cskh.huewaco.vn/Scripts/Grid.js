@@ -1,0 +1,1 @@
+function ChangeColor(oRow, myCol) { oRow.style.backgroundColor = myCol; }

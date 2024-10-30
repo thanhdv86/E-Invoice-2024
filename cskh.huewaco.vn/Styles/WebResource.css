@@ -1,0 +1,57 @@
+.panelbar {
+	width: 250px;
+}
+.panelbar .rootGroup {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.panelbar .group {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.panelbar .item {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.panelbar .item {
+	float: none; display: block; position: static;
+}
+.panelbar .slide {
+	height: auto; float: none; position: static;
+}
+.panelbar .text::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: "";
+}
+.panelbar .template::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: "";
+}
+.panelbar .item::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: "";
+}
+.panelbar .link {
+	text-decoration: none; display: block;
+}
+.panelbar .text {
+	text-decoration: none; display: block;
+}
+.panelbar .image {
+	border: 0px currentColor; vertical-align: middle; float: left;
+}
+.panelbar .level1 {
+	overflow: auto; overflow-x: hidden;
+}
+.panelbar .link {
+	width: 100%;
+}
+.panelbar .text {
+	cursor: pointer; _cursor: hand;
+}
+.panelbar .slide {
+	overflow: hidden; display: none;
+}
+.panelbar .group {
+	display: none;
+}
+.rtl .image {
+	border: 0px currentColor; float: right;
+}
+.rtl {
+	text-align: right;
+}

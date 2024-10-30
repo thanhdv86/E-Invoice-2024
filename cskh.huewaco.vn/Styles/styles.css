@@ -1,0 +1,106 @@
+/* r.a.d.panelbar 4 Office 2007 skin */
+
+.RadPanelbar_CMIS
+{
+	background: #fff;
+	white-space: nowrap;
+	font:11px Tahoma;
+}
+
+.RadPanelbar_CMIS .rootGroup
+{
+	border: solid 1px #0096df;
+	border-top: 0px;
+}
+
+.RadPanelbar_CMIS .text
+{
+	padding: 0px 6px; /* vertical - horizontal */
+	font: bold 11px Tahoma;
+	line-height: 27px;
+	text-align:left;
+}
+
+.RadPanelbar_CMIS .image
+{
+	margin: 2px; /* vertical - horizontal */
+	width:25px;
+}
+
+
+.RadPanelbar_CMIS .rootGroup .link
+{
+	border-bottom: solid 1px #fff;
+	background: #b2d0ff url('../Images/RootItemBkg.gif') repeat-x;
+	color: #fff;
+}
+
+/* span class="text" */
+.RadPanelbar_CMIS .rootGroup .text
+{
+	font-weight: bold;
+}
+
+
+
+.RadPanelbar_CMIS .rootGroup .link:hover
+{
+	background: #d8e6fc url('../Images/RootItemBkgActive.gif') repeat-x;
+	color: #000;
+}
+
+
+.RadPanelbar_CMIS .rootGroup .disabled:hover
+{
+	background: #b2d0ff url('../Images/RootItemBkg.gif') repeat-x;
+	color: #10110f;
+}
+
+.RadPanelbar_CMIS .group .text
+{
+	background: transparent;
+	font-weight: bold;
+	padding: 0px 10px; /* vertical-horizontal */
+	border: 0px;
+}
+
+.RadPanelbar_CMIS .rootGroup .selected .text
+{
+	background: #d8e6fc url('../Images/RootItemBkgActive.gif') repeat-x;
+}
+
+/* child item link */
+.RadPanelbar_CMIS .group .link
+{
+	background: none;
+	border: 0px;
+	color: #000;
+	border-bottom: solid 1px #0096df;
+}
+
+/* child item link:hover */
+.RadPanelbar_CMIS .group .link:hover,
+.RadPanelbar_CMIS .group .selected .text
+{
+	background: none;
+	text-decoration: none;
+	color: #0096df;
+	
+}
+
+.RadPanelbar_CMIS .rootGroup .disabled:hover,
+.RadPanelbar_CMIS .rootGroup .disabled .text
+{
+	background: #d8e6fc url('../Images/RootItemBkg.gif') repeat-x;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_CMIS .rootGroup .group .disabled:hover,
+.RadPanelbar_CMIS .rootGroup .group .disabled .text
+{
+	text-decoration: none;
+	background: none;
+	color: #ccc;
+	cursor: default;
+}

@@ -1,0 +1,435 @@
+﻿body
+{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.padCont
+{
+    padding: 10px 15px 10px 15px;
+    /*border: 1px #CCC solid;*/
+}
+.padCont a
+{
+    text-decoration: none;
+    color: #000;
+}
+.marCont
+{
+    margin: 10px 15px 10px 15px;
+    border: 1px #CCC solid;
+}
+.marCont a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+/*-------------------------------------------------MainEdit.ascx--------------------------------------------*/
+.MainEdit, .MainEdit input, .MainEdit textarea
+{
+    font-family: Arial;
+    font-size: 12px;
+    color: #000;
+}
+.MainEdit .MainEditContent
+{
+    display: block;
+    margin-left: 10px;
+}
+.MainEditContentItem
+{
+    height: 100%;
+    margin-bottom: 10px;
+    display: table;
+    clear: both;
+    width: 100%;
+}
+.MainEditLeft
+{
+    float: left;
+    width: 120px;
+    padding-top: 3px;
+}
+.MainEditRight
+{
+    width: 505px;
+    display: table;
+}
+.MainEdit .MainEditContent .MainEditContentItemType
+{
+    height: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+    clear: both;
+    width: 100%;
+}
+.MainEdit .MainEditContent .MainEditContentItemType .MainEditLeft
+{
+    float: left;
+    width: 20%;
+    padding-top: 10px;
+}
+.MainEdit .MainEditContent .MainEditContentItemType .MainEditRight
+{
+    float: right;
+    width: 80%;
+}
+.tbxDescription
+{
+    font-family: Arial;
+    font-size: 12px;
+}
+
+
+/* ------------- Header Main ---------------- */
+.TitPage
+{
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+}
+
+.icon_image
+{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 32px;
+}
+
+span.subNavLink
+{
+    color: #1b3f95;
+    font-family: tahoma,arial,verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* ---- Frameset ---*/
+.Fieldset_border
+{
+    margin-bottom:10px;
+}
+.Fieldset_title_text
+{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+}
+
+
+/* ------ Line ---------- */
+.LineBE
+{
+    display: table;
+    width: 98%;
+    padding: 5px 5px 5px 10px;
+}
+.LineCEN
+{
+    margin:0 auto;
+}
+.LeftCol
+{
+    float: left;
+    width: 150px;
+    padding-top: 0px;
+    display: table;
+    font-family: Arial;
+    font-size: 12px;
+}
+.LeftCol80
+{
+    float: left;
+    width: 80px;
+    padding-top: 0px;
+    display: table;
+    font-family: Arial;
+    font-size: 12px;
+}
+.LeftCol_right
+{
+    float: left;
+    width: 150px;
+    padding:0px 10px 0 0;
+    display: table;
+    font-family: Arial;
+    font-size: 12px;
+    text-align:right;
+}
+.RightCol, .RightCol2
+{
+	font: bold 12px Arial;
+    display: inline-table; /*width:79%;*/
+    float: left;
+}
+.LeftColmn
+{
+    float: left;
+    width: 220px;
+    display: table;
+    font-weight: bold;
+}
+.RightColmn
+{
+    display: inline-table;
+    float: left;
+    padding-left: 7px;
+}
+
+.RightCol img, .RightCol2 img
+{
+    cursor: pointer;
+    border: none;
+    margin: 0 5px 0 3px;
+}
+
+/* -------- Button ----*/
+#btn_center
+{
+    margin: 15px;
+    text-align: center;
+}
+
+#btn_center a
+{
+    font-family: Arial;
+    font-size: 11px;
+    color: #0212AF;
+    text-decoration: none;
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 10px 0 10px 35px;
+}
+#btn_center a:hover
+{
+    color: Red;
+}
+.CommandIcon
+{
+    background-repeat: no-repeat;
+    background-position: top left;
+    text-decoration: none;
+}
+.CommandIcon
+{
+    background-image: url(images/SaveIcon.gif);
+}
+
+.btn_center
+{
+    margin: 15px;
+    text-align: center;
+}
+/* ---- Column  ----*/
+.lineCol .col1
+{
+    float: left;
+    width: 48%;
+    
+}
+.lineCol .col2
+{
+    float: left;
+    width: 48%;
+    
+}
+
+.lineCol .col31
+{
+    float: left;
+    width: 33%;
+}
+.lineCol .col32
+{
+    float: left;
+    width: 33%;
+}
+.lineCol .col33
+{
+    float: left;
+    width: 33%;
+}
+.clear_lineCol
+{
+    clear: both;
+}
+
+
+/* ---------- */
+.text_label
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;   
+}
+
+.text_textbox
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:normal;  
+
+}
+
+.text_checkbox
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:normal; 
+    text-align:left; 
+}
+
+.text_radioButton
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:normal; 
+    text-align:left; 
+}
+
+.text_combo
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:normal; 
+    text-align:left; 
+    width:250px;
+}
+.text_button
+{
+    font-family:Arial;
+    font-size:12px;
+    font-weight:normal; 
+    text-align:center; 
+}
+
+/*---- Gridview  ---*/
+
+.gridview
+{
+	border: solid 1px #acacac;
+	width:100%;
+}
+.gridviewItemCheckBox
+{
+	text-align: center;
+	border-right: solid 1px #acacac;
+	border-bottom: solid 1px #acacac;
+}
+.gridviewItemSituation
+{
+	height: 25px;
+	border-right: solid 1px #acacac;
+	border-bottom: solid 1px #acacac;
+	text-align: center;
+}
+.gridviewItemMenuName
+{
+	height: 22px;
+	border-right: solid 1px #acacac;
+	border-bottom: solid 1px #acacac;
+	padding-left: 10px;
+}
+.gridviewItemMenuName a
+{
+	text-decoration: none;
+	color: Black;
+	cursor: pointer;
+}
+.gridviewItemMenuName a:hover
+{
+	text-decoration: none;
+	color: Red;
+	cursor: pointer;
+}
+.gridviewHeader
+{
+	text-align: center;
+	height: 30px;
+	border-color:#acacac;
+
+}
+
+.gridviewHeader_group
+{
+	text-align: left;
+	height: 30px;
+	border-color:#acacac;
+	background-color:#E0E0E0;
+	font-weight:bold;
+	padding-left:10px;
+	font-size:13px;
+	color:#000000;
+
+}
+
+.TextLeft
+{
+	text-align:left;
+	padding-left:5px;
+	border-color:#acacac;
+}
+.TextCenter
+{
+	text-align:center;
+	border-color:#acacac;
+}
+.TextRight
+{
+	text-align:right;
+	border-color:#acacac;
+}
+
+/* Note  */
+
+.panel_note_main
+{
+    padding-top:55px;
+    margin:0 auto;
+    min-height: 350px;
+    width:80%;
+	
+}
+
+.panel_note_bg
+{
+    height: 100px;
+    background: url(images/panel_note_bg.png) repeat-x center bottom;
+
+	
+}
+
+.panel_note
+{
+    background: url(images/panel_note_left.png) left bottom no-repeat, url(images/panel_note_right.png) right bottom no-repeat;
+    height: 100px;
+    line-height:100px;
+    vertical-align:middle;
+    padding-left:50px;
+ 
+}
+
+.panel_note_text
+{
+   color:#9e0000;
+   font-family:Arial;
+   font-size:13px;
+   font-weight:bold;
+    padding-left:30px;
+ 
+}
+.panel_note_img
+{
+    vertical-align:middle;
+    float:left;
+    padding:25px 20px 0 20px;
+ 
+}

@@ -1,0 +1,39 @@
+body {
+	margin: 0px; padding: 0px;
+}
+.export-header-bg span {
+	font: bold 13px/normal Calibri, Arial, "myriad Pro"; padding: 6px 0px 0px 15px; color: rgb(51, 51, 51); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.export_pop_up {
+	border-radius: 8px; border: 2px solid rgb(255, 255, 255); border-image: none; left: 10%; top: 10%; width: auto; height: auto; right: 10%; position: absolute; z-index: 9999999; min-width: 250px;
+}
+div.export-main-bg {
+	padding: 5px 5px 0px; text-align: center; vertical-align: bottom; position: relative; background-color: rgb(168, 168, 168);
+}
+div.export-footer-bg {
+	width: 100%; height: 40px; background-image: url("images/IframePopUp/export_footer_bg.png"); background-repeat: repeat-x;
+}
+div.close-btn {
+	width: 86px; height: 40px; margin-right: 5px; float: right;
+}
+div.export-header-bg {
+	border-radius: 5px 5px 0px 0px; width: 100%; height: 30px; cursor: move; background-image: url("images/IframePopUp/HeaderBg.png"); background-repeat: repeat-x;
+}
+.Iframe_close {
+	outline: 0px; border: 0px currentColor; border-image: none; width: 23px; height: 23px; margin-top: 3px; margin-right: 5px; float: right; display: block; background-image: url("images/IframePopUp/Iframe_Close.png"); background-repeat: no-repeat;
+}
+.Iframe_close:hover {
+	outline: 0px; border: 0px currentColor; border-image: none; width: 23px; height: 23px; margin-top: 3px; margin-right: 5px; float: right; display: block; background-image: url("images/IframePopUp/Iframe_Close_h.png"); background-repeat: no-repeat;
+}
+.Iframe_min {
+	outline: 0px; border: 0px currentColor; border-image: none; width: 23px; height: 23px; margin-top: 3px; margin-right: 5px; float: right; display: block; background-image: url("images/IframePopUp/Iframe_minimize.png"); background-repeat: no-repeat;
+}
+.Iframe_min:hover {
+	outline: 0px; border: 0px currentColor; border-image: none; width: 23px; height: 23px; margin-top: 3px; margin-right: 5px; float: right; display: block; background-image: url("images/IframePopUp/Iframe_minimize_h.png"); background-repeat: no-repeat;
+}
+.Iframe_max {
+	outline: 0px; border: 0px currentColor; border-image: none; width: 23px; height: 23px; margin-top: 3px; margin-right: 5px; float: right; display: block; background-image: url("images/IframePopUp/Iframe_maximize.png"); background-repeat: no-repeat;
+}
+.Iframe_max:hover {
+	outline: 0px; border: 0px currentColor; border-image: none; width: 23px; height: 23px; margin-top: 3px; margin-right: 5px; float: right; display: block; background-image: url("images/IframePopUp/Iframe_maximize_h.png"); background-repeat: no-repeat;
+}

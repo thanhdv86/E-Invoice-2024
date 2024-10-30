@@ -1,0 +1,906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8466BCC3-A6AB-44F5-B5FC-AB3FE8DC8D56}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XMLSigner</RootNamespace>
+    <AssemblyName>EInvoice</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\DEPLOY\huewaco_hddt\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>106</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>54D591C67E64C25D09185047DC8AD2DCE7062483</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>XMLSigner_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v14.2.UI, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Map.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v14.2.Drawing, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.2.UI, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Carousel.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Charts.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Controls.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v14.2.Extensions, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Gauges.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v14.2.Extensions, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.LayoutControl.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Map.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.NavBar.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PdfViewer.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PivotGrid.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v14.2.Service, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PropertyGrid.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.ReportDesigner.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.RichEdit.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Scheduler.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.SpellChecker.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Spreadsheet.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.DXStyle.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.HybridApp.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.LightGray.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Black.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Blue.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2007Silver.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2010Black.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2010Blue.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2010Silver.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2013.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2013DarkGray.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Office2013LightGray.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.Seven.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.TouchlineDark.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Themes.VS2010.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2.Extensions, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2.UI, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2.Wizard, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v14.2.Presets, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v14.2.Win, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPdfViewer.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.2.Extensions, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v14.2.Service, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v14.2.Extensions, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v14.2.Extensions, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v14.2.Reporting, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v14.2.Reporting.Extensions, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpreadsheet.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.License">
+      <HintPath>packages\FreeSpire.PDF.3.2\lib\net40\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf">
+      <HintPath>packages\FreeSpire.PDF.3.2\lib\net40\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="dataset\DataSetRpt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetRpt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="data\DataTableHelper.cs" />
+    <Compile Include="data\SeryHoaDon.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="report\rptPXLSPKHL.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\rptPXLSPKHL.Designer.cs">
+      <DependentUpon>rptPXLSPKHL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report\rptSuDungHoaDon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report\rptSuDungHoaDon.Designer.cs">
+      <DependentUpon>rptSuDungHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc\SoHoaDonUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc\SoHoaDonUC.Designer.cs">
+      <DependentUpon>SoHoaDonUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmBase.Designer.cs">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmBaseWaitform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmBaseWaitform.Designer.cs">
+      <DependentUpon>frmBaseWaitform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmBCHDQuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmBCHDQuy.Designer.cs">
+      <DependentUpon>frmBCHDQuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmBCPXLSPKHL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmBCPXLSPKHL.Designer.cs">
+      <DependentUpon>frmBCPXLSPKHL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmCertificateMngt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmCertificateMngt.Designer.cs">
+      <DependentUpon>frmCertificateMngt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmDMNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmDMNguoiDung.Designer.cs">
+      <DependentUpon>frmDMNguoiDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmHDCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmHDCD.Designer.cs">
+      <DependentUpon>frmHDCD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmInvoiceNumMngt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmInvoiceSeri.Designer.cs">
+      <DependentUpon>frmInvoiceNumMngt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmConnectDb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmConnectDb.Designer.cs">
+      <DependentUpon>frmConnectDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmInvoiceSigner2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmInvoiceSigner2.Designer.cs">
+      <DependentUpon>frmInvoiceSigner2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmPhanQuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmPhanQuyen.Designer.cs">
+      <DependentUpon>frmPhanQuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmProgressAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmProgressAlert.Designer.cs">
+      <DependentUpon>frmProgressAlert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmRegisterSery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmRegisterSery.Designer.cs">
+      <DependentUpon>frmRegisterSery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmSearchInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmSearchInvoice.Designer.cs">
+      <DependentUpon>frmSearchInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmSignIn.Designer.cs">
+      <DependentUpon>frmSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmCancelResign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmCancelResign.Designer.cs">
+      <DependentUpon>frmCancelResign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmSignStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmSignStatus.Designer.cs">
+      <DependentUpon>frmSignStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmEmailHDDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmEmailHDDT.Designer.cs">
+      <DependentUpon>frmEmailHDDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmSmsCatNuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmSmsCatNuoc.Designer.cs">
+      <DependentUpon>frmSmsCatNuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmSmsThucNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmSmsThucNo.Designer.cs">
+      <DependentUpon>frmSmsThucNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmTaoMau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmTaoMau.Designer.cs">
+      <DependentUpon>frmTaoMau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmWaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmWaitForm1.Designer.cs">
+      <DependentUpon>frmWaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\WaitFormEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\WaitFormEmail.Designer.cs">
+      <DependentUpon>WaitFormEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\frmInvoiceSigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmInvoiceSigner.Designer.cs">
+      <DependentUpon>frmInvoiceSigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ui\frmXMLSigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\frmXMLSigner.Designer.cs">
+      <DependentUpon>frmXMLSigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="util\XGridLocalizer.cs" />
+    <Compile Include="util\XmlTreeDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Content Include="EmailTemplate - Copy.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\logo-huewacoCTCP.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="ui\frmHDCD.resx">
+      <DependentUpon>frmHDCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\WaitFormEmail.resx">
+      <DependentUpon>WaitFormEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataset\DataSetRpt.xsc">
+      <DependentUpon>DataSetRpt.xsd</DependentUpon>
+    </None>
+    <None Include="dataset\DataSetRpt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetRpt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dataset\DataSetRpt.xss">
+      <DependentUpon>DataSetRpt.xsd</DependentUpon>
+    </None>
+    <None Include="Font\ARIAL.TTF" />
+    <None Include="Font\ARIALBD.TTF" />
+    <None Include="Font\ARIALBI.TTF" />
+    <None Include="Font\ARIALI.TTF" />
+    <None Include="Font\Futura.ttf" />
+    <None Include="Font\TIMES.TTF" />
+    <None Include="Font\TIMESBD.TTF" />
+    <None Include="Font\TIMESBI.TTF" />
+    <None Include="Font\TIMESI.TTF" />
+    <None Include="packages.config" />
+    <Content Include="Resources\font\TIMES.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\font\TIMESBD.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\font\TIMESBI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\font\TIMESI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\pencil_red_16.png" />
+    <None Include="Resources\search1.png" />
+    <None Include="Resources\pencil1.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\pencil16x16.png" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\add1.png" />
+    <None Include="Resources\remove1.png" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\accept1.png" />
+    <None Include="Resources\remove.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\accept.png" />
+    <None Include="Resources\xml_file.png" />
+    <None Include="Resources\xml2.png" />
+    <None Include="Resources\xml.png" />
+    <None Include="Resources\xml.jpg" />
+    <None Include="Resources\note_add.png" />
+    <None Include="Resources\penci_red.png" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\attachment.png" />
+    <None Include="Resources\calculator.png" />
+    <None Include="Resources\recycle_bin.png" />
+    <None Include="Resources\tasks.jpg" />
+    <None Include="Resources\users.png" />
+    <None Include="Resources\certificate.png" />
+    <None Include="Resources\next1.png" />
+    <None Include="Resources\next.png" />
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\database_process.png" />
+    <None Include="Resources\user_off.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\settings1.png" />
+    <None Include="Resources\star.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\document.png" />
+    <None Include="Resources\chart.png" />
+    <None Include="Resources\star2.ico" />
+    <None Include="Resources\settings2.ico" />
+    <None Include="Resources\folder2.ico" />
+    <None Include="Resources\document2.ico" />
+    <None Include="Resources\chart2.ico" />
+    <None Include="Resources\star1.ico" />
+    <None Include="Resources\settings1.ico" />
+    <None Include="Resources\folder1.ico" />
+    <None Include="Resources\document1.ico" />
+    <None Include="Resources\chart1.ico" />
+    <None Include="Resources\star.ico" />
+    <None Include="Resources\settings.ico" />
+    <None Include="Resources\folder.ico" />
+    <None Include="Resources\document.ico" />
+    <None Include="Resources\chart.ico" />
+    <None Include="Resources\Delete_16x16.png" />
+    <None Include="Resources\Return_16x16.png" />
+    <None Include="Resources\Export_16x16.png" />
+    <None Include="Resources\Close_16x16.png" />
+    <None Include="Resources\Add_16x16.png" />
+    <None Include="Resources\ActiveRents_16x16.png" />
+    <None Include="Resources\hwcicon.ico" />
+    <EmbeddedResource Include="report\rptPXLSPKHL.resx">
+      <DependentUpon>rptPXLSPKHL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\rptSuDungHoaDon.resx">
+      <DependentUpon>rptSuDungHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc\SoHoaDonUC.resx">
+      <DependentUpon>SoHoaDonUC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmBase.resx">
+      <DependentUpon>frmBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmBaseWaitform.resx">
+      <DependentUpon>frmBaseWaitform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmBCHDQuy.resx">
+      <DependentUpon>frmBCHDQuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmBCPXLSPKHL.resx">
+      <DependentUpon>frmBCPXLSPKHL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmCertificateMngt.resx">
+      <DependentUpon>frmCertificateMngt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmDMNguoiDung.resx">
+      <DependentUpon>frmDMNguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmInvoiceNumMngt.resx">
+      <DependentUpon>frmInvoiceNumMngt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="ui\frmConnectDb.resx">
+      <DependentUpon>frmConnectDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmInvoiceSigner.resx">
+      <DependentUpon>frmInvoiceSigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmInvoiceSigner2.resx">
+      <DependentUpon>frmInvoiceSigner2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmPhanQuyen.resx">
+      <DependentUpon>frmPhanQuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmProgressAlert.resx">
+      <DependentUpon>frmProgressAlert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmRegisterSery.resx">
+      <DependentUpon>frmRegisterSery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmSearchInvoice.resx">
+      <DependentUpon>frmSearchInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmSignIn.resx">
+      <DependentUpon>frmSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmSignStatus.resx">
+      <DependentUpon>frmSignStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmEmailHDDT.resx">
+      <DependentUpon>frmEmailHDDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmSmsCatNuoc.resx">
+      <DependentUpon>frmSmsCatNuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmSmsThucNo.resx">
+      <DependentUpon>frmSmsThucNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmTaoMau.resx">
+      <DependentUpon>frmTaoMau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmWaitForm1.resx">
+      <DependentUpon>frmWaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmXMLSigner.resx">
+      <DependentUpon>frmXMLSigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\frmCancelResign.resx">
+      <DependentUpon>frmCancelResign.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linhvatmoi_150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DefaultLogin.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="EmailTemplate.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\logo-huewaco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\rptHdHuy.png" />
+    <None Include="Resources\progress.png" />
+    <None Include="Resources\search2.png" />
+    <None Include="Resources\calendar.png" />
+    <None Include="Resources\document1.png" />
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DefaultLogin.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.mshtml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cskh.domain\cskh.domain.csproj">
+      <Project>{35d1def5-d7fb-4b3f-8e13-4aea240d9a8d}</Project>
+      <Name>cskh.domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EBase\EBase.csproj">
+      <Project>{ce087617-3eba-4cf4-ac3c-18ef91158727}</Project>
+      <Name>EBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

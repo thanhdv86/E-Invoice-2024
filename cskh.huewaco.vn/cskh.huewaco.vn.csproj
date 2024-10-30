@@ -1,0 +1,1162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B38D29BE-0131-4AE9-BBFA-CB822F2E41E4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cskh.huewaco.vn</RootNamespace>
+    <AssemblyName>cskh.huewaco.vn</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>Library\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\cskh.cpc.vn\cskh.cpc.vn\bin\DevExpress.Data.v14.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\cskh.cpc.vn\cskh.cpc.vn\bin\DevExpress.Office.v14.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\cskh.cpc.vn\cskh.cpc.vn\bin\DevExpress.RichEdit.v14.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxThemes.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DLL\DevExpress.Web.ASPxThemes.v14.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\cskh.cpc.vn\cskh.cpc.vn\bin\DevExpress.Web.v14.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2.Web, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DocumentGeneration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\DocumentGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\cskh.cpc.vn\cskh.cpc.vn\bin\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\cskh.cpc.vn\cskh.cpc.vn\bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.3.2.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FreeSpire.PDF.3.2\lib\net40\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf, Version=3.2.52.56040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\FreeSpire.PDF.3.2\lib\net40\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="14f4c1p5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="5fn23pxa.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Code\ProjectData.cs">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="bbcgivt1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BC_TaiHDDT.aspx" />
+    <Content Include="BC_TruyCapMenu.aspx" />
+    <Content Include="CauHoi.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Control\ctrlSearchCustomer.ascx" />
+    <Content Include="DoiMatKhau.aspx" />
+    <Content Include="DichVu.aspx" />
+    <Content Include="GhiHoChiSo.aspx" />
+    <Content Include="gl1sin4r.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Gopy.aspx" />
+    <Content Include="gq2g1fil.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="HDSD.aspx" />
+    <Content Include="HoiDap.aspx" />
+    <Content Include="hwkopio0.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ilrui00e.1ua_index.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\a03.png" />
+    <Content Include="Images\b03.png" />
+    <Content Include="Images\BannerTop.png" />
+    <Content Include="Images\Banner\6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Banner\3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Banner\0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Banner\1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Banner\2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Banner\4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Banner\5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\HDSD.png" />
+    <Content Include="Images\logo-huewaco.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\icon_download.png" />
+    <Content Include="Images\icon_vanban.png" />
+    <Content Include="Images\icon_puspin.png" />
+    <Content Include="Images\icon_question.png" />
+    <Content Include="Images\icon_traloi.png" />
+    <Content Include="Images\logo-huewaco-tnhh.png" />
+    <Content Include="Images\logo-huewacoCTCP.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\logo2017.png" />
+    <Content Include="Images\LogoDoiTac\momo-logo-text.PNG" />
+    <Content Include="Images\MinhHoa\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\10.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\11.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\12.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\13.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\14.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\15.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinhHoa\9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PTTT\1jzvcjiv.q4d_vietcombank.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PTTT\51icyhwn.rez_SACOMBANK.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PTTT\5lkuw5ob.rta_Payoo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PTTT\ilrui00e.1ua_index.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PTTT\j0lf2omo.0ur_images839692_Vietinbank.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PTTT\mxbq4jxb.jy2_unnamed.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PTTT\n12ll3yl.hed_abbank1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PTTT\rsznjvgn.22i_b12.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PTTT\yk5yj53l.aat_agribank.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="k30u5a0h.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Library\DocumentGeneration.dll" />
+    <Content Include="LichGhiChiSo.aspx" />
+    <Content Include="LichSuCapNuoc.aspx" />
+    <Content Include="LichSuSuDung.aspx" />
+    <Content Include="Lich_TNCCNuocKhuVuc.aspx" />
+    <Content Include="lkybnl5a.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="media\css\demo.css" />
+    <Content Include="media\css\demo.js" />
+    <Content Include="media\css\details_close.png" />
+    <Content Include="media\css\details_open.png" />
+    <Content Include="media\css\jquery.dataTables.css" />
+    <Content Include="media\css\jquery.dataTables.min.css" />
+    <Content Include="media\css\jquery.dataTables_themeroller.css" />
+    <Content Include="media\images\favicon.ico" />
+    <Content Include="media\images\sort_asc.png" />
+    <Content Include="media\images\sort_asc_disabled.png" />
+    <Content Include="media\images\sort_both.png" />
+    <Content Include="media\images\sort_desc.png" />
+    <Content Include="media\images\sort_desc_disabled.png" />
+    <Content Include="media\js\jquery.dataTables.js" />
+    <Content Include="media\js\jquery.dataTables.min.js" />
+    <Content Include="media\js\jquery.js" />
+    <Content Include="og0mqike.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="QL_CauHoi.aspx" />
+    <Content Include="QL_HDSD.aspx" />
+    <Content Include="QL_LichNgungCCNuoc.aspx" />
+    <Content Include="QL_NguoiDung.aspx" />
+    <Content Include="QL_PhuongThucThanhToan.aspx" />
+    <Content Include="QL_TinTuc.aspx" />
+    <Content Include="QL_TTLienHe.aspx" />
+    <Content Include="QL_VanBan.aspx" />
+    <Content Include="QL_YCDichVu.aspx" />
+    <Content Include="QL_YeuCau.aspx" />
+    <Content Include="QL_YeuCauBaocaoSuco.aspx" />
+    <Content Include="QL_YeuCauTDThongTin.aspx" />
+    <Content Include="qpkt0mx0.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RegisterAccount.aspx" />
+    <Content Include="Document\huewaco_momo_huong_dan_thanh_toan_2018.pdf" />
+    <Content Include="Font\ARIALBI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\ARIALI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\TIMES.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\TIMESBD.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\TIMESBI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\TIMESI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignOut.aspx" />
+    <Content Include="TestSMS.aspx" />
+    <Content Include="ThanhToanTrucTuyen.aspx" />
+    <Content Include="TheoDoiTienDo.aspx" />
+    <Content Include="TinTuc.aspx" />
+    <Content Include="UserGuide.aspx" />
+    <Content Include="ThongTinGiaNuoc.aspx" />
+    <Content Include="ThongTin_HDMB_NuocSH.aspx" />
+    <Content Include="Thutuccapnuoc.aspx" />
+    <Content Include="PhuongthucThanhtoan.aspx" />
+    <Content Include="Diemthutiennuoc.aspx" />
+    <Content Include="media\images\Sorting icons.psd" />
+    <Content Include="uves1qoh.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VanBanPhapLuat.aspx" />
+    <Content Include="VanBan\thongbaoldn2009.pdf" />
+    <Content Include="VanBan\MauDon\maulapdat.doc" />
+    <Content Include="LichSuThanhToan.aspx" />
+    <Content Include="ThongtinKhachhang.aspx" />
+    <Content Include="vxqzf5q0.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XacThucHDDT.aspx" />
+    <Content Include="Images\processing.gif" />
+    <Content Include="QL_BaocaoTruycap.aspx" />
+    <Content Include="QL_QuayThu.aspx" />
+    <Content Include="YeuCauCapNuoc.aspx" />
+    <Content Include="Lich_TNCCNuoc.aspx" />
+    <Content Include="Lich_HDDT.aspx" />
+    <Content Include="Control\ctrlCounter.ascx" />
+    <Content Include="Control\ctrlFooter.ascx" />
+    <Content Include="Control\ctrlLanguages.ascx" />
+    <Content Include="Control\ctrlLeftmenu.ascx" />
+    <Content Include="Control\ctrlLogo.ascx" />
+    <Content Include="Control\ctrlSearch.ascx" />
+    <Content Include="Control\ctrlSignIn.ascx" />
+    <Content Include="Control\ctrlSupportonline.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\60Nam.png" />
+    <Content Include="Images\a14.png" />
+    <Content Include="Images\a17.png" />
+    <Content Include="Images\a18.png" />
+    <Content Include="Images\AboutUs.png" />
+    <Content Include="Images\banner_bg.png" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\bg_footer.png" />
+    <Content Include="Images\bg_shadown_bg.png" />
+    <Content Include="Images\bg_shadown_bottom.png" />
+    <Content Include="Images\bg_shadown_bottom1.png" />
+    <Content Include="Images\bg_shadown_top.png" />
+    <Content Include="Images\bullet_circle.png" />
+    <Content Include="Images\cellpic1.gif" />
+    <Content Include="Images\cellpic2.jpg" />
+    <Content Include="Images\ChiTietHoaDon.png" />
+    <Content Include="Images\Chon.png" />
+    <Content Include="Images\cmdCancel.gif" />
+    <Content Include="Images\cmdDelete.gif" />
+    <Content Include="Images\cmdEdit.gif" />
+    <Content Include="Images\cmdSave.gif" />
+    <Content Include="Images\collapse_tcat.gif" />
+    <Content Include="Images\collapse_tcat_collapsed.gif" />
+    <Content Include="Images\customer-care.jpg" />
+    <Content Include="Images\customer-care.png" />
+    <Content Include="Images\Delete\SLTC.png" />
+    <Content Include="Images\Delete\TTCD.png" />
+    <Content Include="Images\Gioithieu.png" />
+    <Content Include="Images\HDNuoc.png" />
+    <Content Include="Images\HDSD\0.bmp" />
+    <Content Include="Images\HDSD\2.bmp" />
+    <Content Include="Images\HDSD\3.bmp" />
+    <Content Include="Images\HDSD\4.bmp" />
+    <Content Include="Images\HDSD\5.bmp" />
+    <Content Include="Images\HDSD\6.bmp" />
+    <Content Include="Images\HDSD\7.bmp" />
+    <Content Include="Images\HDSD\8.bmp" />
+    <Content Include="Images\HDSD\9.bmp" />
+    <Content Include="Images\HDSD\image002.jpg" />
+    <Content Include="Images\HDSD\image004.jpg" />
+    <Content Include="Images\HDSD\image006.jpg" />
+    <Content Include="Images\HDSD\image010.jpg" />
+    <Content Include="Images\HDSD\image012.jpg" />
+    <Content Include="Images\HDSD\image016.jpg" />
+    <Content Include="Images\HDSD\image018.jpg" />
+    <Content Include="Images\Help\A00_Account_0.png" />
+    <Content Include="Images\Help\A00_Account_00.png" />
+    <Content Include="Images\Help\A00_Account_1.png" />
+    <Content Include="Images\Help\A00_Account_2.png" />
+    <Content Include="Images\Help\A00_Account_3.png" />
+    <Content Include="Images\Help\A00_Account_4.png" />
+    <Content Include="Images\Help\A00_Account_5.png" />
+    <Content Include="Images\Help\A00_Account_6.png" />
+    <Content Include="Images\Help\A00_Account_7.png" />
+    <Content Include="Images\Help\A00_Account_8.png" />
+    <Content Include="Images\Help\A00_Account_9.png" />
+    <Content Include="Images\Help\A00_SignIn_0.png" />
+    <Content Include="Images\Help\A00_SignIn_1.png" />
+    <Content Include="Images\Help\A00_SignIn_2.png" />
+    <Content Include="Images\Help\A00_SignIn_4.png" />
+    <Content Include="Images\Help\A04_NgungCCDienTheoKV_Step1_ChonDonVi.png" />
+    <Content Include="Images\Help\A04_NgungCCDienTheoKV_Step2_ChonDienLuc.png" />
+    <Content Include="Images\Help\A04_NgungCCDienTheoKV_Step3_Tungay.png" />
+    <Content Include="Images\Help\A04_NgungCCDienTheoKV_Step4_DenNgay.png" />
+    <Content Include="Images\Help\A04_NgungCCDienTheoKV_Step5_ClickXemKq.png" />
+    <Content Include="Images\Help\A05_Lichghidien.png" />
+    <Content Include="Images\Help\A08_Diemthutiendien_1.png" />
+    <Content Include="Images\Help\A08_Diemthutiendien_2.png" />
+    <Content Include="Images\Help\A08_Diemthutiendien_3.png" />
+    <Content Include="Images\Help\A08_Diemthutiendien_4.png" />
+    <Content Include="Images\Help\A08_Diemthutiendien_5.png" />
+    <Content Include="Images\Help\A09_PhutaiMDMS_01.png" />
+    <Content Include="Images\Help\A09_PhutaiMDMS_CS_01.png" />
+    <Content Include="Images\Help\A09_PhutaiMDMS_HD_02.png" />
+    <Content Include="Images\Help\B01_CapDienSH.png" />
+    <Content Include="Images\Help\B01_CapDienSH_OK.png" />
+    <Content Include="Images\Help\B02_CapDienNSH.png" />
+    <Content Include="Images\Help\C01_NgungCungCapDienTheoKH.png" />
+    <Content Include="Images\Help\C03_LichSuThanhToan_TheoKH2.png" />
+    <Content Include="Images\Help\C03_LichSuThanhToan_TheoTenKH1.png" />
+    <Content Include="Images\Help\C03_LichSuThanhToan_TheoTenKH2.png" />
+    <Content Include="Images\Help\C05_LichSuTreoThao.png" />
+    <Content Include="Images\Help\C08_EmailDienthoai.png" />
+    <Content Include="Images\Help\C10_CapNhatChiSo_1.png" />
+    <Content Include="Images\Help\C10_CapNhatChiSo_2.png" />
+    <Content Include="Images\Help\C10_CapNhatChiSo_3.png" />
+    <Content Include="Images\Help\Crop_NgungCCDienTheoKV_Step5_ClickXem.png" />
+    <Content Include="Images\Help\TimKhachHang.png" />
+    <Content Include="Images\icon_email.png" />
+    <Content Include="Images\icon_tel.png" />
+    <Content Include="Images\icon_web.png" />
+    <Content Include="Images\images.jpg" />
+    <Content Include="Images\images1.jpg" />
+    <Content Include="Images\img_main.png" />
+    <Content Include="Images\intro_bg.png" />
+    <Content Include="Images\intro_bottom.png" />
+    <Content Include="Images\left_menu_bottom.png" />
+    <Content Include="Images\left_menu_top.png" />
+    <Content Include="Images\left_panel_bg.png" />
+    <Content Include="Images\left_panel_bottom.png" />
+    <Content Include="Images\left_panel_top.png" />
+    <Content Include="Images\letter_a.png" />
+    <Content Include="Images\LichCatDien.png" />
+    <Content Include="Images\LichGhiVaThuTien.png" />
+    <Content Include="Images\login_bg.png" />
+    <Content Include="Images\logo-huewaco.jpg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\logoHDDT.png" />
+    <Content Include="Images\logo_banner.png" />
+    <Content Include="Images\luoidien030712a.jpg" />
+    <Content Include="Images\main_bg.png" />
+    <Content Include="Images\main_bottom.png" />
+    <Content Include="Images\main_top.png" />
+    <Content Include="Images\menubar_left.png" />
+    <Content Include="Images\menubar_left_hover.png" />
+    <Content Include="Images\menubar_right.png" />
+    <Content Include="Images\menubar_right_hover.png" />
+    <Content Include="Images\MenuLeft.gif" />
+    <Content Include="Images\MenuLeftAdmin.gif" />
+    <Content Include="Images\MenuLeftBottom.gif" />
+    <Content Include="Images\MenuLeftTop.gif" />
+    <Content Include="Images\newitem.gif" />
+    <Content Include="Images\Payment.jpg" />
+    <Content Include="Images\phone.png" />
+    <Content Include="Images\reg-icon.jpg" />
+    <Content Include="Images\ReportIcon.gif" />
+    <Content Include="Images\RootItemBkg.gif" />
+    <Content Include="Images\RootItemBkgActive.gif" />
+    <Content Include="Images\Sunshine.png" />
+    <Content Include="Images\TKNL.png" />
+    <Content Include="Images\TKNL1.png" />
+    <Content Include="Images\TKNL2.png" />
+    <Content Include="Images\webbanner.jpg" />
+    <Content Include="Images\XemHoaDon.png" />
+    <Content Include="Library\ExportPdfNet.dll" />
+    <Content Include="Library\Ionic.Zip.dll" />
+    <Content Include="Library\itextsharp.dll" />
+    <Content Include="Library\Spire.License.dll" />
+    <Content Include="Library\Spire.Pdf.dll" />
+    <Content Include="QL_GopY.aspx" />
+    <Content Include="QL_Noidung.aspx" />
+    <Content Include="Scripts\Grid.js" />
+    <Content Include="Scripts\jquery-1.1.3.1.pack.js" />
+    <Content Include="Scripts\jquery-1.11.2.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery.history_remote.pack.js" />
+    <Content Include="Scripts\jquery.tabs.js" />
+    <Content Include="Scripts\jquery.tabs.min.js" />
+    <Content Include="Scripts\jquery.tabs.pack.js" />
+    <Content Include="Scripts\jssor.js" />
+    <Content Include="Scripts\jssor.slider.js" />
+    <Content Include="Scripts\ScriptResource%281%29.js" />
+    <Content Include="Scripts\ScriptResource.js" />
+    <Content Include="Scripts\ScriptResource_002.js" />
+    <Content Include="Scripts\WebResource%281%29.js" />
+    <Content Include="Scripts\WebResource.js" />
+    <Content Include="Source\banner.swf" />
+    <Content Include="Source\banner_bg.png" />
+    <Content Include="Source\bg_shadown_bottom.png" />
+    <Content Include="Source\btn_login.png" />
+    <Content Include="Source\btn_login_en.jpg" />
+    <Content Include="Source\btn_login_en.png" />
+    <Content Include="Source\btn_login_red.png" />
+    <Content Include="Source\img_main.png" />
+    <Content Include="Source\intro_bottom.png" />
+    <Content Include="Source\login_bg.png" />
+    <Content Include="Source\logo_banner.png" />
+    <Content Include="Source\logo_banner_cpc-old.png" />
+    <Content Include="Source\logo_banner_cpc-old_en.png" />
+    <Content Include="Source\logo_banner_cpc.png" />
+    <Content Include="Source\logo_banner_cpc_en-old.png" />
+    <Content Include="Source\logo_banner_cpc_en.png" />
+    <Content Include="Source\ReportIcon.gif" />
+    <Content Include="Source\Sunshine.png" />
+    <Content Include="Styles\flatUI.css" />
+    <Content Include="Styles\IframePopUpDesign.css" />
+    <Content Include="Styles\jquery.fancybox.css" />
+    <Content Include="Styles\jquery.tabs-ie.css" />
+    <Content Include="Styles\jquery.tabs.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Styles\Style1.css" />
+    <Content Include="Styles\styles.css" />
+    <Content Include="Styles\style_CSKH_old.css" />
+    <Content Include="Styles\style_master.css" />
+    <Content Include="Styles\style_master_IE6.css" />
+    <Content Include="Styles\WebResource.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Code\UploadingUtils.cs" />
+    <Compile Include="BC_TaiHDDT.aspx.cs">
+      <DependentUpon>BC_TaiHDDT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BC_TaiHDDT.aspx.designer.cs">
+      <DependentUpon>BC_TaiHDDT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BC_TruyCapMenu.aspx.cs">
+      <DependentUpon>BC_TruyCapMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BC_TruyCapMenu.aspx.designer.cs">
+      <DependentUpon>BC_TruyCapMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CauHoi.aspx.cs">
+      <DependentUpon>CauHoi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CauHoi.aspx.designer.cs">
+      <DependentUpon>CauHoi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\CsBaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\CsBaseControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ctrlSearchCustomer.ascx.cs">
+      <DependentUpon>ctrlSearchCustomer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ctrlSearchCustomer.ascx.designer.cs">
+      <DependentUpon>ctrlSearchCustomer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DoiMatKhau.aspx.cs">
+      <DependentUpon>DoiMatKhau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhau.aspx.designer.cs">
+      <DependentUpon>DoiMatKhau.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DichVu.aspx.cs">
+      <DependentUpon>DichVu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DichVu.aspx.designer.cs">
+      <DependentUpon>DichVu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GhiHoChiSo.aspx.cs">
+      <DependentUpon>GhiHoChiSo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GhiHoChiSo.aspx.designer.cs">
+      <DependentUpon>GhiHoChiSo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Globals.cs" />
+    <Compile Include="Gopy.aspx.cs">
+      <DependentUpon>Gopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gopy.aspx.designer.cs">
+      <DependentUpon>Gopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HDSD.aspx.cs">
+      <DependentUpon>HDSD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HDSD.aspx.designer.cs">
+      <DependentUpon>HDSD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoiDap.aspx.cs">
+      <DependentUpon>HoiDap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoiDap.aspx.designer.cs">
+      <DependentUpon>HoiDap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LichGhiChiSo.aspx.cs">
+      <DependentUpon>LichGhiChiSo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LichGhiChiSo.aspx.designer.cs">
+      <DependentUpon>LichGhiChiSo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LichSuCapNuoc.aspx.cs">
+      <DependentUpon>LichSuCapNuoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LichSuCapNuoc.aspx.designer.cs">
+      <DependentUpon>LichSuCapNuoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LichSuSuDung.aspx.cs">
+      <DependentUpon>LichSuSuDung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LichSuSuDung.aspx.designer.cs">
+      <DependentUpon>LichSuSuDung.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lich_TNCCNuocKhuVuc.aspx.cs">
+      <DependentUpon>Lich_TNCCNuocKhuVuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lich_TNCCNuocKhuVuc.aspx.designer.cs">
+      <DependentUpon>Lich_TNCCNuocKhuVuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_CauHoi.aspx.cs">
+      <DependentUpon>QL_CauHoi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_CauHoi.aspx.designer.cs">
+      <DependentUpon>QL_CauHoi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_HDSD.aspx.cs">
+      <DependentUpon>QL_HDSD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_HDSD.aspx.designer.cs">
+      <DependentUpon>QL_HDSD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_LichNgungCCNuoc.aspx.cs">
+      <DependentUpon>QL_LichNgungCCNuoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_LichNgungCCNuoc.aspx.designer.cs">
+      <DependentUpon>QL_LichNgungCCNuoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_NguoiDung.aspx.cs">
+      <DependentUpon>QL_NguoiDung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_NguoiDung.aspx.designer.cs">
+      <DependentUpon>QL_NguoiDung.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_PhuongThucThanhToan.aspx.cs">
+      <DependentUpon>QL_PhuongThucThanhToan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_PhuongThucThanhToan.aspx.designer.cs">
+      <DependentUpon>QL_PhuongThucThanhToan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_TinTuc.aspx.cs">
+      <DependentUpon>QL_TinTuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_TinTuc.aspx.designer.cs">
+      <DependentUpon>QL_TinTuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_TTLienHe.aspx.cs">
+      <DependentUpon>QL_TTLienHe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_TTLienHe.aspx.designer.cs">
+      <DependentUpon>QL_TTLienHe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_VanBan.aspx.cs">
+      <DependentUpon>QL_VanBan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_VanBan.aspx.designer.cs">
+      <DependentUpon>QL_VanBan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_YCDichVu.aspx.cs">
+      <DependentUpon>QL_YCDichVu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_YCDichVu.aspx.designer.cs">
+      <DependentUpon>QL_YCDichVu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_YeuCau.aspx.cs">
+      <DependentUpon>QL_YeuCau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_YeuCau.aspx.designer.cs">
+      <DependentUpon>QL_YeuCau.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_YeuCauBaocaoSuco.aspx.cs">
+      <DependentUpon>QL_YeuCauBaocaoSuco.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_YeuCauBaocaoSuco.aspx.designer.cs">
+      <DependentUpon>QL_YeuCauBaocaoSuco.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_YeuCauTDThongTin.aspx.cs">
+      <DependentUpon>QL_YeuCauTDThongTin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_YeuCauTDThongTin.aspx.designer.cs">
+      <DependentUpon>QL_YeuCauTDThongTin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterAccount.aspx.cs">
+      <DependentUpon>RegisterAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterAccount.aspx.designer.cs">
+      <DependentUpon>RegisterAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignOut.aspx.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignOut.aspx.designer.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestSMS.aspx.cs">
+      <DependentUpon>TestSMS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestSMS.aspx.designer.cs">
+      <DependentUpon>TestSMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThanhToanTrucTuyen.aspx.cs">
+      <DependentUpon>ThanhToanTrucTuyen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThanhToanTrucTuyen.aspx.designer.cs">
+      <DependentUpon>ThanhToanTrucTuyen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TheoDoiTienDo.aspx.cs">
+      <DependentUpon>TheoDoiTienDo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoDoiTienDo.aspx.designer.cs">
+      <DependentUpon>TheoDoiTienDo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TinTuc.aspx.cs">
+      <DependentUpon>TinTuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TinTuc.aspx.designer.cs">
+      <DependentUpon>TinTuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserGuide.aspx.cs">
+      <DependentUpon>UserGuide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserGuide.aspx.designer.cs">
+      <DependentUpon>UserGuide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinGiaNuoc.aspx.cs">
+      <DependentUpon>ThongTinGiaNuoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThongTinGiaNuoc.aspx.designer.cs">
+      <DependentUpon>ThongTinGiaNuoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTin_HDMB_NuocSH.aspx.cs">
+      <DependentUpon>ThongTin_HDMB_NuocSH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThongTin_HDMB_NuocSH.aspx.designer.cs">
+      <DependentUpon>ThongTin_HDMB_NuocSH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Thutuccapnuoc.aspx.cs">
+      <DependentUpon>Thutuccapnuoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Thutuccapnuoc.aspx.designer.cs">
+      <DependentUpon>Thutuccapnuoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhuongthucThanhtoan.aspx.cs">
+      <DependentUpon>PhuongthucThanhtoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhuongthucThanhtoan.aspx.designer.cs">
+      <DependentUpon>PhuongthucThanhtoan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Diemthutiennuoc.aspx.cs">
+      <DependentUpon>Diemthutiennuoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Diemthutiennuoc.aspx.designer.cs">
+      <DependentUpon>Diemthutiennuoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VanBanPhapLuat.aspx.cs">
+      <DependentUpon>VanBanPhapLuat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VanBanPhapLuat.aspx.designer.cs">
+      <DependentUpon>VanBanPhapLuat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LichSuThanhToan.aspx.cs">
+      <DependentUpon>LichSuThanhToan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LichSuThanhToan.aspx.designer.cs">
+      <DependentUpon>LichSuThanhToan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThongtinKhachhang.aspx.cs">
+      <DependentUpon>ThongtinKhachhang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThongtinKhachhang.aspx.designer.cs">
+      <DependentUpon>ThongtinKhachhang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XacThucHDDT.aspx.cs">
+      <DependentUpon>XacThucHDDT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XacThucHDDT.aspx.designer.cs">
+      <DependentUpon>XacThucHDDT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_BaocaoTruycap.aspx.cs">
+      <DependentUpon>QL_BaocaoTruycap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_BaocaoTruycap.aspx.designer.cs">
+      <DependentUpon>QL_BaocaoTruycap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_QuayThu.aspx.cs">
+      <DependentUpon>QL_QuayThu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_QuayThu.aspx.designer.cs">
+      <DependentUpon>QL_QuayThu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Cookie.cs" />
+    <Compile Include="YeuCauCapNuoc.aspx.cs">
+      <DependentUpon>YeuCauCapNuoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YeuCauCapNuoc.aspx.designer.cs">
+      <DependentUpon>YeuCauCapNuoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lich_TNCCNuoc.aspx.cs">
+      <DependentUpon>Lich_TNCCNuoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lich_TNCCNuoc.aspx.designer.cs">
+      <DependentUpon>Lich_TNCCNuoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lich_HDDT.aspx.cs">
+      <DependentUpon>Lich_HDDT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lich_HDDT.aspx.designer.cs">
+      <DependentUpon>Lich_HDDT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ctrlCounter.ascx.cs">
+      <DependentUpon>ctrlCounter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ctrlCounter.ascx.designer.cs">
+      <DependentUpon>ctrlCounter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ctrlFooter.ascx.cs">
+      <DependentUpon>ctrlFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ctrlFooter.ascx.designer.cs">
+      <DependentUpon>ctrlFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ctrlLanguages.ascx.cs">
+      <DependentUpon>ctrlLanguages.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ctrlLanguages.ascx.designer.cs">
+      <DependentUpon>ctrlLanguages.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ctrlLeftmenu.ascx.cs">
+      <DependentUpon>ctrlLeftmenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ctrlLeftmenu.ascx.designer.cs">
+      <DependentUpon>ctrlLeftmenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ctrlLogo.ascx.cs">
+      <DependentUpon>ctrlLogo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ctrlLogo.ascx.designer.cs">
+      <DependentUpon>ctrlLogo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ctrlSearch.ascx.cs">
+      <DependentUpon>ctrlSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ctrlSearch.ascx.designer.cs">
+      <DependentUpon>ctrlSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ctrlSignIn.ascx.cs">
+      <DependentUpon>ctrlSignIn.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ctrlSignIn.ascx.designer.cs">
+      <DependentUpon>ctrlSignIn.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ctrlSupportonline.ascx.cs">
+      <DependentUpon>ctrlSupportonline.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\ctrlSupportonline.ascx.designer.cs">
+      <DependentUpon>ctrlSupportonline.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CSKH.Master.cs">
+      <DependentUpon>CSKH.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSKH.Master.designer.cs">
+      <DependentUpon>CSKH.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\DataGridInterface.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\MultiLanguagePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Code\Survey.cs" />
+    <Compile Include="App_Code\User.cs" />
+    <Compile Include="QL_GopY.aspx.cs">
+      <DependentUpon>QL_GopY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_GopY.aspx.designer.cs">
+      <DependentUpon>QL_GopY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QL_Noidung.aspx.cs">
+      <DependentUpon>QL_Noidung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QL_Noidung.aspx.designer.cs">
+      <DependentUpon>QL_Noidung.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\UploadTemp\" />
+    <Folder Include="TempUpload\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSKH.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Resources\UIResources.en-US.resx" />
+    <EmbeddedResource Include="Resources\UIResources.fr-FR.resx" />
+    <EmbeddedResource Include="Resources\UIResources.vi-VN.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UIResources.zh-CN.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Font\arial.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\arialbd.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\Futura.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cskh.domain\cskh.domain.csproj">
+      <Project>{35d1def5-d7fb-4b3f-8e13-4aea240d9a8d}</Project>
+      <Name>cskh.domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EBase\EBase.csproj">
+      <Project>{ce087617-3eba-4cf4-ac3c-18ef91158727}</Project>
+      <Name>EBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\CSKHHueWACO2019.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>15536</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

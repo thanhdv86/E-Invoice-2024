@@ -1,0 +1,162 @@
+.widget {
+	box-shadow: 1px 1px 8px rgba(0,0,0,0.3);
+}
+.widgettitle {
+	background: 0px 0px rgb(8, 102, 198); padding: 12px 15px; color: rgb(255, 255, 255); font-size: 14px;
+}
+.widgetcontent {
+	background: 0px 0px rgb(255, 255, 255); border-width: 0px 2px 2px; border-style: none solid solid; padding: 15px 12px; border-image: none; margin-bottom: 20px; border-right-color: rgb(8, 102, 198); -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+#form-title {
+	background: url("../img/category.png") no-repeat 10px rgb(53, 155, 237); padding: 8px 0px; width: 100%; height: 20px; color: rgb(255, 255, 255); text-indent: 36px; font-weight: bold; margin-bottom: 15px; display: inline-block;
+}
+.alert-success {
+	background: 0px 0px rgb(223, 240, 216); border-color: rgb(180, 218, 149); color: rgb(70, 136, 71);
+}
+.alert {
+	background: 0px 0px rgb(246, 237, 186); border-color: rgb(228, 191, 127); color: rgb(156, 108, 56); margin-bottom: 15px;
+}
+.stdform label {
+	padding: 5px 20px 0px 0px; width: 29%; float: left;
+}
+.stdform p {
+	margin: 5px 0px; clear: both;
+}
+.stdform div.par {
+	margin: 5px 0px; clear: both;
+}
+.control-group {
+	margin-bottom: 10px;
+}
+.stdform .stdformbutton {
+	text-align: right; color: rgb(255, 255, 255) !important; margin-right: 10%; margin-left: 5%;
+}
+.controls {
+	padding: 5px 20px 0px 0px; width: 46%; float: left;
+}
+.columnLeft {
+	width: 46%; float: left;
+}
+.columnRight {
+	width: 46%; float: left;
+}
+.table-invoice {
+	border-top-color: rgb(204, 204, 204) !important; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-top-width: 1px !important; border-top-style: solid !important;
+}
+.table-invoice-full {
+	border-top-color: rgb(204, 204, 204) !important; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-top-width: 1px !important; border-top-style: solid !important;
+}
+.table-bordered {
+	border-width: 1px 1px 1px 0px; border-style: solid solid solid none; border-image: none; border-collapse: separate; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;
+}
+.table {
+	width: 100%; margin-bottom: 20px;
+}
+.headerStyle {
+	color: white; font-weight: bold; background-color: rgb(0, 110, 203);
+}
+.span6 {
+	width: 48%; float: left;
+}
+.btn {
+	padding: 4px 10px; border-radius: 0px; font-weight: normal; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.btn {
+	top: -1px; position: relative;
+}
+.active.btn-primary {
+	color: rgba(255, 255, 255, 0.75);
+}
+.active.btn-warning {
+	color: rgba(255, 255, 255, 0.75);
+}
+.active.btn-danger {
+	color: rgba(255, 255, 255, 0.75);
+}
+.active.btn-success {
+	color: rgba(255, 255, 255, 0.75);
+}
+.active.btn-info {
+	color: rgba(255, 255, 255, 0.75);
+}
+.active.btn-inverse {
+	color: rgba(255, 255, 255, 0.75);
+}
+.btn-primary {
+	border-color: rgb(0, 68, 204) rgb(0, 68, 204) rgb(0, 42, 128); color: rgb(255, 255, 255); text-shadow: 0px -1px 0px rgba(0,0,0,0.25); background-image: linear-gradient(rgb(0, 136, 204), rgb(0, 68, 204)); background-repeat: repeat-x; background-color: rgb(0, 109, 204) !important;
+}
+.btn-primary:hover {
+	color: rgb(255, 255, 255); background-color: rgb(0, 59, 179);
+}
+.btn-primary:focus {
+	color: rgb(255, 255, 255); background-color: rgb(0, 59, 179);
+}
+.btn-primary:active {
+	color: rgb(255, 255, 255); background-color: rgb(0, 59, 179);
+}
+.active.btn-primary {
+	color: rgb(255, 255, 255); background-color: rgb(0, 59, 179);
+}
+.disabled.btn-primary {
+	color: rgb(255, 255, 255); background-color: rgb(0, 59, 179);
+}
+[disabled].btn-primary {
+	color: rgb(255, 255, 255); background-color: rgb(0, 59, 179);
+}
+.btn-primary:active {
+	background-color: rgb(0, 51, 153);
+}
+.active.btn-primary {
+	background-color: rgb(0, 51, 153);
+}
+.CSSTableGenerator {
+	margin: 0px; padding: 0px; border-radius: 0px; border: 1px solid rgb(0, 0, 0); border-image: none; width: 100%; box-shadow: 10px 10px 5px #888888; -moz-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px; -moz-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px; -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px;
+}
+.CSSTableGenerator table {
+	margin: 0px; padding: 0px; width: 100%; height: 100%;
+}
+.CSSTableGenerator tr:last-child td:last-child {
+	border-bottom-right-radius: 0px; -moz-border-radius-bottomright: 0px; -webkit-border-bottom-right-radius: 0px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	border-top-left-radius: 0px; -moz-border-radius-topleft: 0px; -webkit-border-top-left-radius: 0px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	border-top-right-radius: 0px; -moz-border-radius-topright: 0px; -webkit-border-top-right-radius: 0px;
+}
+.CSSTableGenerator tr:last-child td:first-child {
+	border-bottom-left-radius: 0px; -moz-border-radius-bottomleft: 0px; -webkit-border-bottom-left-radius: 0px;
+}
+.CSSTableGenerator tr:hover td {
+	
+}
+.CSSTableGenerator tr:nth-child(2n+1) {
+	background-color: rgb(170, 212, 255);
+}
+.CSSTableGenerator tr:nth-child(2n) {
+	background-color: rgb(255, 255, 255);
+}
+.CSSTableGenerator td {
+	border-width: 0px 1px 1px 0px; border-style: solid; border-color: rgb(0, 0, 0); padding: 7px; border-image: none; color: rgb(0, 0, 0); font-family: tahoma; font-size: 10px; font-weight: normal; vertical-align: middle;
+}
+.CSSTableGenerator tr:last-child td {
+	border-width: 0px 1px 0px 0px;
+}
+.CSSTableGenerator tr td:last-child {
+	border-width: 0px 0px 1px;
+}
+.CSSTableGenerator tr:last-child td:last-child {
+	border-width: 0px;
+}
+.CSSTableGenerator tr:first-child td {
+	border-width: 0px 0px 1px 1px; border-style: solid; border-color: rgb(0, 0, 0); border-image: none; text-align: center; color: rgb(255, 255, 255); font-family: tahoma; font-size: 14px; font-weight: bold; background-color: rgb(0, 95, 191);
+}
+.CSSTableGenerator tr:first-child:hover td {
+	background-color: rgb(0, 95, 191);
+}
+.CSSTableGenerator tr:first-child td:first-child {
+	border-width: 0px 0px 1px;
+}
+.CSSTableGenerator tr:first-child td:last-child {
+	border-width: 0px 0px 1px 1px;
+}

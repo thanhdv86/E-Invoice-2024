@@ -1,0 +1,1958 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strKeyLanguage" xml:space="preserve">
+    <value>vi-VN</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Cập nhập dữ liệu không thành công</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Cập nhật dữ liệu thành công</value>
+  </data>
+  <data name="strRegisterContract" xml:space="preserve">
+    <value>Đăng ký cấp Nước mới</value>
+  </data>
+  <data name="strService" xml:space="preserve">
+    <value>ĐĂNG KÝ DỊCH VỤ</value>
+  </data>
+  <data name="strSSTDNT" xml:space="preserve">
+    <value>SO SÁNH TIỀN Nước NĂM TRƯỚC</value>
+  </data>
+  <data name="strGCSD" xml:space="preserve">
+    <value>GHI CHỈ SỐ Nước</value>
+  </data>
+  <data name="strTCTTTD" xml:space="preserve">
+    <value>Tra cứu tiền Nước</value>
+  </data>
+  <data name="strChangePassword" xml:space="preserve">
+    <value>THAY ĐỔI MẬT KHẨU</value>
+  </data>
+  <data name="strExportExcel" xml:space="preserve">
+    <value>XUẤT EXCEL FILE</value>
+  </data>
+  <data name="strExportContract" xml:space="preserve">
+    <value>DANH SÁCH ĐĂNG KÝ MUA Nước</value>
+  </data>
+  <data name="strQuestion" xml:space="preserve">
+    <value>Hỏi đáp và Góp ý</value>
+  </data>
+  <data name="strCPCAddress" xml:space="preserve">
+    <value>Địa chỉ: 393 Trưng Nữ Vương - Thành phố Đà Nẵng | Nước thoại: 84-511-2220808</value>
+  </data>
+  <data name="strUsername" xml:space="preserve">
+    <value>Tên đăng nhập</value>
+  </data>
+  <data name="strPassword" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="strAuthorCode" xml:space="preserve">
+    <value>Mã xác thực</value>
+  </data>
+  <data name="strSignIn" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="strSignInTitle" xml:space="preserve">
+    <value>Đăng nhập khách hàng</value>
+  </data>
+  <data name="strSignInInform" xml:space="preserve">
+    <value>Vui lòng chọn một trong hai cách sau để xem tiền Nước</value>
+  </data>
+  <data name="strViewHistory" xml:space="preserve">
+    <value>Xem tiền Nước</value>
+  </data>
+  <data name="strInputContractNumber" xml:space="preserve">
+    <value>Mã số khách hàng</value>
+  </data>
+  <data name="strContractNumber" xml:space="preserve">
+    <value>Mã số hợp đồng</value>
+  </data>
+  <data name="strNote" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="strNoteDesc" xml:space="preserve">
+    <value>Nếu đã đăng ký tài khoản người dùng, vui lòng đăng nhập để truy cập được nhiều thông tin hơn. Nhấn vào</value>
+  </data>
+  <data name="strHere" xml:space="preserve">
+    <value>đây</value>
+  </data>
+  <data name="strWrongUsername" xml:space="preserve">
+    <value>Tên truy cập không chính xác, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="strWrongPassword" xml:space="preserve">
+    <value>Mật mã không chính xác, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="strWrongVerifyCode" xml:space="preserve">
+    <value>Mã xác thực chưa đúng.</value>
+  </data>
+  <data name="strWrongContractNumber" xml:space="preserve">
+    <value>Mã khách hàng không hợp lệ, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="strRegisterCustomer" xml:space="preserve">
+    <value>Đăng ký tài khoản khách hàng</value>
+  </data>
+  <data name="strKHPDK" xml:space="preserve">
+    <value>Khách hàng phải đăng ký thông tin để nhận được các dịch vụ chăm sóc khách hàng thông qua các kênh.</value>
+  </data>
+  <data name="strCCTDL" xml:space="preserve">
+    <value>Chọn công ty Nước lực</value>
+  </data>
+  <data name="strRetypePassword" xml:space="preserve">
+    <value>Nhập lại mật khẩu</value>
+  </data>
+  <data name="strTD1T3TGN" xml:space="preserve">
+    <value>Tiền Nước 1 trong 3 tháng gần đây nhất</value>
+  </data>
+  <data name="strRegis" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="strExistUsername" xml:space="preserve">
+    <value>Tên truy cập này đã được đăng ký, vui lòng chọn tên khác.</value>
+  </data>
+  <data name="strExistContract" xml:space="preserve">
+    <value>Mã số khách hàng này đã được đăng ký, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="strWrongMoney" xml:space="preserve">
+    <value>Vui lòng kiểm tra lại chính xác số tiền nhập vào.</value>
+  </data>
+  <data name="strNoteForContractNumber" xml:space="preserve">
+    <value>Mã Khách hàng là dãy 13 ký tự được in ở Giấy báo hoặc Hóa đơn tiền Nước - ví dụ: PP01014511079.</value>
+  </data>
+  <data name="strRegisterService" xml:space="preserve">
+    <value>Đăng ký dịch vụ sử dụng</value>
+  </data>
+  <data name="strServiceSMS" xml:space="preserve">
+    <value>Gửi qua SMS</value>
+  </data>
+  <data name="strServiceEmail" xml:space="preserve">
+    <value>Gửi qua Email</value>
+  </data>
+  <data name="strServiceBankSettlement" xml:space="preserve">
+    <value>Nhu cầu thu qua ngân hàng</value>
+  </data>
+  <data name="strTel" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="strEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="strBank" xml:space="preserve">
+    <value>Ngân hàng</value>
+  </data>
+  <data name="strBankAccount" xml:space="preserve">
+    <value>Tài khoản ngân hàng</value>
+  </data>
+  <data name="strTracuu" xml:space="preserve">
+    <value>Tra cứu</value>
+  </data>
+  <data name="strRequireContractToView" xml:space="preserve">
+    <value>Để tra cứu thông tin tiền Nước, vui lòng nhập Mã khách hàng (Mã KH) vào ô dưới đây</value>
+  </data>
+  <data name="strBack" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="strTTTD" xml:space="preserve">
+    <value>Thông tin tiền Nước</value>
+  </data>
+  <data name="strTTKH" xml:space="preserve">
+    <value>Thông tin khách hàng</value>
+  </data>
+  <data name="strTTDD" xml:space="preserve">
+    <value>Thông tin dùng Nước</value>
+  </data>
+  <data name="strCustomerName" xml:space="preserve">
+    <value>Tên khách hàng</value>
+  </data>
+  <data name="strAddress" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="strDivision" xml:space="preserve">
+    <value>Đơn vị quản lý</value>
+  </data>
+  <data name="strSHSD" xml:space="preserve">
+    <value>Số hộ sử dụng</value>
+  </data>
+  <data name="strPeriod" xml:space="preserve">
+    <value>Kỳ</value>
+  </data>
+  <data name="strMonth" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="strYear" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="strHSN" xml:space="preserve">
+    <value>HSN</value>
+  </data>
+  <data name="strOld" xml:space="preserve">
+    <value>CS Cũ</value>
+  </data>
+  <data name="strNew" xml:space="preserve">
+    <value>CS Mới</value>
+  </data>
+  <data name="strKWUsed" xml:space="preserve">
+    <value>Nước tiêu thụ</value>
+  </data>
+  <data name="strAmount" xml:space="preserve">
+    <value>Số tiền</value>
+  </data>
+  <data name="strPaid" xml:space="preserve">
+    <value>Đã nộp</value>
+  </data>
+  <data name="strOutStanding" xml:space="preserve">
+    <value>Còn nợ</value>
+  </data>
+  <data name="strPrint" xml:space="preserve">
+    <value>In trang</value>
+  </data>
+  <data name="strChange" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="strOldPass" xml:space="preserve">
+    <value>Mật khẩu cũ</value>
+  </data>
+  <data name="strNewPass" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="strChangePass" xml:space="preserve">
+    <value>Thay đổi mật khẩu</value>
+  </data>
+  <data name="strErrorInSetPass" xml:space="preserve">
+    <value>Xảy ra lỗi trong khi cập nhật mật khẩu mới!</value>
+  </data>
+  <data name="strWrongCurrentPass" xml:space="preserve">
+    <value>Mật khẩu hiện tại không chính xác, vui lòng kiểm tra lại!</value>
+  </data>
+  <data name="strChangePassSuccess" xml:space="preserve">
+    <value>Thay đổi mật khẩu thành công!</value>
+  </data>
+  <data name="strRegisterServiceSuccess" xml:space="preserve">
+    <value>Đăng ký dịch vụ thành công!</value>
+  </data>
+  <data name="strQ_RegisterService" xml:space="preserve">
+    <value>Bạn vừa đăng ký tài khoản trang web thành công. Bạn có muốn đăng ký các dịch vụ hỗ trợ của Nước lực bây giờ không?</value>
+  </data>
+  <data name="strRegisterSuccess" xml:space="preserve">
+    <value>Đăng ký tài khoản thành công! Xin mời tiếp tục đăng ký các dịch vụ hỗ trợ.</value>
+  </data>
+  <data name="strCreateAccSuccess" xml:space="preserve">
+    <value>Đã tạo mới thành công tài khoản người dùng {0} với mật khẩu mặc định {1}</value>
+  </data>
+  <data name="strConditionDate" xml:space="preserve">
+    <value>Thời điểm khách hàng đăng ký thông tin</value>
+  </data>
+  <data name="strConditionDateContract" xml:space="preserve">
+    <value>Thời điểm khách hàng đăng ký sử dụng Nước mới</value>
+  </data>
+  <data name="strFromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="strToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="strExport" xml:space="preserve">
+    <value>Xuất Excel</value>
+  </data>
+  <data name="strTelList" xml:space="preserve">
+    <value>DS Nước thoại khách hàng</value>
+  </data>
+  <data name="strContractList" xml:space="preserve">
+    <value>Danh sách hợp đồng mới</value>
+  </data>
+  <data name="strNote_RegisterContract" xml:space="preserve">
+    <value>Quý khách hàng vui lòng nhập đầy đủ thông tin bên dưới</value>
+  </data>
+  <data name="strTypeRegister" xml:space="preserve">
+    <value>Loại đăng ký</value>
+  </data>
+  <data name="strStatus" xml:space="preserve">
+    <value>Tình trạng</value>
+  </data>
+  <data name="strCustomerCode" xml:space="preserve">
+    <value>Mã khách hàng</value>
+  </data>
+  <data name="strPha" xml:space="preserve">
+    <value>Cấp pha</value>
+  </data>
+  <data name="strPurpose" xml:space="preserve">
+    <value>Mục đích</value>
+  </data>
+  <data name="strContactAddress" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="strPlaceIssue" xml:space="preserve">
+    <value>Nơi cấp</value>
+  </data>
+  <data name="strDateIssue" xml:space="preserve">
+    <value>Ngày cấp</value>
+  </data>
+  <data name="strCMND" xml:space="preserve">
+    <value>Số CMND</value>
+  </data>
+  <data name="strContactName" xml:space="preserve">
+    <value>Người liên hệ</value>
+  </data>
+  <data name="strDistrict" xml:space="preserve">
+    <value>Quận/Huyện</value>
+  </data>
+  <data name="strWard" xml:space="preserve">
+    <value>Phường/Xã</value>
+  </data>
+  <data name="strStreet" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="strName" xml:space="preserve">
+    <value>Họ tên/Cơ quan</value>
+  </data>
+  <data name="strNewThread" xml:space="preserve">
+    <value>Gửi câu hỏi</value>
+  </data>
+  <data name="strSession" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="strTitleThread" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="strThreadMessage" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="strSubmit" xml:space="preserve">
+    <value>Gửi câu hỏi</value>
+  </data>
+  <data name="strPostThreadSuccess" xml:space="preserve">
+    <value>Gửi câu hỏi thành công</value>
+  </data>
+  <data name="PageIndex" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="strFirst" xml:space="preserve">
+    <value>Đầu</value>
+  </data>
+  <data name="strLast" xml:space="preserve">
+    <value>Cuối</value>
+  </data>
+  <data name="strPostAnswerSuccess" xml:space="preserve">
+    <value>Trả lời câu hỏi thành công</value>
+  </data>
+  <data name="strReply" xml:space="preserve">
+    <value>Trả lời</value>
+  </data>
+  <data name="strDateReply" xml:space="preserve">
+    <value>Ngày trả lời</value>
+  </data>
+  <data name="strContentReply" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="strContentQuestion" xml:space="preserve">
+    <value>Nội dung câu hỏi</value>
+  </data>
+  <data name="strConfirmPublic" xml:space="preserve">
+    <value>Bạn đã chắc chắn để chuyển câu hỏi này cho toàn bộ hệ thống xem chưa?</value>
+  </data>
+  <data name="strConfirmDelete" xml:space="preserve">
+    <value>Bạn đã chắc chắn để ẩn đi câu hỏi này đối với mọi người dùng chưa?</value>
+  </data>
+  <data name="strSelectBank" xml:space="preserve">
+    <value>Chọn ngân hàng</value>
+  </data>
+  <data name="strUpdate" xml:space="preserve">
+    <value>Hiệu chỉnh</value>
+  </data>
+  <data name="strKySudung" xml:space="preserve">
+    <value>Kỳ sử dụng</value>
+  </data>
+  <data name="strThang" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="strNam" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="strChisoMoi" xml:space="preserve">
+    <value>CS Mới</value>
+  </data>
+  <data name="strXemtiendien" xml:space="preserve">
+    <value>Xem tiền Nước</value>
+  </data>
+  <data name="strComparisionchart" xml:space="preserve">
+    <value>Biểu đồ so sánh</value>
+  </data>
+  <data name="strSettlement" xml:space="preserve">
+    <value>Thanh toán tiền Nước</value>
+  </data>
+  <data name="strLastYear" xml:space="preserve">
+    <value>Năm trước</value>
+  </data>
+  <data name="strThisYear" xml:space="preserve">
+    <value>Năm nay</value>
+  </data>
+  <data name="strChart" xml:space="preserve">
+    <value>Biểu đồ so sánh tiền Nước</value>
+  </data>
+  <data name="strNo" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="strStartPeriod" xml:space="preserve">
+    <value>Ngày đầu kỳ</value>
+  </data>
+  <data name="strEndPeriod" xml:space="preserve">
+    <value>Ngày cuối kỳ</value>
+  </data>
+  <data name="strChisocuoi" xml:space="preserve">
+    <value>Chỉ số cuối kỳ</value>
+  </data>
+  <data name="strDateUpdate" xml:space="preserve">
+    <value>Ngày cập nhật</value>
+  </data>
+  <data name="strSave" xml:space="preserve">
+    <value>Lưu lại</value>
+  </data>
+  <data name="strCancel" xml:space="preserve">
+    <value>Bỏ qua</value>
+  </data>
+  <data name="strBTDCNTTTT" xml:space="preserve">
+    <value>Theo dõi cá nhân chỉ số Nước hàng tháng</value>
+  </data>
+  <data name="strLanguageKey" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="strDVT" xml:space="preserve">
+    <value>Đơn vị tính: Ngàn đồng</value>
+  </data>
+  <data name="strNoteForTiendienField" xml:space="preserve">
+    <value>Để xác minh tính chính xác của người đang đăng ký tài khoản người dùng cho mã số hợp đồng này, xin bạn vui lòng cung cấp thêm thông tin tiền Nước của một trong ba tháng gần đây nhất.</value>
+  </data>
+  <data name="strUserManage" xml:space="preserve">
+    <value>Quản lý người dùng</value>
+  </data>
+  <data name="strResetPass" xml:space="preserve">
+    <value>Tạo mới mật khẩu</value>
+  </data>
+  <data name="strConfirmChangePass" xml:space="preserve">
+    <value>Bạn có chắc chắn tạo lại mật khẩu cho người dùng bằng mật khẩu mặc định không?</value>
+  </data>
+  <data name="strAddUser" xml:space="preserve">
+    <value>Thêm người dùng</value>
+  </data>
+  <data name="strAdd" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="strTypeUser" xml:space="preserve">
+    <value>Kiểu người dùng</value>
+  </data>
+  <data name="strMaKH" xml:space="preserve">
+    <value>Mã khách hàng</value>
+  </data>
+  <data name="strDonVi" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="strDienluc" xml:space="preserve">
+    <value>Nước lực</value>
+  </data>
+  <data name="strMatkhaumoi" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="strAdmin" xml:space="preserve">
+    <value>Quản trị</value>
+  </data>
+  <data name="strCustomer" xml:space="preserve">
+    <value>Khách hàng</value>
+  </data>
+  <data name="strDifferentDV" xml:space="preserve">
+    <value>Mã số khách hàng này không thuộc công ty Nước lực đã chọn, vui lòng chọn lại</value>
+  </data>
+  <data name="strChooseCompany" xml:space="preserve">
+    <value>Chọn công ty</value>
+  </data>
+  <data name="strChooseDistrict" xml:space="preserve">
+    <value>Chọn quận/huyện</value>
+  </data>
+  <data name="strChooseDienluc" xml:space="preserve">
+    <value>Chọn Nước lực</value>
+  </data>
+  <data name="strUsernameOrMaKH" xml:space="preserve">
+    <value>Tên đăng nhập/Mã KH</value>
+  </data>
+  <data name="strSearchValue" xml:space="preserve">
+    <value>Giá trị tìm kiếm...</value>
+  </data>
+  <data name="strRequiredField" xml:space="preserve">
+    <value>Thông tin có dấu (*) là thông tin bắt buộc phải nhập</value>
+  </data>
+  <data name="strMoi" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="strTach" xml:space="preserve">
+    <value>Tách</value>
+  </data>
+  <data name="strDungchung" xml:space="preserve">
+    <value>Dùng chung công tơ</value>
+  </data>
+  <data name="strCheckMeter" xml:space="preserve">
+    <value>Kiểm tra công tơ</value>
+  </data>
+  <data name="strMoveMeter" xml:space="preserve">
+    <value>Di dời công tơ</value>
+  </data>
+  <data name="strInstructDate" xml:space="preserve">
+    <value>(dd/mm/yyyy)</value>
+  </data>
+  <data name="strSinhhoat" xml:space="preserve">
+    <value>Sinh hoạt</value>
+  </data>
+  <data name="strSanxuat" xml:space="preserve">
+    <value>Sản xuất</value>
+  </data>
+  <data name="strKinhdoanh" xml:space="preserve">
+    <value>Kinh doanh</value>
+  </data>
+  <data name="strOther" xml:space="preserve">
+    <value>Khác...</value>
+  </data>
+  <data name="strChuacodien" xml:space="preserve">
+    <value>Chưa có Nước</value>
+  </data>
+  <data name="strEmptyTable" xml:space="preserve">
+    <value>Không có dữ liệu, vui lòng chọn lại điều kiện tìm kiếm</value>
+  </data>
+  <data name="strContentAnswer" xml:space="preserve">
+    <value>Nội dung trả lời</value>
+  </data>
+  <data name="strSurveyManage" xml:space="preserve">
+    <value>Quản lý danh mục thư</value>
+  </data>
+  <data name="strConfirmPublicSurvey" xml:space="preserve">
+    <value>Bạn có chắc chắn mở thư khảo sát này cho khách hàng không?</value>
+  </data>
+  <data name="strConfirmLockSurvey" xml:space="preserve">
+    <value>Bạn có chắc chắn khóa thư khảo sát này lại không?</value>
+  </data>
+  <data name="strConfirmReOpenSurvey" xml:space="preserve">
+    <value>Bạn có chắc chắn mở lại thư khảo sát này không?</value>
+  </data>
+  <data name="strCompose" xml:space="preserve">
+    <value>Biên soạn</value>
+  </data>
+  <data name="strAddSurvey" xml:space="preserve">
+    <value>Khảo sát mới</value>
+  </data>
+  <data name="strPublicSurveySuccess" xml:space="preserve">
+    <value>Đã mở thư thành công</value>
+  </data>
+  <data name="strLockSurveySuccess" xml:space="preserve">
+    <value>Đã khóa thư thành công</value>
+  </data>
+  <data name="strReOpenSurveySuccess" xml:space="preserve">
+    <value>Đã mở lại thư thành công</value>
+  </data>
+  <data name="strStartDate" xml:space="preserve">
+    <value>Ngày bắt đầu</value>
+  </data>
+  <data name="strEndDate" xml:space="preserve">
+    <value>Ngày kết thúc</value>
+  </data>
+  <data name="strSurveyName" xml:space="preserve">
+    <value>Tên thư</value>
+  </data>
+  <data name="strDatePublic" xml:space="preserve">
+    <value>Ngày mở</value>
+  </data>
+  <data name="strDatePublicLock" xml:space="preserve">
+    <value>Ngày mở/khóa</value>
+  </data>
+  <data name="strDateLock" xml:space="preserve">
+    <value>Ngày khóa</value>
+  </data>
+  <data name="strPublicOrLock" xml:space="preserve">
+    <value>Mở/Khóa</value>
+  </data>
+  <data name="strChuaHoanThanh" xml:space="preserve">
+    <value>Đang soạn thảo</value>
+  </data>
+  <data name="strDangKhaoSat" xml:space="preserve">
+    <value>Đang khảo sát</value>
+  </data>
+  <data name="strDaSoanXong" xml:space="preserve">
+    <value>Soạn thảo xong</value>
+  </data>
+  <data name="strDaKhoa" xml:space="preserve">
+    <value>Đã khóa</value>
+  </data>
+  <data name="strSurveyNotFinish" xml:space="preserve">
+    <value>Thư chưa soạn thảo xong, không được phép mở hoặc khóa!</value>
+  </data>
+  <data name="strCauhoi" xml:space="preserve">
+    <value>CH</value>
+  </data>
+  <data name="strDelete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="strDefault" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="strCauTraLoi" xml:space="preserve">
+    <value>Câu trả lời</value>
+  </data>
+  <data name="strTypeAnswer" xml:space="preserve">
+    <value>Loại câu trả lời</value>
+  </data>
+  <data name="strOptional" xml:space="preserve">
+    <value>Chọn một</value>
+  </data>
+  <data name="strMultiCheck" xml:space="preserve">
+    <value>Chọn nhiều</value>
+  </data>
+  <data name="strConfirmDeleteAnswer" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa câu trả lời này ra khỏi danh sách không?</value>
+  </data>
+  <data name="strConfirmDeleteQuestion" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa câu hỏi này không?</value>
+  </data>
+  <data name="strThongtinkhaosat" xml:space="preserve">
+    <value>Thông tin khảo sát</value>
+  </data>
+  <data name="strDanhsachcauthoi" xml:space="preserve">
+    <value>Danh sách câu hỏi</value>
+  </data>
+  <data name="strVotingSuccess" xml:space="preserve">
+    <value>Bình chọn thành công!</value>
+  </data>
+  <data name="strVotingFailed" xml:space="preserve">
+    <value>Bình chọn chưa thành công!</value>
+  </data>
+  <data name="strSonguoibinhchon" xml:space="preserve">
+    <value>Số người bình chọn</value>
+  </data>
+  <data name="strAddNewQuestion" xml:space="preserve">
+    <value>Thêm mới câu hỏi</value>
+  </data>
+  <data name="strContent" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="strTypeQuestion" xml:space="preserve">
+    <value>Loại câu hỏi</value>
+  </data>
+  <data name="strDanhsachcautraloi" xml:space="preserve">
+    <value>Danh sách câu trả lời</value>
+  </data>
+  <data name="strFinishSurvey" xml:space="preserve">
+    <value>Hoàn thành thư</value>
+  </data>
+  <data name="strSurveyAlreadyPublic" xml:space="preserve">
+    <value>Thư này đã được công bố đến khách hàng, không được thay đổi nội dung!</value>
+  </data>
+  <data name="strChuaCoCauHoiNao" xml:space="preserve">
+    <value>Bạn không được hoàn thành thư khi chưa có câu hỏi.</value>
+  </data>
+  <data name="strCauHoiChuaCoCauTraLoi" xml:space="preserve">
+    <value>Vui lòng kiểm tra lại, mỗi câu hỏi phải có nhiều hơn một câu trả lời.</value>
+  </data>
+  <data name="strReEdit" xml:space="preserve">
+    <value>Soạn lại thư</value>
+  </data>
+  <data name="strResult" xml:space="preserve">
+    <value>Kết quả</value>
+  </data>
+  <data name="strCustomerSurvey" xml:space="preserve">
+    <value>Khảo sát thư</value>
+  </data>
+  <data name="strBanDaVoting" xml:space="preserve">
+    <value>Bạn đã bình chọn cho thư khảo sát này rồi</value>
+  </data>
+  <data name="strRemindChooseSurvey" xml:space="preserve">
+    <value>Vui lòng chọn thư để thực hiện bình chọn</value>
+  </data>
+  <data name="strUseTemplete" xml:space="preserve">
+    <value>Sử dụng bộ trả lời mẫu</value>
+  </data>
+  <data name="strDonTemplete" xml:space="preserve">
+    <value>Chọn mẫu</value>
+  </data>
+  <data name="strNewContractManage" xml:space="preserve">
+    <value>Quản lý hợp đồng mua bán Nước</value>
+  </data>
+  <data name="strNotYetApproved" xml:space="preserve">
+    <value>Chưa phân bổ</value>
+  </data>
+  <data name="strAlreadyApproved" xml:space="preserve">
+    <value>Đã phân bổ</value>
+  </data>
+  <data name="strMap" xml:space="preserve">
+    <value>Bản đồ</value>
+  </data>
+  <data name="strAllocateAll" xml:space="preserve">
+    <value>Phân bổ (All)</value>
+  </data>
+  <data name="strAllocate" xml:space="preserve">
+    <value>Phân bổ</value>
+  </data>
+  <data name="strPleaseSelect" xml:space="preserve">
+    <value>Vui lòng đánh dấu vào ô bên cạnh</value>
+  </data>
+  <data name="strDienLucOrDistrict" xml:space="preserve">
+    <value>Chọn Quận/Huyện/Nước lực</value>
+  </data>
+  <data name="strTitleChangePassword" xml:space="preserve">
+    <value>Xin vui lòng nhập lại mật khẩu cũ và mật khẩu mới để thay đổi.</value>
+  </data>
+  <data name="strTitleSignIn" xml:space="preserve">
+    <value>Vui lòng đăng nhập hệ thống để được truy cập trang này</value>
+  </data>
+  <data name="imgGioithieu" xml:space="preserve">
+    <value>Images/Gioithieu.png</value>
+  </data>
+  <data name="strAddressValue" xml:space="preserve">
+    <value>Địa chỉ: 103 Bùi Thị Xuân, Thành phố Huế  - Điện thoại: +84+234.3833710 - 3826217  - Fax:+84+234.3826580  - Email: info@huewaco.com.vn</value>
+  </data>
+  <data name="strLoginImages" xml:space="preserve">
+    <value>../Source/btn_login.png</value>
+  </data>
+  <data name="strMatKhau" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="strRemindPassword" xml:space="preserve">
+    <value>Quên mật khẩu?</value>
+  </data>
+  <data name="strSignOut" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="strTDTN" xml:space="preserve">
+    <value>Tiền Nước nhà bạn kỳ {0} tháng {1}/{2} : </value>
+  </data>
+  <data name="strTenNguoiDung" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="strWelcomeAdminOf" xml:space="preserve">
+    <value>Chào mừng admin </value>
+  </data>
+  <data name="strYourAccount" xml:space="preserve">
+    <value>Tài khoản của bạn</value>
+  </data>
+  <data name="strCNQL" xml:space="preserve">
+    <value>Chức năng quản lý</value>
+  </data>
+  <data name="strDKDVHT" xml:space="preserve">
+    <value>Đăng ký dịch vụ hỗ trợ</value>
+  </data>
+  <data name="strDVKH" xml:space="preserve">
+    <value>Dịch vụ khách hàng</value>
+  </data>
+  <data name="strTTC" xml:space="preserve">
+    <value>Thông tin chung</value>
+  </data>
+  <data name="strGioithieu1" xml:space="preserve">
+    <value>Tổng công ty Nước lực miền Trung (EVNCPC) mà trước đây là Công ty Nước lực 3, được thành lập vào ngày 07/10/1975, 
+            là doanh nghiệp thành viên thuộc Tập đoàn Nước lực Việt Nam (EVN), hoạt động đa ngành nghề trong đó ngành nghề chính là sản xuất và kinh doanh Nước trên địa bàn 13 tỉnh, thành phố duyên hải miền Trung, Tây Nguyên.</value>
+  </data>
+  <data name="strGioithieu2" xml:space="preserve">
+    <value>Tổng công ty Nước lực miền Trung (tên viết tắt là EVNCPC) chính thức được thành lập theo Quyết định số 739/QĐ-BCT của Bộ Công Thương vào ngày 05.02.2010 trên cơ sở chuyển đổi mô hình hoạt động của Công ty Nước lực 3 trước đây. Hơn 36 năm qua, EVNCPC không ngừng phát triển lớn mạnh. Buổi ban đầu, tài sản của Tổng công ty chỉ là những tổ máy diesel cũ kỹ và nhỏ lẻ, tổng công suất khả dụng chỉ khoảng vài chục MW; lưới Nước manh mún, cấp Nước áp cao nhất 15kV, tập trung ở nội thành, nội thị; Nước năng cung cấp trong toàn khu vực chưa đầy 100 triệu kWh. Đến nay, năm 2012, công suất Nước cung cấp cho toàn khu vực dự kiến đạt 1.785 MW, hệ thống lưới Nước các cấp Nước áp từ 110kV trở xuống đã vươn dài đến các địa phương, đã có 100% số huyện, 99,3% số xã, 97,25% số hộ nông thôn, miền núi dược sử dụng Nước lưới với tổng số khách hàng sử dụng Nước gần 2,8 triệu hộ. Nước năng thương phẩm năm 2011 đạt 9,062 tỷ kWh, năm 2012 ước đạt 10,220 tỷ kWh, tốc độ tăng trưởng bình quân hàng năm trên 12%. Nhằm giảm thiểu tỷ lệ Nước dùng truyền tải, phân phối EVNCPC đã thực hiện nhiều dự án cải tạo lưới Nước các thành phố, thị xã bằng nguồn vốn của mình và nguồn vốn vay của các tổ chức tín dụng quốc tế như WB, ADB, Sida, KfW...</value>
+  </data>
+  <data name="strImagesLogo" xml:space="preserve">
+    <value>Source/logo_banner_cpc.png</value>
+  </data>
+  <data name="strSupportOnline" xml:space="preserve">
+    <value>Hỗ trợ trực tuyến</value>
+  </data>
+  <data name="strPCuttingManage" xml:space="preserve">
+    <value>Quản lý lịch ngừng cung cấp Nước</value>
+  </data>
+  <data name="strAll" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="strConfirmDeletePC" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa lịch cắt Nước này ra khỏi danh sách không?</value>
+  </data>
+  <data name="strHeaderLine" xml:space="preserve">
+    <value>Mã Lộ trình</value>
+  </data>
+  <data name="strHeaderStation" xml:space="preserve">
+    <value>Mã trạm</value>
+  </data>
+  <data name="strHeaderTime1" xml:space="preserve">
+    <value>Từ...đến</value>
+  </data>
+  <data name="strHeaderTime2" xml:space="preserve">
+    <value>Từ...đến</value>
+  </data>
+  <data name="strTitleCollapse" xml:space="preserve">
+    <value>Thu gọn/Mở rộng</value>
+  </data>
+  <data name="strAddPCDate" xml:space="preserve">
+    <value>Thêm ngày mới</value>
+  </data>
+  <data name="strReason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="strEstimatedDate" xml:space="preserve">
+    <value>Ngày dự kiến</value>
+  </data>
+  <data name="strLichCatDien" xml:space="preserve">
+    <value>LỊCH CẮT Nước</value>
+  </data>
+  <data name="strNodeCode" xml:space="preserve">
+    <value>Lộ trình / Trạm</value>
+  </data>
+  <data name="strNodeName" xml:space="preserve">
+    <value>Lộ trình / Trạm</value>
+  </data>
+  <data name="strPCScheduleList" xml:space="preserve">
+    <value>Danh sách lịch cắt Nước</value>
+  </data>
+  <data name="strVuilongNhapthongtin" xml:space="preserve">
+    <value>Thông tin truy vấn dữ liệu</value>
+  </data>
+  <data name="strXem" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="strDanhsachLichGhi" xml:space="preserve">
+    <value>Danh sách lịch ghi Nước và thu tiền</value>
+  </data>
+  <data name="strHanThanhToan" xml:space="preserve">
+    <value>Hạn thanh toán</value>
+  </data>
+  <data name="strKy" xml:space="preserve">
+    <value>Kỳ</value>
+  </data>
+  <data name="strLichGhiChiSo" xml:space="preserve">
+    <value>Lịch ghi Nước và thu tiền</value>
+  </data>
+  <data name="strNgayGhi" xml:space="preserve">
+    <value>Ngày ghi chỉ số</value>
+  </data>
+  <data name="strNgayThu" xml:space="preserve">
+    <value>Ngày thu tiền</value>
+  </data>
+  <data name="strPhien" xml:space="preserve">
+    <value>Phiên</value>
+  </data>
+  <data name="strUploadSuccess" xml:space="preserve">
+    <value>Upload lịch cắt Nước thành công!</value>
+  </data>
+  <data name="strThongTinDangKy" xml:space="preserve">
+    <value>Thông tin khách hàng</value>
+  </data>
+  <data name="strThuTucCapDienVaBieuMau" xml:space="preserve">
+    <value>Thủ tục cấp Nước và biểu mẫu</value>
+  </data>
+  <data name="strChooseFile" xml:space="preserve">
+    <value>Chọn file</value>
+  </data>
+  <data name="strGuidetoImport" xml:space="preserve">
+    <value>Admin của các đơn vị Nước lực có thể nhập lịch cắt Nước bên dưới, hoặc có thể download file excel mẫu tại đây và sau đó nhập lịch cắt Nước vào file excel và tải lên hệ thống.</value>
+  </data>
+  <data name="strImportExcelTitle" xml:space="preserve">
+    <value>Upload lịch cắt Nước từ file excel</value>
+  </data>
+  <data name="strQuyen" xml:space="preserve">
+    <value>Quyền</value>
+  </data>
+  <data name="strSurveyList" xml:space="preserve">
+    <value>Danh sách thư khảo sát</value>
+  </data>
+  <data name="strUsersList" xml:space="preserve">
+    <value>Danh sách người dùng</value>
+  </data>
+  <data name="strNotCustomer" xml:space="preserve">
+    <value>Bạn không phải là khách hàng, vui lòng login lại với người dùng là khách hàng!</value>
+  </data>
+  <data name="strTTGiaDien" xml:space="preserve">
+    <value>Thông tin giá Nước</value>
+  </data>
+  <data name="strVoting" xml:space="preserve">
+    <value>Bình chọn</value>
+  </data>
+  <data name="strDieuKien" xml:space="preserve">
+    <value>Điều kiện tìm kiếm</value>
+  </data>
+  <data name="strSampleMaKH" xml:space="preserve">
+    <value>Ví dụ: PP09000814292</value>
+  </data>
+  <data name="strSampleTenKH" xml:space="preserve">
+    <value>Ví dụ: Nguyễn Văn Tình</value>
+  </data>
+  <data name="strSampleTenAbv" xml:space="preserve">
+    <value>Ví dụ: TinhNV</value>
+  </data>
+  <data name="strGioithieuPC01" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Quảng Bình</value>
+  </data>
+  <data name="strGioithieuPC02" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Quảng Trị</value>
+  </data>
+  <data name="strGioithieuPC03" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Thừa Thiên Huế</value>
+  </data>
+  <data name="strGioithieuPP" xml:space="preserve">
+    <value>Giới thiệu về Công ty TNHH MTV Nước lực Đà Nẵng</value>
+  </data>
+  <data name="strGioithieuPC05" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Quảng Nam</value>
+  </data>
+  <data name="strGioithieuPC06" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Quảng Ngãi</value>
+  </data>
+  <data name="strGioithieuPC07" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Bình Định</value>
+  </data>
+  <data name="strGioithieuPC08" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Phú Yên</value>
+  </data>
+  <data name="strGioithieuPQ" xml:space="preserve">
+    <value>Giới thiệu về Công ty Cổ phần Nước lực Khánh Hòa</value>
+  </data>
+  <data name="strGioithieuPC10" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Gia Lai</value>
+  </data>
+  <data name="strGioithieuPC11" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Kon Tum</value>
+  </data>
+  <data name="strGioithieuPC12" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Đăk Lắk</value>
+  </data>
+  <data name="strGioithieuPC13" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Đăk Nông</value>
+  </data>
+  <data name="Failed1" xml:space="preserve">
+    <value>Cập nhập dữ liệu không thành công</value>
+  </data>
+  <data name="imgGioithieu1" xml:space="preserve">
+    <value>Images/Gioithieu.png</value>
+  </data>
+  <data name="Login1" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="PageIndex1" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="strAdd1" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="strAddNewQuestion1" xml:space="preserve">
+    <value>Thêm mới câu hỏi</value>
+  </data>
+  <data name="strAddPCDate1" xml:space="preserve">
+    <value>Thêm ngày mới</value>
+  </data>
+  <data name="strAddress1" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="strAddressValue1" xml:space="preserve">
+    <value>Địa chỉ: 103 Bùi Thị Xuân, Thành phố Huế  - Điện thoại: +84+234.3833710 - 3826217  - Fax:+84+234.3826580  - Email: info@huewaco.com.vn</value>
+  </data>
+  <data name="strAddSurvey1" xml:space="preserve">
+    <value>Khảo sát mới</value>
+  </data>
+  <data name="strAddUser1" xml:space="preserve">
+    <value>Thêm người dùng</value>
+  </data>
+  <data name="strAdmin1" xml:space="preserve">
+    <value>Quản trị</value>
+  </data>
+  <data name="strAll1" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="strAllocate1" xml:space="preserve">
+    <value>Phân bổ</value>
+  </data>
+  <data name="strAllocateAll1" xml:space="preserve">
+    <value>Phân bổ (All)</value>
+  </data>
+  <data name="strAlreadyApproved1" xml:space="preserve">
+    <value>Đã phân bổ</value>
+  </data>
+  <data name="strAmount1" xml:space="preserve">
+    <value>Số tiền</value>
+  </data>
+  <data name="strAuthorCode1" xml:space="preserve">
+    <value>Mã xác thực</value>
+  </data>
+  <data name="strBack1" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="strBanDaVoting1" xml:space="preserve">
+    <value>Bạn đã bình chọn cho thư khảo sát này rồi</value>
+  </data>
+  <data name="strBank1" xml:space="preserve">
+    <value>Ngân hàng</value>
+  </data>
+  <data name="strBankAccount1" xml:space="preserve">
+    <value>Tài khoản ngân hàng</value>
+  </data>
+  <data name="strBTDCNTTTT1" xml:space="preserve">
+    <value>Theo dõi cá nhân chỉ số Nước hàng tháng</value>
+  </data>
+  <data name="strCancel1" xml:space="preserve">
+    <value>Bỏ qua</value>
+  </data>
+  <data name="strCauhoi1" xml:space="preserve">
+    <value>CH</value>
+  </data>
+  <data name="strCauHoiChuaCoCauTraLoi1" xml:space="preserve">
+    <value>Vui lòng kiểm tra lại, mỗi câu hỏi phải có nhiều hơn một câu trả lời.</value>
+  </data>
+  <data name="strCauTraLoi1" xml:space="preserve">
+    <value>Câu trả lời</value>
+  </data>
+  <data name="strCCTDL1" xml:space="preserve">
+    <value>Chọn công ty Nước lực</value>
+  </data>
+  <data name="strChange1" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="strChangePass1" xml:space="preserve">
+    <value>Thay đổi mật khẩu</value>
+  </data>
+  <data name="strChangePassSuccess1" xml:space="preserve">
+    <value>Thay đổi mật khẩu thành công!</value>
+  </data>
+  <data name="strChangePassword1" xml:space="preserve">
+    <value>THAY ĐỔI MẬT KHẨU</value>
+  </data>
+  <data name="strChart1" xml:space="preserve">
+    <value>Biểu đồ so sánh tiền Nước</value>
+  </data>
+  <data name="strCheckMeter1" xml:space="preserve">
+    <value>Kiểm tra công tơ</value>
+  </data>
+  <data name="strChisocuoi1" xml:space="preserve">
+    <value>Chỉ số cuối kỳ</value>
+  </data>
+  <data name="strChisoMoi1" xml:space="preserve">
+    <value>CS Mới</value>
+  </data>
+  <data name="strChooseCompany1" xml:space="preserve">
+    <value>Chọn công ty</value>
+  </data>
+  <data name="strChooseDienluc1" xml:space="preserve">
+    <value>Chọn Nước lực</value>
+  </data>
+  <data name="strChooseDistrict1" xml:space="preserve">
+    <value>Chọn quận/huyện</value>
+  </data>
+  <data name="strChooseFile1" xml:space="preserve">
+    <value>Chọn file</value>
+  </data>
+  <data name="strChuaCoCauHoiNao1" xml:space="preserve">
+    <value>Bạn không được hoàn thành thư khi chưa có câu hỏi.</value>
+  </data>
+  <data name="strChuacodien1" xml:space="preserve">
+    <value>Chưa có Nước</value>
+  </data>
+  <data name="strChuaHoanThanh1" xml:space="preserve">
+    <value>Đang soạn thảo</value>
+  </data>
+  <data name="strCMND1" xml:space="preserve">
+    <value>Số CMND</value>
+  </data>
+  <data name="strCNQL1" xml:space="preserve">
+    <value>Chức năng quản lý</value>
+  </data>
+  <data name="strComparisionchart1" xml:space="preserve">
+    <value>Biểu đồ so sánh</value>
+  </data>
+  <data name="strCompose1" xml:space="preserve">
+    <value>Biên soạn</value>
+  </data>
+  <data name="strConditionDate1" xml:space="preserve">
+    <value>Thời điểm khách hàng đăng ký thông tin</value>
+  </data>
+  <data name="strConditionDateContract1" xml:space="preserve">
+    <value>Thời điểm khách hàng đăng ký sử dụng Nước mới</value>
+  </data>
+  <data name="strConfirmChangePass1" xml:space="preserve">
+    <value>Bạn có chắc chắn tạo lại mật khẩu cho người dùng bằng mật khẩu mặc định không?</value>
+  </data>
+  <data name="strConfirmDelete1" xml:space="preserve">
+    <value>Bạn đã chắc chắn để ẩn đi câu hỏi này đối với mọi người dùng chưa?</value>
+  </data>
+  <data name="strConfirmDeleteAnswer1" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa câu trả lời này ra khỏi danh sách không?</value>
+  </data>
+  <data name="strConfirmDeletePC1" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa lịch cắt Nước này ra khỏi danh sách không?</value>
+  </data>
+  <data name="strConfirmDeleteQuestion1" xml:space="preserve">
+    <value>Bạn có chắc chắn xóa câu hỏi này không?</value>
+  </data>
+  <data name="strConfirmLockSurvey1" xml:space="preserve">
+    <value>Bạn có chắc chắn khóa thư khảo sát này lại không?</value>
+  </data>
+  <data name="strConfirmPublic1" xml:space="preserve">
+    <value>Bạn đã chắc chắn để chuyển câu hỏi này cho toàn bộ hệ thống xem chưa?</value>
+  </data>
+  <data name="strConfirmPublicSurvey1" xml:space="preserve">
+    <value>Bạn có chắc chắn mở thư khảo sát này cho khách hàng không?</value>
+  </data>
+  <data name="strConfirmReOpenSurvey1" xml:space="preserve">
+    <value>Bạn có chắc chắn mở lại thư khảo sát này không?</value>
+  </data>
+  <data name="strContactAddress1" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="strContactName1" xml:space="preserve">
+    <value>Người liên hệ</value>
+  </data>
+  <data name="strContent1" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="strContentAnswer1" xml:space="preserve">
+    <value>Nội dung trả lời</value>
+  </data>
+  <data name="strContentQuestion1" xml:space="preserve">
+    <value>Nội dung câu hỏi</value>
+  </data>
+  <data name="strContentReply1" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="strContractList1" xml:space="preserve">
+    <value>Danh sách hợp đồng mới</value>
+  </data>
+  <data name="strContractNumber1" xml:space="preserve">
+    <value>Mã số hợp đồng</value>
+  </data>
+  <data name="strCPCAddress1" xml:space="preserve">
+    <value>Địa chỉ: 393 Trưng Nữ Vương - Thành phố Đà Nẵng | Nước thoại: 84-511-2220808</value>
+  </data>
+  <data name="strCreateAccSuccess1" xml:space="preserve">
+    <value>Đã tạo mới thành công tài khoản người dùng {0} với mật khẩu mặc định {1}</value>
+  </data>
+  <data name="strCustomer1" xml:space="preserve">
+    <value>Khách hàng</value>
+  </data>
+  <data name="strCustomerCode1" xml:space="preserve">
+    <value>Mã khách hàng</value>
+  </data>
+  <data name="strCustomerName1" xml:space="preserve">
+    <value>Tên khách hàng</value>
+  </data>
+  <data name="strCustomerSurvey1" xml:space="preserve">
+    <value>Khảo sát thư</value>
+  </data>
+  <data name="strDaKhoa1" xml:space="preserve">
+    <value>Đã khóa</value>
+  </data>
+  <data name="strDangKhaoSat1" xml:space="preserve">
+    <value>Đang khảo sát</value>
+  </data>
+  <data name="strDanhsachcauthoi1" xml:space="preserve">
+    <value>Danh sách câu hỏi</value>
+  </data>
+  <data name="strDanhsachcautraloi1" xml:space="preserve">
+    <value>Danh sách câu trả lời</value>
+  </data>
+  <data name="strDanhsachLichGhi1" xml:space="preserve">
+    <value>Danh sách lịch ghi Nước và thu tiền</value>
+  </data>
+  <data name="strDaSoanXong1" xml:space="preserve">
+    <value>Soạn thảo xong</value>
+  </data>
+  <data name="strDateIssue1" xml:space="preserve">
+    <value>Ngày cấp</value>
+  </data>
+  <data name="strDateLock1" xml:space="preserve">
+    <value>Ngày khóa</value>
+  </data>
+  <data name="strDatePublic1" xml:space="preserve">
+    <value>Ngày mở</value>
+  </data>
+  <data name="strDatePublicLock1" xml:space="preserve">
+    <value>Ngày mở/khóa</value>
+  </data>
+  <data name="strDateReply1" xml:space="preserve">
+    <value>Ngày trả lời</value>
+  </data>
+  <data name="strDateUpdate1" xml:space="preserve">
+    <value>Ngày cập nhật</value>
+  </data>
+  <data name="strDefault1" xml:space="preserve">
+    <value>Mặc định</value>
+  </data>
+  <data name="strDelete1" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="strDetailInfo" xml:space="preserve">
+    <value>Thông tin chi tiết</value>
+  </data>
+  <data name="strDienluc1" xml:space="preserve">
+    <value>Nước lực</value>
+  </data>
+  <data name="strDienLucOrDistrict1" xml:space="preserve">
+    <value>Chọn Quận/Huyện/Nước lực</value>
+  </data>
+  <data name="strDieuKien1" xml:space="preserve">
+    <value>Điều kiện tìm kiếm</value>
+  </data>
+  <data name="strDifferentDV1" xml:space="preserve">
+    <value>Mã số khách hàng này không thuộc công ty Nước lực đã chọn, vui lòng chọn lại</value>
+  </data>
+  <data name="strDistrict1" xml:space="preserve">
+    <value>Quận/Huyện</value>
+  </data>
+  <data name="strDivision1" xml:space="preserve">
+    <value>Đơn vị quản lý</value>
+  </data>
+  <data name="strDKDVHT1" xml:space="preserve">
+    <value>Đăng ký dịch vụ hỗ trợ</value>
+  </data>
+  <data name="strDonTemplete1" xml:space="preserve">
+    <value>Chọn mẫu</value>
+  </data>
+  <data name="strDonVi1" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="strDungchung1" xml:space="preserve">
+    <value>Dùng chung công tơ</value>
+  </data>
+  <data name="strDVKH1" xml:space="preserve">
+    <value>Dịch vụ khách hàng</value>
+  </data>
+  <data name="strDVT1" xml:space="preserve">
+    <value>Đơn vị tính: Ngàn đồng</value>
+  </data>
+  <data name="strEmail1" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="strEmptyTable1" xml:space="preserve">
+    <value>Không có dữ liệu, vui lòng chọn lại điều kiện tìm kiếm</value>
+  </data>
+  <data name="strEndDate1" xml:space="preserve">
+    <value>Ngày kết thúc</value>
+  </data>
+  <data name="strEndPeriod1" xml:space="preserve">
+    <value>Ngày cuối kỳ</value>
+  </data>
+  <data name="strErrorInSetPass1" xml:space="preserve">
+    <value>Xảy ra lỗi trong khi cập nhật mật khẩu mới!</value>
+  </data>
+  <data name="strEstimatedDate1" xml:space="preserve">
+    <value>Ngày dự kiến</value>
+  </data>
+  <data name="strExistContract1" xml:space="preserve">
+    <value>Mã số khách hàng này đã được đăng ký, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="strExistUsername1" xml:space="preserve">
+    <value>Tên truy cập này đã được đăng ký, vui lòng chọn tên khác.</value>
+  </data>
+  <data name="strExport1" xml:space="preserve">
+    <value>Xuất Excel</value>
+  </data>
+  <data name="strExportContract1" xml:space="preserve">
+    <value>DANH SÁCH ĐĂNG KÝ MUA Nước</value>
+  </data>
+  <data name="strExportExcel1" xml:space="preserve">
+    <value>XUẤT EXCEL FILE</value>
+  </data>
+  <data name="strFinishSurvey1" xml:space="preserve">
+    <value>Hoàn thành thư</value>
+  </data>
+  <data name="strFirst1" xml:space="preserve">
+    <value>Đầu</value>
+  </data>
+  <data name="strFromDate1" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="strGCSD1" xml:space="preserve">
+    <value>GHI CHỈ SỐ Nước</value>
+  </data>
+  <data name="strGioithieu11" xml:space="preserve">
+    <value>Tổng công ty Nước lực miền Trung (EVNCPC) mà trước đây là Công ty Nước lực 3, được thành lập vào ngày 07/10/1975, 
+            là doanh nghiệp thành viên thuộc Tập đoàn Nước lực Việt Nam (EVN), hoạt động đa ngành nghề trong đó ngành nghề chính là sản xuất và kinh doanh Nước trên địa bàn 13 tỉnh, thành phố duyên hải miền Trung, Tây Nguyên.</value>
+  </data>
+  <data name="strGioithieu21" xml:space="preserve">
+    <value>Tổng công ty Nước lực miền Trung (tên viết tắt là EVNCPC) chính thức được thành lập theo Quyết định số 739/QĐ-BCT của Bộ Công Thương vào ngày 05.02.2010 trên cơ sở chuyển đổi mô hình hoạt động của Công ty Nước lực 3 trước đây. Hơn 36 năm qua, EVNCPC không ngừng phát triển lớn mạnh. Buổi ban đầu, tài sản của Tổng công ty chỉ là những tổ máy diesel cũ kỹ và nhỏ lẻ, tổng công suất khả dụng chỉ khoảng vài chục MW; lưới Nước manh mún, cấp Nước áp cao nhất 15kV, tập trung ở nội thành, nội thị; Nước năng cung cấp trong toàn khu vực chưa đầy 100 triệu kWh. Đến nay, năm 2012, công suất Nước cung cấp cho toàn khu vực dự kiến đạt 1.785 MW, hệ thống lưới Nước các cấp Nước áp từ 110kV trở xuống đã vươn dài đến các địa phương, đã có 100% số huyện, 99,3% số xã, 97,25% số hộ nông thôn, miền núi dược sử dụng Nước lưới với tổng số khách hàng sử dụng Nước gần 2,8 triệu hộ. Nước năng thương phẩm năm 2011 đạt 9,062 tỷ kWh, năm 2012 ước đạt 10,220 tỷ kWh, tốc độ tăng trưởng bình quân hàng năm trên 12%. Nhằm giảm thiểu tỷ lệ Nước dùng truyền tải, phân phối EVNCPC đã thực hiện nhiều dự án cải tạo lưới Nước các thành phố, thị xã bằng nguồn vốn của mình và nguồn vốn vay của các tổ chức tín dụng quốc tế như WB, ADB, Sida, KfW...</value>
+  </data>
+  <data name="strGioithieuPC011" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Quảng Bình</value>
+  </data>
+  <data name="strGioithieuPC021" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Quảng Trị</value>
+  </data>
+  <data name="strGioithieuPC031" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Thừa Thiên Huế</value>
+  </data>
+  <data name="strGioithieuPC051" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Quảng Nam</value>
+  </data>
+  <data name="strGioithieuPC061" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Quảng Ngãi</value>
+  </data>
+  <data name="strGioithieuPC071" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Bình Định</value>
+  </data>
+  <data name="strGioithieuPC081" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Phú Yên</value>
+  </data>
+  <data name="strGioithieuPC101" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Gia Lai</value>
+  </data>
+  <data name="strGioithieuPC111" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Kon Tum</value>
+  </data>
+  <data name="strGioithieuPC121" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Đăk Lắk</value>
+  </data>
+  <data name="strGioithieuPC131" xml:space="preserve">
+    <value>Giới thiệu về Công ty Nước lực Đăk Nông</value>
+  </data>
+  <data name="strGioithieuPP1" xml:space="preserve">
+    <value>Giới thiệu về Công ty TNHH MTV Nước lực Đà Nẵng</value>
+  </data>
+  <data name="strGioithieuPQ1" xml:space="preserve">
+    <value>Giới thiệu về Công ty Cổ phần Nước lực Khánh Hòa</value>
+  </data>
+  <data name="strGuidetoImport1" xml:space="preserve">
+    <value>Admin của các đơn vị Nước lực có thể nhập lịch cắt Nước bên dưới, hoặc có thể download file excel mẫu tại đây và sau đó nhập lịch cắt Nước vào file excel và tải lên hệ thống.</value>
+  </data>
+  <data name="strHanThanhToan1" xml:space="preserve">
+    <value>Hạn thanh toán</value>
+  </data>
+  <data name="strHeaderLine1" xml:space="preserve">
+    <value>Mã Lộ trình</value>
+  </data>
+  <data name="strHeaderStation1" xml:space="preserve">
+    <value>Mã trạm</value>
+  </data>
+  <data name="strHeaderTime11" xml:space="preserve">
+    <value>Từ...đến</value>
+  </data>
+  <data name="strHeaderTime21" xml:space="preserve">
+    <value>Từ...đến</value>
+  </data>
+  <data name="strHere1" xml:space="preserve">
+    <value>đây</value>
+  </data>
+  <data name="strHSN1" xml:space="preserve">
+    <value>HSN</value>
+  </data>
+  <data name="strImagesLogo1" xml:space="preserve">
+    <value>Source/logo_banner_cpc.png</value>
+  </data>
+  <data name="strImportExcelTitle1" xml:space="preserve">
+    <value>Upload lịch cắt Nước từ file excel</value>
+  </data>
+  <data name="strInfoTheodoitiendocapdien" xml:space="preserve">
+    <value>Thông tin tra cứu</value>
+  </data>
+  <data name="strInputContractNumber1" xml:space="preserve">
+    <value>Mã số khách hàng</value>
+  </data>
+  <data name="strInstructDate1" xml:space="preserve">
+    <value>(dd/mm/yyyy)</value>
+  </data>
+  <data name="strKeyLanguage1" xml:space="preserve">
+    <value>vi-VN</value>
+  </data>
+  <data name="strKHPDK1" xml:space="preserve">
+    <value>Khách hàng phải đăng ký thông tin để nhận được các dịch vụ chăm sóc khách hàng thông qua các kênh.</value>
+  </data>
+  <data name="strKinhdoanh1" xml:space="preserve">
+    <value>Kinh doanh</value>
+  </data>
+  <data name="strKWUsed1" xml:space="preserve">
+    <value>Nước tiêu thụ</value>
+  </data>
+  <data name="strKy1" xml:space="preserve">
+    <value>Kỳ</value>
+  </data>
+  <data name="strKySudung1" xml:space="preserve">
+    <value>Kỳ sử dụng</value>
+  </data>
+  <data name="strLanguageKey1" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="strLast1" xml:space="preserve">
+    <value>Cuối</value>
+  </data>
+  <data name="strLastYear1" xml:space="preserve">
+    <value>Năm trước</value>
+  </data>
+  <data name="strLichCatDien1" xml:space="preserve">
+    <value>LỊCH CẮT Nước</value>
+  </data>
+  <data name="strLichGhiChiSo1" xml:space="preserve">
+    <value>Lịch ghi Nước và thu tiền</value>
+  </data>
+  <data name="strLockSurveySuccess1" xml:space="preserve">
+    <value>Đã khóa thư thành công</value>
+  </data>
+  <data name="strLoginImages1" xml:space="preserve">
+    <value>../Source/btn_login.png</value>
+  </data>
+  <data name="strMaKH1" xml:space="preserve">
+    <value>Mã khách hàng</value>
+  </data>
+  <data name="strMap1" xml:space="preserve">
+    <value>Bản đồ</value>
+  </data>
+  <data name="strMatKhau1" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="strMatkhaumoi1" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="strMoi1" xml:space="preserve">
+    <value>Mới</value>
+  </data>
+  <data name="strMonth1" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="strMoveMeter1" xml:space="preserve">
+    <value>Di dời công tơ</value>
+  </data>
+  <data name="strMultiCheck1" xml:space="preserve">
+    <value>Chọn nhiều</value>
+  </data>
+  <data name="strNam1" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="strName1" xml:space="preserve">
+    <value>Họ tên/Cơ quan</value>
+  </data>
+  <data name="strNew1" xml:space="preserve">
+    <value>CS Mới</value>
+  </data>
+  <data name="strNewContractManage1" xml:space="preserve">
+    <value>Quản lý hợp đồng mua bán Nước</value>
+  </data>
+  <data name="strNewPass1" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="strNewThread1" xml:space="preserve">
+    <value>Gửi câu hỏi</value>
+  </data>
+  <data name="strNgayGhi1" xml:space="preserve">
+    <value>Ngày ghi chỉ số</value>
+  </data>
+  <data name="strNgayThu1" xml:space="preserve">
+    <value>Ngày thu tiền</value>
+  </data>
+  <data name="strNo1" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="strNodeCode1" xml:space="preserve">
+    <value>Lộ trình / Trạm</value>
+  </data>
+  <data name="strNodeName1" xml:space="preserve">
+    <value>Lộ trình / Trạm</value>
+  </data>
+  <data name="strNotCustomer1" xml:space="preserve">
+    <value>Bạn không phải là khách hàng, vui lòng login lại với người dùng là khách hàng!</value>
+  </data>
+  <data name="strNote1" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="strNoteDesc1" xml:space="preserve">
+    <value>Nếu đã đăng ký tài khoản người dùng, vui lòng đăng nhập để truy cập được nhiều thông tin hơn. Nhấn vào</value>
+  </data>
+  <data name="strNoteForContractNumber1" xml:space="preserve">
+    <value>Mã Khách hàng là dãy 13 ký tự được in ở Giấy báo hoặc Hóa đơn tiền Nước - ví dụ: PP01014511079.</value>
+  </data>
+  <data name="strNoteForTiendienField1" xml:space="preserve">
+    <value>Để xác minh tính chính xác của người đang đăng ký tài khoản người dùng cho mã số hợp đồng này, xin bạn vui lòng cung cấp thêm thông tin tiền Nước của một trong ba tháng gần đây nhất.</value>
+  </data>
+  <data name="strNote_RegisterContract1" xml:space="preserve">
+    <value>Quý khách hàng vui lòng nhập đầy đủ thông tin bên dưới</value>
+  </data>
+  <data name="strNotYetApproved1" xml:space="preserve">
+    <value>Chưa phân bổ</value>
+  </data>
+  <data name="strOld1" xml:space="preserve">
+    <value>CS Cũ</value>
+  </data>
+  <data name="strOldPass1" xml:space="preserve">
+    <value>Mật khẩu cũ</value>
+  </data>
+  <data name="strOptional1" xml:space="preserve">
+    <value>Chọn một</value>
+  </data>
+  <data name="strOther1" xml:space="preserve">
+    <value>Khác...</value>
+  </data>
+  <data name="strOutStanding1" xml:space="preserve">
+    <value>Còn nợ</value>
+  </data>
+  <data name="strPaid1" xml:space="preserve">
+    <value>Đã nộp</value>
+  </data>
+  <data name="strPassword1" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="strPCScheduleList1" xml:space="preserve">
+    <value>Danh sách lịch cắt Nước</value>
+  </data>
+  <data name="strPCuttingManage1" xml:space="preserve">
+    <value>Quản lý lịch ngừng cung cấp Nước</value>
+  </data>
+  <data name="strPeriod1" xml:space="preserve">
+    <value>Kỳ</value>
+  </data>
+  <data name="strPha1" xml:space="preserve">
+    <value>Cấp pha</value>
+  </data>
+  <data name="strPhien1" xml:space="preserve">
+    <value>Phiên</value>
+  </data>
+  <data name="strPlaceIssue1" xml:space="preserve">
+    <value>Nơi cấp</value>
+  </data>
+  <data name="strPleaseSelect1" xml:space="preserve">
+    <value>Vui lòng đánh dấu vào ô bên cạnh</value>
+  </data>
+  <data name="strPostAnswerSuccess1" xml:space="preserve">
+    <value>Trả lời câu hỏi thành công</value>
+  </data>
+  <data name="strPostThreadSuccess1" xml:space="preserve">
+    <value>Gửi câu hỏi thành công</value>
+  </data>
+  <data name="strPrint1" xml:space="preserve">
+    <value>In trang</value>
+  </data>
+  <data name="strPublicOrLock1" xml:space="preserve">
+    <value>Mở/Khóa</value>
+  </data>
+  <data name="strPublicSurveySuccess1" xml:space="preserve">
+    <value>Đã mở thư thành công</value>
+  </data>
+  <data name="strPurpose1" xml:space="preserve">
+    <value>Mục đích</value>
+  </data>
+  <data name="strQuestion1" xml:space="preserve">
+    <value>Hỏi đáp và Góp ý</value>
+  </data>
+  <data name="strQuyen1" xml:space="preserve">
+    <value>Quyền</value>
+  </data>
+  <data name="strQ_RegisterService1" xml:space="preserve">
+    <value>Bạn vừa đăng ký tài khoản trang web thành công. Bạn có muốn đăng ký các dịch vụ hỗ trợ của Nước lực bây giờ không?</value>
+  </data>
+  <data name="strReason1" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="strReEdit1" xml:space="preserve">
+    <value>Soạn lại thư</value>
+  </data>
+  <data name="strRegis1" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="strRegisterContract1" xml:space="preserve">
+    <value>Đăng ký cấp Nước mới</value>
+  </data>
+  <data name="strRegisterCustomer1" xml:space="preserve">
+    <value>Đăng ký tài khoản khách hàng</value>
+  </data>
+  <data name="strRegisterService1" xml:space="preserve">
+    <value>Đăng ký dịch vụ sử dụng</value>
+  </data>
+  <data name="strRegisterServiceSuccess1" xml:space="preserve">
+    <value>Đăng ký dịch vụ thành công!</value>
+  </data>
+  <data name="strRegisterSuccess1" xml:space="preserve">
+    <value>Đăng ký tài khoản thành công! Xin mời tiếp tục đăng ký các dịch vụ hỗ trợ.</value>
+  </data>
+  <data name="strRemindChooseSurvey1" xml:space="preserve">
+    <value>Vui lòng chọn thư để thực hiện bình chọn</value>
+  </data>
+  <data name="strRemindPassword1" xml:space="preserve">
+    <value>Quên mật khẩu?</value>
+  </data>
+  <data name="strReOpenSurveySuccess1" xml:space="preserve">
+    <value>Đã mở lại thư thành công</value>
+  </data>
+  <data name="strReply1" xml:space="preserve">
+    <value>Trả lời</value>
+  </data>
+  <data name="strRequireContractToView1" xml:space="preserve">
+    <value>Để tra cứu thông tin tiền Nước, vui lòng nhập Mã khách hàng (Mã KH) vào ô dưới đây</value>
+  </data>
+  <data name="strRequiredField1" xml:space="preserve">
+    <value>Thông tin có dấu (*) là thông tin bắt buộc phải nhập</value>
+  </data>
+  <data name="strResetPass1" xml:space="preserve">
+    <value>Tạo mới mật khẩu</value>
+  </data>
+  <data name="strResult1" xml:space="preserve">
+    <value>Kết quả</value>
+  </data>
+  <data name="strRetypePassword1" xml:space="preserve">
+    <value>Nhập lại mật khẩu</value>
+  </data>
+  <data name="strSampleMaKH1" xml:space="preserve">
+    <value>Ví dụ: PP09000814292</value>
+  </data>
+  <data name="strSampleMaSoGCS" xml:space="preserve">
+    <value>Ví dụ: HEA</value>
+  </data>
+  <data name="strSampleTenAbv1" xml:space="preserve">
+    <value>Ví dụ: TinhNV</value>
+  </data>
+  <data name="strSampleTenKH1" xml:space="preserve">
+    <value>Ví dụ: Nguyễn Văn Tình</value>
+  </data>
+  <data name="strSanxuat1" xml:space="preserve">
+    <value>Sản xuất</value>
+  </data>
+  <data name="strSave1" xml:space="preserve">
+    <value>Lưu lại</value>
+  </data>
+  <data name="strSearchValue1" xml:space="preserve">
+    <value>Giá trị tìm kiếm...</value>
+  </data>
+  <data name="strSelectBank1" xml:space="preserve">
+    <value>Chọn ngân hàng</value>
+  </data>
+  <data name="strService1" xml:space="preserve">
+    <value>ĐĂNG KÝ DỊCH VỤ</value>
+  </data>
+  <data name="strServiceBankSettlement1" xml:space="preserve">
+    <value>Nhu cầu thu qua ngân hàng</value>
+  </data>
+  <data name="strServiceEmail1" xml:space="preserve">
+    <value>Gửi qua Email</value>
+  </data>
+  <data name="strServiceSMS1" xml:space="preserve">
+    <value>Gửi qua SMS</value>
+  </data>
+  <data name="strSession1" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="strSettlement1" xml:space="preserve">
+    <value>Thanh toán tiền Nước</value>
+  </data>
+  <data name="strSHSD1" xml:space="preserve">
+    <value>Số hộ sử dụng</value>
+  </data>
+  <data name="strSignIn1" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="strSignInInform1" xml:space="preserve">
+    <value>Vui lòng chọn một trong hai cách sau để xem tiền Nước</value>
+  </data>
+  <data name="strSignInTitle1" xml:space="preserve">
+    <value>Đăng nhập khách hàng</value>
+  </data>
+  <data name="strSignOut1" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="strSinhhoat1" xml:space="preserve">
+    <value>Sinh hoạt</value>
+  </data>
+  <data name="strSonguoibinhchon1" xml:space="preserve">
+    <value>Số người bình chọn</value>
+  </data>
+  <data name="strSSTDNT1" xml:space="preserve">
+    <value>SO SÁNH TIỀN Nước NĂM TRƯỚC</value>
+  </data>
+  <data name="strStartDate1" xml:space="preserve">
+    <value>Ngày bắt đầu</value>
+  </data>
+  <data name="strStartPeriod1" xml:space="preserve">
+    <value>Ngày đầu kỳ</value>
+  </data>
+  <data name="strStatus1" xml:space="preserve">
+    <value>Tình trạng</value>
+  </data>
+  <data name="strStreet1" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="strSubmit1" xml:space="preserve">
+    <value>Gửi câu hỏi</value>
+  </data>
+  <data name="strSupportOnline1" xml:space="preserve">
+    <value>Hỗ trợ trực tuyến</value>
+  </data>
+  <data name="strSurveyAlreadyPublic1" xml:space="preserve">
+    <value>Thư này đã được công bố đến khách hàng, không được thay đổi nội dung!</value>
+  </data>
+  <data name="strSurveyList1" xml:space="preserve">
+    <value>Danh sách thư khảo sát</value>
+  </data>
+  <data name="strSurveyManage1" xml:space="preserve">
+    <value>Quản lý danh mục thư</value>
+  </data>
+  <data name="strSurveyName1" xml:space="preserve">
+    <value>Tên thư</value>
+  </data>
+  <data name="strSurveyNotFinish1" xml:space="preserve">
+    <value>Thư chưa soạn thảo xong, không được phép mở hoặc khóa!</value>
+  </data>
+  <data name="strTach1" xml:space="preserve">
+    <value>Tách</value>
+  </data>
+  <data name="strTCTTTD1" xml:space="preserve">
+    <value>Tra cứu tiền Nước</value>
+  </data>
+  <data name="strTD1T3TGN1" xml:space="preserve">
+    <value>Tiền Nước 1 trong 3 tháng gần đây nhất</value>
+  </data>
+  <data name="strTDTN1" xml:space="preserve">
+    <value>Tiền Nước nhà bạn kỳ {0} tháng {1}/{2} : </value>
+  </data>
+  <data name="strTel1" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="strTelList1" xml:space="preserve">
+    <value>DS Nước thoại khách hàng</value>
+  </data>
+  <data name="strTenNguoiDung1" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="strThang1" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="strThisYear1" xml:space="preserve">
+    <value>Năm nay</value>
+  </data>
+  <data name="strThongTinDangKy1" xml:space="preserve">
+    <value>Thông tin khách hàng</value>
+  </data>
+  <data name="strThongtinkhaosat1" xml:space="preserve">
+    <value>Thông tin khảo sát</value>
+  </data>
+  <data name="strThreadMessage1" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="strThuTucCapDienVaBieuMau1" xml:space="preserve">
+    <value>Thủ tục cấp Nước và biểu mẫu</value>
+  </data>
+  <data name="strTitleChangePassword1" xml:space="preserve">
+    <value>Xin vui lòng nhập lại mật khẩu cũ và mật khẩu mới để thay đổi.</value>
+  </data>
+  <data name="strTitleCollapse1" xml:space="preserve">
+    <value>Thu gọn/Mở rộng</value>
+  </data>
+  <data name="strTitleSignIn1" xml:space="preserve">
+    <value>Vui lòng đăng nhập hệ thống để được truy cập trang này</value>
+  </data>
+  <data name="strTitleTheodoitiendo" xml:space="preserve">
+    <value>THEO DÕI TIẾN ĐỘ CUNG CẤP DỊCH VỤ</value>
+  </data>
+  <data name="strTitleThread1" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="strToDate1" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="strTracuu1" xml:space="preserve">
+    <value>Tra cứu</value>
+  </data>
+  <data name="strTTC1" xml:space="preserve">
+    <value>Thông tin chung</value>
+  </data>
+  <data name="strTTDD1" xml:space="preserve">
+    <value>Thông tin dùng Nước</value>
+  </data>
+  <data name="strTTGiaDien1" xml:space="preserve">
+    <value>Thông tin giá Nước</value>
+  </data>
+  <data name="strTTKH1" xml:space="preserve">
+    <value>Thông tin khách hàng</value>
+  </data>
+  <data name="strTTTD1" xml:space="preserve">
+    <value>Thông tin tiền Nước</value>
+  </data>
+  <data name="strTypeAnswer1" xml:space="preserve">
+    <value>Loại câu trả lời</value>
+  </data>
+  <data name="strTypeQuestion1" xml:space="preserve">
+    <value>Loại câu hỏi</value>
+  </data>
+  <data name="strTypeRegister1" xml:space="preserve">
+    <value>Loại đăng ký</value>
+  </data>
+  <data name="strTypeUser1" xml:space="preserve">
+    <value>Kiểu người dùng</value>
+  </data>
+  <data name="strUpdate1" xml:space="preserve">
+    <value>Hiệu chỉnh</value>
+  </data>
+  <data name="strUploadSuccess1" xml:space="preserve">
+    <value>Upload lịch cắt Nước thành công!</value>
+  </data>
+  <data name="strUserManage1" xml:space="preserve">
+    <value>Quản lý người dùng</value>
+  </data>
+  <data name="strUsername1" xml:space="preserve">
+    <value>Tên đăng nhập</value>
+  </data>
+  <data name="strUsernameOrMaKH1" xml:space="preserve">
+    <value>Tên đăng nhập/Mã KH</value>
+  </data>
+  <data name="strUsersList1" xml:space="preserve">
+    <value>Danh sách người dùng</value>
+  </data>
+  <data name="strUseTemplete1" xml:space="preserve">
+    <value>Sử dụng bộ trả lời mẫu</value>
+  </data>
+  <data name="strViewHistory1" xml:space="preserve">
+    <value>Xem tiền Nước</value>
+  </data>
+  <data name="strVoting1" xml:space="preserve">
+    <value>Bình chọn</value>
+  </data>
+  <data name="strVotingFailed1" xml:space="preserve">
+    <value>Bình chọn chưa thành công!</value>
+  </data>
+  <data name="strVotingSuccess1" xml:space="preserve">
+    <value>Bình chọn thành công!</value>
+  </data>
+  <data name="strVuilongNhapthongtin1" xml:space="preserve">
+    <value>Thông tin truy vấn dữ liệu</value>
+  </data>
+  <data name="strWard1" xml:space="preserve">
+    <value>Phường/Xã</value>
+  </data>
+  <data name="strWelcomeAdminOf1" xml:space="preserve">
+    <value>Chào mừng admin </value>
+  </data>
+  <data name="strWrongContractNumber1" xml:space="preserve">
+    <value>Mã khách hàng không hợp lệ, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="strWrongCurrentPass1" xml:space="preserve">
+    <value>Mật khẩu hiện tại không chính xác, vui lòng kiểm tra lại!</value>
+  </data>
+  <data name="strWrongMoney1" xml:space="preserve">
+    <value>Vui lòng kiểm tra lại chính xác số tiền nhập vào.</value>
+  </data>
+  <data name="strWrongPassword1" xml:space="preserve">
+    <value>Mật mã không chính xác, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="strWrongUsername1" xml:space="preserve">
+    <value>Tên truy cập không chính xác, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="strWrongVerifyCode1" xml:space="preserve">
+    <value>Mã xác thực chưa đúng.</value>
+  </data>
+  <data name="strXem1" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="strXemtiendien1" xml:space="preserve">
+    <value>Xem tiền Nước</value>
+  </data>
+  <data name="strYear1" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="strYourAccount1" xml:space="preserve">
+    <value>Tài khoản của bạn</value>
+  </data>
+  <data name="Success1" xml:space="preserve">
+    <value>Cập nhật dữ liệu thành công</value>
+  </data>
+</root>

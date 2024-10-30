@@ -1,0 +1,22 @@
+﻿#outter {width:947px; margin:0px auto; padding:0;}
+.topdo {height:30px;margin:0 auto;width:947px; background-color: #DDDDDD;}
+.Fbanner {height: 30px;margin:0 auto;width: 947px; background-color:#DDDDDD;}
+.Fbanner1 {-x-system-font:none;background: url('Img/backbor.png') repeat-x top;color:#FFFFFF;margin:0 auto;width:947px;}
+.font2 {font: 11px Tahoma;	text-decoration: none; color: #0066FF;}  
+.font3 {font: 11px Tahoma;	text-decoration: none; color: #eeeeee;}  
+.font3:hover { color:#152875}
+.font33 {font: 11px Tahoma; text-decoration: none; color: #000000;}  
+.font333 {font: 11px Tahoma; text-decoration: none; color: #000000;}  
+.font333:hover {color: #000000;}
+.fl {float:left;}
+.vach-1 {height: 25px; background: url('Img/A_menu2.jpg') repeat-y; }
+.just {text-align: justify;	}
+
+
+
+.cssThread
+{	
+	font-family: Verdana;	
+	Color:Gray;
+	Font-size:11px;
+}

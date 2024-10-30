@@ -1,0 +1,343 @@
+body {
+	background: url("../images/bg.png") repeat-x top rgb(0, 150, 223); font: 12px/normal Tahoma; margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+.CMISstyle .bodyContent_top {
+	background: url("../images/bg_shadown_top.png") no-repeat top; margin: 0px auto; padding: 0px; width: 1030px; height: 4px; text-align: center; _height: 0px;
+}
+.CMISstyle .bodyContent {
+	background: url("../images/bg_shadown_bg.png") repeat-y top; margin: 0px auto; width: 1030px; text-align: center; _padding: 0; _margin-top: -10px;
+}
+.CMISstyle .bodyContent_bottom {
+	background: url("../images/bg_shadown_bottom.png") no-repeat top; margin: 0px auto; padding: 0px; width: 1030px; height: 18px; text-align: center; _height: 30px;
+}
+
+
+
+.CMISstyle #container {
+	margin: 0px auto; width: 990px; text-align: left; background-color: rgb(255, 255, 255);
+}
+.CMISstyle #header {
+	background: url("../images/banner_bg.png") no-repeat top; margin: 0px auto; width: 990px; height: 95px; z-index: -99; _height: 95px;
+}
+.CMISstyle #header #languages {
+	float:right; width:210px; height:20px; text-align:right; color:White; margin-top:72px;
+}
+
+
+.CMISstyle #header #banner {
+	height: 71px; z-index: -2;
+}
+.CMISstyle #header #banner .banner_flash {
+	top: 0px; position: absolute; z-index: 0;
+}
+
+
+.menubar {
+	left: 600px; top: 0px; width: 590px; height: 24px; position: relative; z-index: 1; cursor: pointer;
+}
+.CMISstyle #header .menubar .menubar_select {
+	margin: 0px; padding: 0px; height: 24px;
+}
+.CMISstyle #header .menubar .menubar_select ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.CMISstyle #header .menubar .menubar_select li {
+	list-style: none; display: inline;
+}
+.CMISstyle #header .menubar .menubar_select li a {
+	background: url("../images/menubar_right.png") no-repeat right bottom; height: 24px; text-align: center; color: rgb(12, 62, 129); line-height: 24px; padding-right: 8px; font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: none; margin-left: 5px; vertical-align: bottom; float: left; display: block; cursor: pointer;
+}
+.CMISstyle #header .menubar .menubar_select li a:hover {
+	background: url("../images/menubar_right_hover.png") no-repeat right bottom; height: 24px; color: rgb(22, 67, 151); padding-right: 8px; text-decoration: none; display: block;
+}
+.CMISstyle #header .menubar .menubar_select li a span {
+	background: url("../images/menubar_left.png") no-repeat left bottom; height: 24px; padding-right: 8px; padding-left: 16px; float: left; display: block;
+}
+.CMISstyle #header .menubar .menubar_select li a:hover span {
+	background: url("../images/menubar_left_hover.png") no-repeat left bottom; height: 24px; padding-right: 8px; padding-left: 16px; display: block;
+}
+
+
+.CMISstyle #intro_panel {
+	background: url("../images/intro_bg.png") repeat-x left bottom; margin: 0px auto; width: 990px; height: 206px; _height: 206px; _margin-bottom: -10px;
+}
+.CMISstyle #intro_panel_bottom {
+	background: url("../images/intro_bottom.png") no-repeat left bottom; margin: 0px auto; width: 990px; height: 6px; _height: 6px;
+}
+.CMISstyle #intro_panel #login {
+	background: url("../images/login_bg.png") no-repeat left bottom; padding: 0px; width: 227px; height: 206px; margin-left: 3px; float: left; _height: 206px;
+}
+.login_body {
+	padding: 10px;
+}
+.login_body_line {
+	padding: 5px 0px; text-align: left;
+}
+.login_body_line_center {
+	padding: 5px 0px; text-align: center;
+}
+.login_capt_line {
+	padding: 1px 0px; text-align: left;
+}
+.login_succ_line {
+	font: bold 11px/normal Tahoma; padding: 3px 0px; width: 50%; text-align: left; color: rgb(0, 51, 0); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.login_body_line_right {
+	font: bold 11px/normal Tahoma; padding: 5px 0px; text-align: right; font-size-adjust: none; font-stretch: normal;
+}
+.login_input_text {
+	font: 11px/normal Tahoma; border: 1px solid Grey; color: Grey; padding-left: 3px; font-size-adjust: none; font-stretch: normal; 
+}
+.login_label_text {
+	font: 11px/normal Tahoma; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+.login_link_text {
+	font: 11px/normal Tahoma; color: rgb(51, 51, 51); text-decoration: underline; font-size-adjust: none; font-stretch: normal;
+}
+.login_link_text a {
+	color: rgb(51, 51, 51);
+}
+.login_link_text a:hover {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+.login_title {
+	font: bold 13px/normal Tahoma; padding: 0px; text-align: center; color: rgb(0, 51, 0); text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.login_textbox {
+	width: 98%; color: rgb(130, 130, 130); font-family: Tahoma;
+}
+
+.panel_line {
+	padding: 7px 0px; text-align: left;
+}
+.panel_line_right {
+	padding: 7px 0px; text-align: right;
+}
+.panel_label_text {
+	font: 11px/normal Tahoma; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+.panel_link_text {
+	font: 11px/normal Tahoma; color: rgb(51, 51, 51); text-decoration: underline; font-size-adjust: none; font-stretch: normal;
+}
+.panel_link_text a {
+	color: rgb(51, 51, 51);
+}
+.panel_link_text a:hover {
+	color: rgb(255, 0, 0); text-decoration: none;
+}
+.panel_title {
+	font: bold 13px/normal Tahoma; padding: 0px; text-align: center; color: rgb(51, 51, 51); text-transform: uppercase; font-size-adjust: none; font-stretch: normal;
+}
+.panel_icon {
+	padding-right: 5px; vertical-align: middle;
+}
+.CMISstyle #mainContent {
+	margin: 0px 0px 0px 0px; padding: 10px 0px 0px;
+}
+.CMISstyle #mainContent .main_home {
+	min-height: 750px;
+}
+.CMISstyle #mainContent .main_home .main_panel_top {
+	background: url("../images/main_top.png") no-repeat left top; margin: 0px auto; width: 745px; height: 4px;
+}
+.CMISstyle #mainContent .main_home .main_panel_bg {
+	background: url("../images/main_bg.png") repeat-y left; margin: 0px auto; width: 745px; height: auto !important; min-height: 750px; _margin-top: -10px; _margin-bottom: 0px;
+}
+.CMISstyle #mainContent .main_home .main_panel_bottom {
+	background: url("../images/main_bottom.png") no-repeat left top; margin: 0px auto; width: 745px; height: 4px; _height: 4px;
+}
+.CMISstyle #mainContent .main_body {
+	padding: 10px;
+}
+
+
+.CMISstyle #footer {
+	background: url("../images/bg_footer.png") no-repeat center top; padding: 0px; height: 51px; border-bottom-color: rgb(0, 124, 185); border-bottom-width: 6px; border-bottom-style: solid;
+}
+.CMISstyle #footer .footer_panel {
+	margin: 0px auto; padding: 30px 0px 10px; width: 982px;
+}
+.CMISstyle #footer .footer_panel .footer_text {
+	text-align: right; color: rgb(255, 255, 255); font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: none;
+}
+
+
+
+.vach-1 {height: 25px; background: url('Img/A_menu2.jpg') repeat-y; }
+.fl {float:left;}
+
+.fltrt {
+	margin-left: 8px; float: right;
+}
+.fltlft {
+	margin-right: 8px; float: left;
+}
+.clearfloat {
+	height: 0px; line-height: 0px; clear: both; font-size: 1px;
+}
+.CMISstyle #sidebar1 {
+	padding: 0px; width: 228px; margin-top: 10px; margin-left: 3px; float: left;
+}
+.CMISstyle #sidebar1 .left_panel {
+	padding-bottom: 10px; min-height: 20px;
+}
+.left_panel_top {
+	background-position: left; width: 228px; height: 4px; background-image: url("../images/left_panel_top.png"); background-repeat: no-repeat; _height: 4px;
+}
+.left_panel_main {
+	background-position: top; width: 228px; padding-top: 5px; padding-bottom: 5px; background-image: url("../images/left_panel_bg.png"); background-repeat: repeat-y; _margin-top: -5px; _margin-bottom: 0px;
+}
+.left_panel_bottom {
+	background-position: left; width: 228px; height: 4px; background-image: url("../images/left_panel_bottom.png"); background-repeat: no-repeat; _margin-top: -5px;
+}
+.left_menu_top {
+	background-position: left; width: 228px; height: 4px; background-image: url("../images/left_menu_top.png"); background-repeat: no-repeat; _margin-bottom: -5px;
+}
+.left_menu_main {
+	
+}
+.left_menu_bottom {
+	background-position: left; width: 228px; height: 11px; background-image: url("../images/left_menu_bottom.png"); background-repeat: no-repeat; _margin-top: -5px;
+}
+.panel_body {
+	padding: 5px 5px; min-height: 10px;
+}
+.logout_title {
+	font: bold 11px/normal Tahoma; text-align: center; color: rgb(30, 109, 255); text-transform: capitalize; text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+a.logout_title:active a.logout_title:link a.logout_title:visited {
+	font: bold 11px/normal Tahoma; text-align: center; color: rgb(30, 109, 255); text-transform: capitalize; text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+a.logout_title:link {
+	font: bold 11px/normal Tahoma; text-align: center; color: rgb(0, 102, 204); text-transform: capitalize; text-decoration: none; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+
+
+.LinkLanguage:link 
+{
+	font-family: Arial;
+    text-decoration:none;
+    Color:White;	
+    Font-size:11px;
+}
+.LinkLanguage:visited  
+{
+	font-family: Arial;
+    text-decoration:none;
+    Color:White;    
+    Font-size:11px;
+}
+.LinkLanguage:active   
+{
+	font-family: Arial;
+    text-decoration:none;
+    Color:White;    
+    Font-size:11px;
+}
+.LinkLanguage:hover
+{	
+	font-family: Arial;
+	text-decoration:underline;
+	Color:White;
+	Font-size:11px;
+}
+
+.font33 {font: 11px Tahoma; text-decoration: none; color:#1B3F95; }  
+.TitPage {
+    background-color: #F8F8F8;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+span.subNavLink {
+    color: #1B3F95;
+    font-family: tahoma,arial,verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.icon_image {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 25px;
+}
+.Fieldset_title_text {
+    color: #000066;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+.box_space {
+    color: #000066;
+}
+input.button, button.button, button.validate {
+}
+input.button, button.button, button.validate {
+}
+.cyan {
+    background: -moz-linear-gradient(center top , #FFFFFF, #EDEDED) repeat scroll 0 0 transparent;
+    border: 1px solid #B7B7B7;
+    color: #000066;
+}
+.button {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    font: 12px/100% Arial,Helvetica,sans-serif;
+    outline: medium none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    width: 70px;
+}
+
+
+.gvtableth {
+    background-color: #71ABD6;
+    border-bottom: 1px solid #336492;
+    border-left: 1px solid #336492;
+    color: white;
+    padding: 4px 3px;
+    text-align: center;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+}
+
+
+.gvtable {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #336492 #336492 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none none;
+    border-width: 1px 1px medium medium;
+    color: #444444;
+    position: relative;
+    width: 100%;
+}
+
+.gvtabletd {
+    border-bottom: 1px solid #336492;
+    border-left: 1px solid #336492;
+    padding: 4px 3px;
+}
+
+.gvtabletdDot 
+{	
+    border-bottom: 1px dotted #336492;
+    border-left: 1px solid #336492;
+    padding: 4px 3px;
+}
+
+.MsoNormal {
+    line-height: 1.3em;
+    margin: 0;
+}
